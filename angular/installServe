@@ -1,0 +1,4 @@
+#!/bin/sh
+
+npm install
+ng serve --host=:: --disable-host-check "$@"

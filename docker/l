@@ -1,0 +1,2 @@
+#!/bin/sh
+ls -A --group-directories-first --color "$@"

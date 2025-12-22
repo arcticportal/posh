@@ -1,0 +1,23 @@
+name: posdt
+networks: {posdt: {name: '${COMPOSE_PROJECT_NAME}'}}
+services:
+
+  angular:
+    container_name: ${COMPOSE_PROJECT_NAME}-angular
+    build: {context: ., dockerfile: Dockerfile-angular}
+    #entrypoint: sleep inf
+    entrypoint: /srv/angular/installServe
+    networks: ['${COMPOSE_PROJECT_NAME}']
+    restart: always
+    volumes:
+    - ./l:/usr/local/bin/l:ro
+    - ../angular:/srv/angular
+
+  nginx:
+    container_name: ${COMPOSE_PROJECT_NAME}-nginx
+    image: nginx:alpine
+    networks: ['${COMPOSE_PROJECT_NAME}']
+    restart: always
+    ports: ['172.17.0.1:60011:80']
+    volumes:
+    - ./internal.conf:/etc/nginx/conf.d/default.conf

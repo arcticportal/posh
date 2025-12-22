@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# enter [container] [shell]
+
+if [ "$2" ]; then sh="$2"; else sh=bash; fi
+docker compose exec "$1" "$sh"

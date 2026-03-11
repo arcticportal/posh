@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/0123f580-31d9-4dfd-86fa-69a476ed52a4",
+ "@type": "Infrastructure",
+ "name": "Sisimiut Airport",
+ "contactName": "Sisimiut Airport",
+ "contactPhone": "(+299) 38 26 90",
+ "contactEmail": "sisimiut@mit.gl",
+ "organizationLink": {
+  "title": "Mittarfeqarfiit",
+  "url": "http://www.mit.gl/en/todays-flights/airports/sisimiut-airport/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Sisimiut Airport (Greenlandic: Mittarfik Sisimiut) (IATA: JHS, ICAO: BGSS) is an airport located 2.2 NM (4.1 km; 2.5 mi) northwest of Sisimiut, a town in the Qeqqata municipality in central-western Greenland. The airport has a single runway designated 14/32 which measures 799 by 30 m (2,621 by 98 ft), built on the northern shore of Kangerluarsunnguaq Bay. For scheduled flights, the airport is served exclusively by Air Greenland, serving as a fly-through destination with no aircraft stationed onsite. Operated by Mittarfeqarfiit, it is also used for general aviation purposes. Source: <a href=\"http://en.wikipedia.org/wiki/Sisimiut_Airport\" target=\"_blank\">Wikipedia</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac044c33-4aba-4cb7-9bb8-e71fefa38167",
+   "@type": "Type",
+   "name": "Regional airport",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "ac044c33-4aba-4cb7-9bb8-e71fefa38167",
+   "legacyTid": 38,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Sisimiut Airport",
+ "areaCode": "3911",
+ "city": "Sisimiut",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Sisimiut",
+  "latitude": 66.9511249,
+  "longitude": -53.7244968
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/97a00c76-a5d7-48a3-b2f9-4202d17fef5e",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/7823e229-ff2c-4aa8-afca-454d21ab4610",
+  "@type": "Organisation",
+  "id": "7823e229-ff2c-4aa8-afca-454d21ab4610",
+  "title": "Greenland Airports / Mittarfeqarfiit",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Greenland Airports",
+   "url": "https://www.mit.gl/en/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/21bc7af3-e4ff-42cf-a7bf-dc9d6f87a13f"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "0123f580-31d9-4dfd-86fa-69a476ed52a4",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T09:26:03+00:00"
+}

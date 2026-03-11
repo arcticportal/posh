@@ -1,1 +1,18 @@
-@for (d of lst(); track d['POSDT ID']) { <div>{{d['Site Name']}}</div> }
+<div class="row mt-3">
+  <app-home-filter class="col-2" />
+  <div class="col">
+    <div class="row">
+      <div class="col position-relative">
+	<div class="input-group">
+	  <input type="text" class="form-control" [formControl]="ctrl"
+		 placeholder="Search observing site"
+		 area-label="Search" />
+	</div>
+	<i [class]="'bi-' + (ctrl.value ? 'x' : 'search')"
+	   (click)="ctrl.setValue('')"></i>
+      </div>
+      <div class="col-auto pt-2">{{result ? result.count() : ''}}</div>
+      <app-home-result class="col-12 pt-3" />
+    </div>
+  </div>
+</div>

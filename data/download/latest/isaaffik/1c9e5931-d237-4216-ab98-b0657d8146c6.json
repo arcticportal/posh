@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/1c9e5931-d237-4216-ab98-b0657d8146c6",
+ "@type": "Infrastructure",
+ "name": "Sverresborg",
+ "contactName": "Nordøstgrønlandsk Kompagni Nanok",
+ "contactPhone": "-",
+ "contactEmail": "nanok@xsirius.dk",
+ "organizationLink": {
+  "title": "Nordøstgrønlandsk Kompagni Nanok",
+  "url": "http://xsirius.dk/da/nanok.html"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Sverresborg [232] is a&nbsp;former trappers' station, located on the north side of Vega Sund, about 4 km north-west of Gåseøen. In 2014 the hut was restored by Nanok. Sverresborg&nbsp;i<span style=\"font-size: 1.125em; line-height: 1.2em;\">s well suited for overnight stay or as temporary base camp for 1-4&nbsp;persons.&nbsp;</span></p><p><span style=\"font-size: 1.125em; line-height: 1.2em;\">Have a <a href=\"https://www.google.dk/maps/@72.8491079,-22.9419177,3a,90y,326.1h,97.04t/data=!3m6!1e1!3m4!1sAF1QipNlWguwISnn-AOoJbbn0JNXcFl85H69l-SqrZrY!2e10!7i5376!8i2688\">Street View of Sverresborg</a>.</span> Take a look inside too.</p><p><span style=\"font-size: 1.125em; line-height: 1.2em;\">Visitors are welcome to use the hut and the supplies during&nbsp;the stay. The hut must always be left only in a good condition,&nbsp;meaning:</span></p><ul><li>Any damages repaired</li><li>All doors and windows / shutters securely closed</li><li>Coal stove cleaned for ashes and ready for use</li><li>Floor&nbsp;nicely swept and cleaned</li><li>Coal bucket filled with coal</li><li>Pieces of firewood put in paraffin</li><li>Hut lamp filled and the glass removed</li><li>Matchboxes with matches ready in opening</li><li>Snow shovel secured and visible on the outside of the hut</li><li>Never use all&nbsp;coal and fuel</li><li>No garbage or open and smelling food in or near&nbsp;the hut</li><li>Never&nbsp;leave any food opened. The smell attracts polar bears, and nobody else will eat it anyway</li></ul><p>Note: Due to possible damage by polar bears the present condition of the station is unknown.&nbsp;</p><p>You are welcome to contact Nanok, if you need further information. Nanok would appreciate&nbsp;any report&nbsp;from your stay.&nbsp;&nbsp;</p><p><a href=\"http://www.avjf.dk/three-foundations/\" rel=\"nofollow\">Aage V. Jensens Fonde</a> sponsor Nanok's work.</p><p>Number in brackets [ ] refer to hut number in Peter Schmidt Mikkelsen: <em>\"<a href=\"http://www.xsirius.dk/en/node/88\" rel=\"nofollow\">North-East Greenland 1908-60. &nbsp;The Trapper Era</a>\"&nbsp; </em>(2008) published by Scott&nbsp;Polar Research Institute.</p><p>&nbsp;</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "@type": "Type",
+   "name": "Hut",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "legacyTid": 67,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/75490b97-a56f-4274-946e-13f9bd1f6729",
+ "coordinates": {
+  "name": "On the north side of Vega Sund about 4 km north-west of Gåseøen",
+  "latitude": 72.847834417361,
+  "longitude": -22.9416847229
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/47293478-2957-46db-be11-1d2406cbb854",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "@type": "Organisation",
+  "id": "6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "title": "North-East Greenland Company NANOK",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://xsirius.dk/da/nanok.html"
+  },
+  "address": "Rosenhøjvej 10",
+  "zipcode": "8410",
+  "city": "Rønde",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/9ec07395-be66-42c7-a138-022199058e86"
+  ],
+  "legacyNid": "445"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "1c9e5931-d237-4216-ab98-b0657d8146c6",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "@type": "Person",
+   "fullName": "Peter Schmidt Mikkelsen",
+   "id": "6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "author": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "createdAt": "2021-02-08T11:18:44+00:00",
+   "lastModified": "2023-01-18T09:39:18+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-21T09:43:50+00:00"
+}

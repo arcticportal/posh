@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/ff41b64b-997d-4dfc-81c5-223b30828e56",
+ "@type": "Infrastructure",
+ "name": "R/V \"Sanna\"",
+ "contactName": "R/V Sanna",
+ "contactPhone": "(+299) 36 12 00",
+ "contactEmail": "info@natur.gl",
+ "organizationLink": {
+  "title": "Greenland Institute of Natural Resources",
+  "url": "https://natur.gl/faciliteter/skibe/sanna/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><span style=\"color: rgb(68, 68, 68); font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 12px; line-height: 18px; background-color: rgb(255, 255, 255);\">The research ship was finished in March 2012. The ship will mainly be used for investigations in sheltered waters of Greenland halibut, crab, and cod, as well as sample collection in connection with environmental investigations.</span></p><p><a href=\"http://www.marinetraffic.com/en/ais/home/zoom:10/shipid:389695/mmsi:331394000/centerx:-51.72043/centery:64.17722\" target=\"_blank\"><span style=\"color: rgb(68, 68, 68); font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 12px; line-height: 18px; background-color: rgb(255, 255, 255);\">Current position&nbsp;of R/V \"Sanna\"</span></a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/1ee113cc-cf06-4b23-a6e3-53211567ee2b",
+   "@type": "Type",
+   "name": "Ship",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "1ee113cc-cf06-4b23-a6e3-53211567ee2b",
+   "legacyTid": 75,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Greenland Institute of Natural Resources, Box 570",
+ "areaCode": "3900",
+ "city": "Nuuk",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/a12a90ac-7314-42ff-9ad2-c16827f91e50",
+ "coordinates": {
+  "name": null,
+  "latitude": 64.170833,
+  "longitude": -51.720833
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/ff32b90c-b2a9-428a-8379-60aecacf22d3",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "ff41b64b-997d-4dfc-81c5-223b30828e56",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

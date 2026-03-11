@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/0cc2a8e0-10e4-4d3a-b827-4dc979e09f08",
+ "@type": "Infrastructure",
+ "name": "Zackenberg",
+ "contactName": "Nordøstgrønlandsk Kompagni Nanok",
+ "contactPhone": "-",
+ "contactEmail": "nanok@xsirius.dk",
+ "organizationLink": {
+  "title": "Nordøstgrønlandsk Kompagni Nanok",
+  "url": "http://xsirius.dk/da/nanok.html"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Zackenberg&nbsp;[438-2] is a&nbsp;former trappers' station, located on the west side of the Zackenberg river in Young Sund. In 1991 and&nbsp;1992&nbsp;the hut was restored by Nanok. Zackenberg <u>used to be</u> is well suited for overnight stay and&nbsp;as temporary base camp for 2-4&nbsp;persons, but has now become increasingly attacked by mold.</p><p>OBS! Visitors must NOT use any&nbsp;supplies belonging to the Sirius Sledge Patrol, including: fuel, coal, food, dog food, equipment, etc.&nbsp;&nbsp;&nbsp;</p><p>The house must always be left only in a good condition,&nbsp;meaning:</p><ul><li>Any damages repaired</li><li>All doors and windows / shutters securely closed</li><li>Coal stove cleaned for ashes and ready for use</li><li>Floor&nbsp;nicely swept and cleaned</li><li>Coal bucket filled with coal</li><li>Pieces of firewood put in paraffin</li><li>Hut lamp filled and the glass removed</li><li>Matchboxes with matches ready in opening</li><li>Snow shovel secured and visible on the outside of the hut</li><li>Never use all&nbsp;coal and fuel</li><li>No garbage or open and smelling food in or near&nbsp;the hut</li><li>Never&nbsp;leave any food opened. The smell attracts polar bears, and nobody else will eat it anyway</li></ul><p>Note: Due to possible damage by polar bears the present condition of the station is unknown.</p><p>Number in brackets [ ] refer to hut number in Peter Schmidt Mikkelsen: \"<a href=\"http://www.xsirius.dk/en/node/88\" rel=\"nofollow\">North-East Greenland 1908-60. The Trapper Era</a>\"&nbsp; (2008) published by Scott&nbsp;Polar Research Institute.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "@type": "Type",
+   "name": "Hut",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "legacyTid": 67,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/e9d492ae-0445-4215-ac02-ca4622cb6644",
+ "coordinates": {
+  "name": "On the west side of the Zackenberg river in Young Sund",
+  "latitude": 74.465084503568,
+  "longitude": -20.631980895996
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/a3d4fa43-7d37-4558-b02d-1a4b176c628d",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "@type": "Organisation",
+  "id": "6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "title": "North-East Greenland Company NANOK",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://xsirius.dk/da/nanok.html"
+  },
+  "address": "Rosenhøjvej 10",
+  "zipcode": "8410",
+  "city": "Rønde",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/9ec07395-be66-42c7-a138-022199058e86"
+  ],
+  "legacyNid": "445"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "0cc2a8e0-10e4-4d3a-b827-4dc979e09f08",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "@type": "Person",
+   "fullName": "Peter Schmidt Mikkelsen",
+   "id": "6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "author": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "createdAt": "2021-02-08T11:18:44+00:00",
+   "lastModified": "2023-01-18T09:39:18+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-21T10:01:01+00:00"
+}

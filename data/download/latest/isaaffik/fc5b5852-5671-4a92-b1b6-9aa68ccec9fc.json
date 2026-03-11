@@ -1,0 +1,82 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/fc5b5852-5671-4a92-b1b6-9aa68ccec9fc",
+ "@type": "Infrastructure",
+ "name": "Svalbard SuperDARN Radar",
+ "contactName": "Dag A. Lorentzen",
+ "contactPhone": null,
+ "contactEmail": "dag.lorentzen@unis.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/932"
+ },
+ "description": "Svalbard SuperDARN Radar",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": "/api/images/9236bc67-76d9-4051-b5c8-42e1bb33ed5a",
+ "coordinates": {
+  "name": null,
+  "latitude": 78.1533,
+  "longitude": 16.066
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/7bad6978-0589-4b32-b6a6-c8646e25b1e5",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/b83f9cbc-b587-4cd6-b4ed-6087891276ad",
+  "@type": "Organisation",
+  "id": "b83f9cbc-b587-4cd6-b4ed-6087891276ad",
+  "title": "The University Centre in Svalbard, UNIS",
+  "organisationDepartment": null,
+  "url": {
+   "title": "The University Centre in Svalbard, UNIS",
+   "url": "https://www.unis.no/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/64db892c-3c60-47d8-95b0-50e365e099da",
+   "/api/taxonomy/departments/7634f2c9-108a-4ad8-a469-bfb40e38f6c0"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "fc5b5852-5671-4a92-b1b6-9aa68ccec9fc",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": "2024-05-01T09:42:19+00:00"
+}

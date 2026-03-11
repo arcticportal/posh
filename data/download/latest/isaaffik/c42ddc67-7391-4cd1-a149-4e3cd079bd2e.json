@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/c42ddc67-7391-4cd1-a149-4e3cd079bd2e",
+ "@type": "Infrastructure",
+ "name": "Qassimiut",
+ "contactName": "Qassimiut",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Wikipedia",
+  "url": "http://en.wikipedia.org/wiki/Qassimiut"
+ },
+ "description": "<p>Qassimiut (old spellings: Qagssimiut and Kagsimiut) is a settlement in the Kujalleq municipality in southern Greenland. The settlement was founded in 1835 as a trading station. With a population of 29 in October 2010, it is the smallest organized, permanent settlement in Greenland. Until January, 2009, the settlement&mdash;along Eqalugaarsuit and Saarloq, as well as 13 sheep farms&mdash;belonged to the Qaqortoq municipality. On January 1, 2009, the settlement became part of the Kujalleq municipality, when the Narsaq, Qaqortoq, and Nanortalik municipalities ceased to exist. The settlements are presently governed by a joint settlement council, although Qassimiut has no direct representation in the council. Source: <a href=\"http://en.wikipedia.org/wiki/Qassimiut\" target=\"_blank\">Wikipedia</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=14\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "@type": "Type",
+   "name": "Settlement",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "legacyTid": 27,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 60.781389,
+  "longitude": -47.159722
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/2899cc59-35dc-472e-af9f-af0481a9d7db",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "c42ddc67-7391-4cd1-a149-4e3cd079bd2e",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

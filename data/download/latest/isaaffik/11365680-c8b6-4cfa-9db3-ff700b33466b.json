@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/11365680-c8b6-4cfa-9db3-ff700b33466b",
+ "@type": "Infrastructure",
+ "name": "Svenbreen mass balance stake network",
+ "contactName": "Jakub Malecki",
+ "contactPhone": null,
+ "contactEmail": "malecki.jk@gmail.com",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/658"
+ },
+ "description": "Svenbreen mass balance stake network",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.7276,
+  "longitude": 16.288
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/f8cbd1b8-a6bc-4bbf-a128-1cf8e01b732f",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/9759658f-5197-44b9-9478-ebc326445a8d",
+  "@type": "Organisation",
+  "id": "9759658f-5197-44b9-9478-ebc326445a8d",
+  "title": "Adam Mickiewicz University",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Adam Mickiewicz University",
+   "url": "https://amu.edu.pl/en"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/c8d7c9d2-e0a7-45fb-b3b7-9617ca41475c",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "11365680-c8b6-4cfa-9db3-ff700b33466b",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": null
+}

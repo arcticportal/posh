@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/73a3e806-eb65-4ff7-b667-aca465d1e79e",
+ "@type": "Infrastructure",
+ "name": "Qoornoq",
+ "contactName": "Qoornoq",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Qoornoq",
+  "url": "http://en.wikipedia.org/wiki/Qoornoq"
+ },
+ "description": "<p>Qoornoq (old spelling: Qôrnoq) is an uninhabited fishing village in the Sermersooq municipality in southwestern Greenland.. Source: http://en.wikipedia.org/wiki/Qoornoq</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "@type": "Type",
+   "name": "Settlement",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "legacyTid": 27,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 64.5346088,
+  "longitude": -51.0889589
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/741806d7-de43-4ad2-b856-df90d4a6b852",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "73a3e806-eb65-4ff7-b667-aca465d1e79e",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

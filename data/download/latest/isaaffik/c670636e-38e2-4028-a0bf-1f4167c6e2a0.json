@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/c670636e-38e2-4028-a0bf-1f4167c6e2a0",
+ "@type": "Infrastructure",
+ "name": "Alert",
+ "contactName": "Alert",
+ "contactPhone": null,
+ "contactEmail": "unknown@unknown.ca",
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><span style=\"font-size: 13.0080003738403px; line-height: 20.0063037872314px;\">Canadian Forces Station Alert</span></p><p>Alert (2011 permanent population 0,&nbsp;but with rotating military and scientific personnel), in the Qikiqtaaluk Region, Nunavut, Canada, is the northernmost permanently inhabited place in the world,&nbsp;at latitude 82&deg;30&#39;05&quot; north, 817 kilometres (508 mi) from the North Pole. Source:&nbsp;http://en.wikipedia.org/wiki/Alert,_Nunavut</p><p><span style=\"font-size: 13.0080003738403px; line-height: 1.538em;\">In 1950 due to the break-out of the Korean war the international political situation appeared so threatening that the risk of a third World War was imminent. The Great Powers rearmed and in the summer of 1950 an American-Canadian weather station, Alert, was established in Dumb Bell Bay on the north-east coast of Ellesmere Island. In charge of the constructions was Charles J. Hubbard of the US Weather Bureau. The station is situated only 817 km from the North Pole and furthermore close to the locality where Nares&#39; Expedition wintered in 1875-1876 and Peary in 1908-1909. Alert was just one of six American-Canadian weather stations (Joint Arctic Weather Stations or JAWS) built in the Arctic during the years 1947-1950.</span></p><p>From 1956 Alert was expanded to a radio tracking station which from 1958 got the name Canadian Forses Station Alert. In 1958 the work force counted 29 people. This culminated in 1980s with about 220 persons and after the end of the cold war it was reduced to about 75 persons. Source: Mikkelsen PS (2006). Twin Otter.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/d4621873-2be6-4487-9c29-1615d7081991",
+   "@type": "Type",
+   "name": "Military airfield",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "d4621873-2be6-4487-9c29-1615d7081991",
+   "legacyTid": 39,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/e2f18f9d-c234-47ee-923c-f035474055c1",
+  "@type": "Country",
+  "name": "Canada",
+  "description": "",
+  "legacyTid": 147,
+  "id": "e2f18f9d-c234-47ee-923c-f035474055c1"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Alert",
+  "latitude": 82.501389,
+  "longitude": -62.338889
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/6445c1ee-b68e-4976-bb8d-f8ffcdad00dd",
+ "sarAsset": "/api/sars/fe820ff7-a122-4289-8d41-f27105277250",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "@type": "Organisation",
+  "id": "f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "title": "Other institution",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Other institution",
+   "url": "https://www.isaaffik.org/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": "1325"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "c670636e-38e2-4028-a0bf-1f4167c6e2a0",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T09:32:55+00:00"
+}

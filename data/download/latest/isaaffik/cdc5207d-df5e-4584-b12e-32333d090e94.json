@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/cdc5207d-df5e-4584-b12e-32333d090e94",
+ "@type": "Infrastructure",
+ "name": "University of Greenland - Ilisimatusarfik",
+ "contactName": "University of Greenland",
+ "contactPhone": "(+299) 38 56 00",
+ "contactEmail": "mail@uni.gl",
+ "organizationLink": {
+  "title": "Ilisimatusarfik",
+  "url": "http://uk.uni.gl/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Ilisimatusarfik is situated in the small but bustling capital city of Greenland, Nuuk. With a university population of about 600 students spread across three institutes in the city, it specialises today in in the following academic disciplines: Social Science; Cultural and Social History; Language Literature and Media; Journalism; Theology; Social Work, Translation and Interpretation; Nursing and Health Sciences; and Teaching.&nbsp;Ilisimatusarfik officially became a university in 1989. Before that time it was called the Ilisima-tusarfik / Inuit Institute.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/def73992-f3e7-4062-9882-21e643b4f0b9",
+   "@type": "Type",
+   "name": "Research & education",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "def73992-f3e7-4062-9882-21e643b4f0b9",
+   "legacyTid": 47,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Postboks 1061, Manutooq 1 ",
+ "areaCode": "3905",
+ "city": "Nuussuaq, Greenland",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Nuuk",
+  "latitude": 64.190971705968,
+  "longitude": -51.695802174344
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/101cb3fb-eee7-4fbd-aa34-ba6a666950e3",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/8ed99956-f635-418c-84d4-2263eb0197e2",
+  "@type": "Organisation",
+  "id": "8ed99956-f635-418c-84d4-2263eb0197e2",
+  "title": "Ilisimatusarfik / University of Greenland",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://uk.uni.gl/"
+  },
+  "address": "Manutooq 1, Postboks 1061",
+  "zipcode": "3905",
+  "city": "Nuussuaq",
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/c8693ea7-db3a-489d-811e-b68912a4f96e"
+  ],
+  "legacyNid": "1058"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "cdc5207d-df5e-4584-b12e-32333d090e94",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-27T12:43:09+00:00"
+}

@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/9e60925a-02e5-41bd-b80c-d221fc3a369b",
+ "@type": "Infrastructure",
+ "name": "Mukhrino Field Station",
+ "contactName": "Mukhrino Field Station",
+ "contactPhone": "+7 (3467) 357-714",
+ "contactEmail": "e_lapshina@ugrasu.ru",
+ "organizationLink": {
+  "title": "UNESCO Chair on Environmental Dynamics and Climate Change, Yugra State University, Khanty-Mansiysk",
+  "url": "http://en.ugrasu.ru/Academics/Institutes_Departments/Dynamics_Environment.php"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/russia/mukhrino-field-station/"
+ },
+ "description": "<p>Mukhrino Field Station is a member of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/b3a1e70c-f226-477d-a3a7-424425686c63",
+  "@type": "Country",
+  "name": "Russia",
+  "description": "",
+  "legacyTid": 161,
+  "id": "b3a1e70c-f226-477d-a3a7-424425686c63"
+ },
+ "image": "/api/images/9fdd97d0-3f87-45a0-b3f8-be8cf1e37de2",
+ "coordinates": {
+  "name": null,
+  "latitude": 60.88876667,
+  "longitude": 68.70243
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/b01bc7df-b3ea-4736-911b-0f7a6071d9b3",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "9e60925a-02e5-41bd-b80c-d221fc3a369b",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:34:15+00:00"
+}

@@ -1,0 +1,109 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/1e433ef9-a6b1-4d86-8d0f-481d80a96b16",
+ "@type": "Infrastructure",
+ "name": "Technical University of Denmark",
+ "contactName": "Technical University of Denmark",
+ "contactPhone": null,
+ "contactEmail": "nih@byg.dtu.dk",
+ "organizationLink": {
+  "title": "Technical University of Denmark",
+  "url": "https://www.dtu.dk/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><strong>DTU - Technical University of Denmark</strong></p><p>Technical University of Denmark, DTU, offers education, research, research based consultancy and innovation in a wide range of technical disciplines. The university's main activities are anchored in 19 departments, a national laboratory for renewable energy and several other university units.</p><p>The university owns several experimental facilities, including a number of testing facilities for wind turbines, an ocean-going research vessel, as well as state-of-the-art infrastructure in areas such as cleanroom and nanoscopy. The university has about 5,000 employees of which more than half are researchers, including 1,100 PhD students.<br><br>DTU holds a strong position within research and education in the Arctic.&nbsp; The coordination, strengthening and promotion of the Arctic activies of DTU are anchored in the centre Arctic DTU aiming at:<br>* strenghening&nbsp; and utilizing natural science and technical science for the benefit of a sustainable development of nature and society in the Arctic region.<br>* strenghening the cooperation between DTU and Greenland in the field of arctic related education, innovation and research<br>* Promoting cooperation between DTU and national and international reseach institutions, authorities and businesses on Arctic issues.</p><p>In addition to this Arctic DTU operates the technical campus in Sisimiut - Arctic DTU Sisimiut - Ilinniarfeqarfik Sisimiut in close cooperation with the Government of Greenland and <a href=\"https://www.kti.gl/kl/\" rel=\"nofollow\">KTI</a>, the technical vocational school of Greenland. The campus conducts education in arctic engineering and research and innovation projects in Arctic technology.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/def73992-f3e7-4062-9882-21e643b4f0b9",
+   "@type": "Type",
+   "name": "Research & education",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "def73992-f3e7-4062-9882-21e643b4f0b9",
+   "legacyTid": 47,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Anker Engelunds Vej 1, bygning 101 A",
+ "areaCode": "2800",
+ "city": "Kgs. Lyngby",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": "/api/images/c8c82e57-61d3-4c69-8266-082dc144ac9e",
+ "coordinates": {
+  "name": "Kgs. Lyngby",
+  "latitude": 55.7858152,
+  "longitude": 12.5210995
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/af5d8ddb-c653-4a46-a01b-3717c54c4e6a",
+ "sarAsset": "/api/sars/979e21cd-3d65-46d7-95af-52833925eb4d",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f067c229-ea9c-49ff-bc04-0d23b90e29a8",
+  "@type": "Organisation",
+  "id": "f067c229-ea9c-49ff-bc04-0d23b90e29a8",
+  "title": "Technical University of Denmark (DTU)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.dtu.dk/english"
+  },
+  "address": "Anker Engelunds Vej 1",
+  "zipcode": "2800",
+  "city": "Kgs. Lyngby",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/31b93626-9a43-4f8b-bf1c-e4adf60d7f02",
+   "/api/taxonomy/departments/3cff37b5-cd96-46e1-9217-e4591df04619",
+   "/api/taxonomy/departments/5da13632-177e-44b2-9bdf-a3a21605645a",
+   "/api/taxonomy/departments/6a9faa15-d61c-452c-b253-256cf79be169",
+   "/api/taxonomy/departments/70da6929-868c-4e16-a5ce-951203d82b05",
+   "/api/taxonomy/departments/92ea2de2-25c0-400e-9544-9b467946bf44",
+   "/api/taxonomy/departments/b4de0917-5f46-4b4d-84d7-35e025186cae",
+   "/api/taxonomy/departments/d06736f3-be69-4480-bf07-bddd58f31fd7"
+  ],
+  "legacyNid": "442"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "1e433ef9-a6b1-4d86-8d0f-481d80a96b16",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/722f279c-9a1d-46de-be7f-aa00c5e4f35f",
+   "@type": "Person",
+   "fullName": "Niels Hoedeman",
+   "id": "722f279c-9a1d-46de-be7f-aa00c5e4f35f",
+   "author": "/api/people/722f279c-9a1d-46de-be7f-aa00c5e4f35f",
+   "createdAt": "2021-02-08T11:21:02+00:00",
+   "lastModified": "2021-02-08T11:21:02+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/722f279c-9a1d-46de-be7f-aa00c5e4f35f",
+  "@type": "Person",
+  "fullName": "Niels Hoedeman",
+  "id": "722f279c-9a1d-46de-be7f-aa00c5e4f35f",
+  "author": "/api/people/722f279c-9a1d-46de-be7f-aa00c5e4f35f",
+  "createdAt": "2021-02-08T11:21:02+00:00",
+  "lastModified": "2021-02-08T11:21:02+00:00"
+ },
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-02-25T14:53:46+00:00"
+}

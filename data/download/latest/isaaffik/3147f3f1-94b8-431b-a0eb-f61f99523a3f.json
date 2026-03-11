@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/3147f3f1-94b8-431b-a0eb-f61f99523a3f",
+ "@type": "Infrastructure",
+ "name": "S/Y Nanuq",
+ "contactName": "Frédéric Gillet",
+ "contactPhone": null,
+ "contactEmail": "science@sailworks.net",
+ "organizationLink": {
+  "title": "The passive igloo project",
+  "url": "http://igloo.sailworks.net"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>The \"passive igloo\" is a 60 foot four-season sail-workboat offering transport for 12 (berths) and a place to live and work for a crew of 6 in complete self-sufficiency for long periods in remote areas.\r<br>Relying on passive techniques and renewable energies (wind and water) for propulsion and to provide energy for life on board especially during long stays in cold climates, the passive igloo offers a flexible, clean, self-sufficient and affordable platform for research in the field of environmental science.\r<br>In addition to the crew and common equipment, the boat can carry a payload of 1-2 metric tons (cargo) for a volume of several cubic meters. Depending on requirements, the large multi-purpose cabin can be converted into an extra laboratory. A large rear deck at the water's edge with attached garage greatly facilitates the implementation of ocean measurement equipment. Due to the use of renewable and clean energy, the immediate environment remains completely clean and unpolluted which is a key feature for environmental monitoring.\r<br>Position indication : planned position during winter 2015/2016. A detailed agenda and route map may be found on http://igloo.sailworks.net/agenda_e.htm\r<br></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5974648c-a248-4c59-b089-5fe86c940247",
+   "@type": "Type",
+   "name": "Boat",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "5974648c-a248-4c59-b089-5fe86c940247",
+   "legacyTid": 76,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/b7f79949-623d-4c42-bdeb-4999319d7ca7",
+  "@type": "Country",
+  "name": "Switzerland",
+  "description": "",
+  "legacyTid": 163,
+  "id": "b7f79949-623d-4c42-bdeb-4999319d7ca7"
+ },
+ "image": "/api/images/bd4b69d4-3f45-4254-a935-a939dd6ffccd",
+ "coordinates": {
+  "name": null,
+  "latitude": 77.312519938231,
+  "longitude": -73.125
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/34efdc84-3a19-4919-a3bc-6c98bccc8f95",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "3147f3f1-94b8-431b-a0eb-f61f99523a3f",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

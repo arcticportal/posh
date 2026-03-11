@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/b0952b3e-3d5f-4010-b81a-42d47b1feec2",
+ "@type": "Infrastructure",
+ "name": "Nordenskiöldbreen mass balance",
+ "contactName": "Veijo Pohjola",
+ "contactPhone": null,
+ "contactEmail": "veijo.pohjola@geo.uu.se",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/663"
+ },
+ "description": "Nordenskiöldbreen mass balance",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.8269,
+  "longitude": 17.4488
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/930817fb-dd6a-4972-b22e-c525920f0c88",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/9e7c40bf-15e7-4a36-8a56-699d7a584202",
+  "@type": "Organisation",
+  "id": "9e7c40bf-15e7-4a36-8a56-699d7a584202",
+  "title": "Uppsala University",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Uppsala University",
+   "url": "https://www.uu.se/en"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/35eba5fd-afae-4268-b1da-8465efb4daa4",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "b0952b3e-3d5f-4010-b81a-42d47b1feec2",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": null
+}

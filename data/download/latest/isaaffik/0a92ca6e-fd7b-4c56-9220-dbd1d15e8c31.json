@@ -1,0 +1,120 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/0a92ca6e-fd7b-4c56-9220-dbd1d15e8c31",
+ "@type": "Infrastructure",
+ "name": "Kulusuk Airport",
+ "contactName": "Kulusuk airport",
+ "contactPhone": "(+299) 98 69 88",
+ "contactEmail": "bgkk@mit.gl",
+ "organizationLink": {
+  "title": "Mittarfeqarfiit",
+  "url": "http://www.mit.gl/en/todays-flights/airports/kulusuk-airport/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Kulusuk Airport (Greenlandic: Mittarfik Kulusuk) (IATA: KUS, ICAO: BGKK) is an airport in Kulusuk, a settlement on an island of the same name off the shore of the North Atlantic in the Sermersooq municipality in southeastern Greenland. Source: <a href=\"http://en.wikipedia.org/wiki/Kulusuk_Airport\" target=\"_blank\">Wikipedia&nbsp;</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=91\" rel=\"nofollow\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "@type": "Type",
+   "name": "International airport",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "legacyTid": 37,
+   "legacyParentTid": 22
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/988084bb-a15e-4f7d-9dcb-dce0cb8a2c46",
+   "@type": "Type",
+   "name": "Harbour",
+   "description": "<p><strong>Skibstransport. </strong>Der er havneanlæg i 16 byer og anløbsbroer i 60 bygder. Der er person- og fragttransport med kystnære skibe i Grønland. Arctic Umiaq Line har en ugentlig rute op og ned langs vestkysten af Grønland. Det tager tre døgn at gøre turen i hver retning fra Ilulissat i nord til Narsaq i syd. I Disko Bugt kan man om sommeren sejle med Diskoline mellem flere byer og bygder.&nbsp;</p>",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "988084bb-a15e-4f7d-9dcb-dce0cb8a2c46",
+   "legacyTid": 34,
+   "legacyParentTid": 22
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac044c33-4aba-4cb7-9bb8-e71fefa38167",
+   "@type": "Type",
+   "name": "Regional airport",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "ac044c33-4aba-4cb7-9bb8-e71fefa38167",
+   "legacyTid": 38,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Kulusuk airport",
+ "areaCode": "3915",
+ "city": "Kulusuk",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Kulusuk ",
+  "latitude": 65.573876,
+  "longitude": -37.1348141
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/046fc52b-c10b-4ed8-a218-4cf0d00ed658",
+ "sarAsset": "/api/sars/7d6aef2e-83dc-4f4c-9381-0f2a6bb94c96",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/7823e229-ff2c-4aa8-afca-454d21ab4610",
+  "@type": "Organisation",
+  "id": "7823e229-ff2c-4aa8-afca-454d21ab4610",
+  "title": "Greenland Airports / Mittarfeqarfiit",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Greenland Airports",
+   "url": "https://www.mit.gl/en/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/21bc7af3-e4ff-42cf-a7bf-dc9d6f87a13f"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "0a92ca6e-fd7b-4c56-9220-dbd1d15e8c31",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T09:20:54+00:00"
+}

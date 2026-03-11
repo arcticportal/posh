@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/b0da040b-ac2f-4ce2-a96c-936b68db5391",
+ "@type": "Infrastructure",
+ "name": "SPICE: Autonomous snow depth and glacier ablation station - WALDEMARBREEN T9",
+ "contactName": "Ireneusz Sobota",
+ "contactPhone": null,
+ "contactEmail": "irso@umk.pl",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/152408"
+ },
+ "description": "SPICE: Autonomous snow depth and glacier ablation station - WALDEMARBREEN T9",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.6765,
+  "longitude": 12.0399
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/3c39f244-c722-41b2-9106-008f00190996",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/0e76ec18-c065-4c0b-9236-8e79e61cb536",
+  "@type": "Organisation",
+  "id": "0e76ec18-c065-4c0b-9236-8e79e61cb536",
+  "title": "Nicolaus Copernicus University in Toruń",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Nicolaus Copernicus University in Toruń",
+   "url": "https://www.umk.pl/en/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/c8d7c9d2-e0a7-45fb-b3b7-9617ca41475c",
+  "departments": [
+   "/api/taxonomy/departments/b064a1d1-6a9a-4f71-b109-04bc8e39d138"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "b0da040b-ac2f-4ce2-a96c-936b68db5391",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2024-08-30T00:00:34+00:00",
+ "lastModified": null
+}

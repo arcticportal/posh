@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/3a74771a-8333-4a65-834f-d810101b9755",
+ "@type": "Infrastructure",
+ "name": "UPV4 hydrographic station",
+ "contactName": "John Mortensen",
+ "contactPhone": null,
+ "contactEmail": "jomo@natur.gl",
+ "organizationLink": {
+  "title": "Greenland Institute of Natural Resources",
+  "url": "http://www.natur.gl/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>UPV4&nbsp;at 72°30&nbsp;N -&nbsp;59°00&nbsp;W&nbsp;is a standard hydrographic station&nbsp;on the Upernavik section and&nbsp;part of the Greenland Institute of Natural Resources monitoring program. The purpose of the marine monitoring program is to register specific&nbsp;physical properties&nbsp;of the sea water column,&nbsp;such as temperature and&nbsp;salinity,&nbsp;at the same geographical location&nbsp;once every year, and compare these repeated registrations&nbsp;with&nbsp;previous years' recordings. Hydrographic measurements are&nbsp;typical carried out with a so-called \"CTD\" instrument (Conductivity, Temperature, and Depth). The hydrographic station is&nbsp;monitored one time each year&nbsp;in June/July.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 72.503067421339,
+  "longitude": -59.066865369738
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/51e545a6-f618-42ea-9f7f-e7ca9b261c1e",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "3a74771a-8333-4a65-834f-d810101b9755",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/2234bb44-caa8-4a07-a881-b8af98a17853",
+   "@type": "Person",
+   "fullName": "PEMIadminlight",
+   "id": "2234bb44-caa8-4a07-a881-b8af98a17853",
+   "author": "/api/people/2234bb44-caa8-4a07-a881-b8af98a17853",
+   "createdAt": "2021-02-08T11:18:43+00:00",
+   "lastModified": "2021-02-17T21:45:01+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/2234bb44-caa8-4a07-a881-b8af98a17853",
+  "@type": "Person",
+  "fullName": "PEMIadminlight",
+  "id": "2234bb44-caa8-4a07-a881-b8af98a17853",
+  "author": "/api/people/2234bb44-caa8-4a07-a881-b8af98a17853",
+  "createdAt": "2021-02-08T11:18:43+00:00",
+  "lastModified": "2021-02-17T21:45:01+00:00"
+ },
+ "createdAt": "2018-09-30T09:35:22+00:00",
+ "lastModified": null
+}

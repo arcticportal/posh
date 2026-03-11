@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/6a4fcdfa-0a3a-4e93-b04b-d6293d9683c8",
+ "@type": "Infrastructure",
+ "name": "COAT_Temperature logger_1",
+ "contactName": "Åshild Ø. Pedersen",
+ "contactPhone": null,
+ "contactEmail": "Ashild.Pedersen@npolar.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/893"
+ },
+ "description": "COAT_Temperature logger_1",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.94862724,
+  "longitude": 11.74502211
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/2327d0a3-c64c-43ad-9767-8b8382555530",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/c18e15e3-0d03-407a-a62f-368b76fce336",
+  "@type": "Organisation",
+  "id": "c18e15e3-0d03-407a-a62f-368b76fce336",
+  "title": "Norwegian Polar Institute",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Norwegian Polar Institute",
+   "url": "https://www.npolar.no/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "6a4fcdfa-0a3a-4e93-b04b-d6293d9683c8",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:28+00:00",
+ "lastModified": null
+}

@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/cec4babc-af56-4d72-9a82-84d7cbd02e81",
+ "@type": "Infrastructure",
+ "name": "Niaqornat field station",
+ "contactName": "Niaqornat field station",
+ "contactPhone": "+299 36 12 00 ",
+ "contactEmail": "info@natur.gl",
+ "organizationLink": {
+  "title": "Greenland Institute of Natural Resources",
+  "url": "http://www.natur.gl/naturinstituttet/fysiske-rammer/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>In 2007, the&nbsp;Greenland Institute of Natural Resources&nbsp;established a field station in Niaqornat.&nbsp;</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 70.78125,
+  "longitude": -53.6582409
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/9cb5b585-48bb-40ca-af19-86acb6e7dadb",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "cec4babc-af56-4d72-9a82-84d7cbd02e81",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

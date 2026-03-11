@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/280c29dd-20b0-4f8b-87b9-f913643dcd59",
+ "@type": "Infrastructure",
+ "name": "Svalbard Airport, Longyear",
+ "contactName": "Svalbard Airport",
+ "contactPhone": "(+47) 67 03 54 00",
+ "contactEmail": "unknown@unknown.no",
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "www.avinor.no",
+  "url": "https://avinor.no/konsern/flyplass/svalbard/"
+ },
+ "description": "<p>Svalbard Airport, Longyear (IATA: LYR, ICAO: ENSB; Norwegian: Svalbard lufthavn, Longyear) is the main airport serving Svalbard in Norway. It is located 1.6 nautical miles (3 km) northwest of Longyearbyen, and it is the northernmost airport in the world with public scheduled flights. The first airport near Longyearbyen was constructed during World War II. In 1959, it was first taken into use for occasional flights, but could only be used a few months a year. Construction of the new airport at Hotellneset started in 1973, and the airport was opened on 2 September 1975. It is owned and operated by state-owned Avinor. Source: <a href=\"http://en.wikipedia.org/wiki/Svalbard_Airport,_Longyear\">Wikipedia</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "@type": "Type",
+   "name": "International airport",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "legacyTid": 37,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Svalbard lufthavn",
+ "areaCode": "9170 ",
+ "city": "Longyearbyen",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Longyearbyen",
+  "latitude": 78.2460841,
+  "longitude": 15.4655627
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/a0681f9f-fc74-4f25-8f02-76b5e80062e2",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "@type": "Organisation",
+  "id": "f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "title": "Other institution",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Other institution",
+   "url": "https://www.isaaffik.org/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": "1325"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "280c29dd-20b0-4f8b-87b9-f913643dcd59",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T09:52:23+00:00"
+}

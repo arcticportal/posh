@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/e5357650-0924-4eaf-926a-7a158e4945ce",
+ "@type": "Infrastructure",
+ "name": "Qeqertat",
+ "contactName": "Qeqertat",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": "Qeqertat",
+  "url": ""
+ },
+ "externalLink": {
+  "title": "Wikipedia",
+  "url": "http://en.wikipedia.org/wiki/Qeqertat"
+ },
+ "description": "<p>Qeqertat is a small village in the Qaanaaq area of the Qaasuitsup municipality, in northern Greenland. Located approximately 63 km (39 mi) east of Qaanaaq on the Harward island, it had 33 inhabitants in 2010. Source: <a href=\"http://en.wikipedia.org/wiki/Qeqertat\" target=\"_blank\">Wikipedia</a></p><p><span style=\"font-size: 1.125em; line-height: 1.2em;\">For further information (in Danish) see also the Danish Geodata Agency:&nbsp;</span><a href=\"http://www.gronlandskehavnelods.dk/#HID=75\" style=\"font-size: 1.125em; line-height: 1.2em;\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "@type": "Type",
+   "name": "Settlement",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "legacyTid": 27,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 77.498428,
+  "longitude": -66.642067
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/2e18f6b8-125e-4273-8ba1-ec974d655316",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "e5357650-0924-4eaf-926a-7a158e4945ce",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/11a8e92c-bbfe-47c4-ada3-2efea625666b",
+ "@type": "Infrastructure",
+ "name": "Summit Camp ski airstrip",
+ "contactName": "Summit Camp Ski Airstrip",
+ "contactPhone": null,
+ "contactEmail": "tbd@tbd.gl",
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Summit Camp",
+  "url": "http://en.wikipedia.org/wiki/Summit_Camp"
+ },
+ "description": "<p>Summit Camp, also Summit Station, is a year-round research station on the apex of the Greenland Ice Sheet. Its coordinates are variable, since the ice is moving. The coordinates provided here are as of July 2009. The station is located 3,216 metres (10,551 ft) above sea level.[1] The population of the station is typically five in wintertime, and has peaked at 55 in the summer. Source:&nbsp;http://en.wikipedia.org/wiki/Summit_Camp</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ef511092-3799-49a5-ada3-7504e00daff3",
+   "@type": "Type",
+   "name": "Ski airstrip",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "ef511092-3799-49a5-ada3-7504e00daff3",
+   "legacyTid": 41,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/f9706686-4bea-4c94-9b78-58f5baeac6eb",
+ "coordinates": {
+  "name": "Summit",
+  "latitude": 72.608054909691,
+  "longitude": -38.419885275391
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/fb506203-40af-4b9b-83ac-ca0fa8d02684",
+ "sarAsset": "/api/sars/959ef2d1-88e8-4100-a7b0-f8fcc22ec790",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/ab7ea485-c516-4a4c-82bc-db6394a5fe9d",
+  "@type": "Organisation",
+  "id": "ab7ea485-c516-4a4c-82bc-db6394a5fe9d",
+  "title": "Battelle Arctic Research Operations (ARO)",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Battelle Arctic Research Operations (ARO)",
+   "url": "https://battellearcticgateway.org/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/dafc3182-a0ff-4dac-ac78-f02709583ab4",
+  "departments": [
+   "/api/taxonomy/departments/2e6e4065-c011-4386-8086-0f3b9f87d2a0"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "11a8e92c-bbfe-47c4-ada3-2efea625666b",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-06-15T08:27:55+00:00"
+}

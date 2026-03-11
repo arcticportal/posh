@@ -1,0 +1,99 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/a3df3b6c-595c-4c38-8aa5-c62d0babc673",
+ "@type": "Infrastructure",
+ "name": "TYRO_15 Marine Monitoring Station",
+ "contactName": "TYRO_15 Marine Monitoring Station",
+ "contactPhone": null,
+ "contactEmail": "erf@bios.au.dk",
+ "organizationLink": {
+  "title": "Arctic Research Center",
+  "url": "http://arctic.au.dk/"
+ },
+ "externalLink": {
+  "title": "Greenland Institute of Natural Resources",
+  "url": "http://www.natur.gl/index.php?L=0"
+ },
+ "description": "<p>TYRO_15&nbsp;Marine Monitoring Station&nbsp;is a standard hydrographic station&nbsp;in Young Sund,&nbsp;North-East Greenland. The station is part of the MarinBasis monitoring program. The purpose of the marine monitoring program is to register specific&nbsp;physical properties&nbsp;of the sea water column,&nbsp;such as temperature and&nbsp;salinity,&nbsp;at the same geographical location&nbsp;once every year, and compare these repeated registrations&nbsp;with&nbsp;previous years' recordings. Hydrographic measurements are&nbsp;typical carried out with a CTD instrument (Conductivity, Temperature, and Depth). The hydrographic station is&nbsp;monitored one time each year&nbsp;in July/August.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/f92a1427-933e-4867-a87c-c9d3b5ded493",
+ "coordinates": {
+  "name": null,
+  "latitude": 74.4562467,
+  "longitude": -20.9907933
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/bf4064e1-8f6a-4296-91a2-1f5e712401b0",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/46382315-50d6-4b80-8dc3-69b3e0242854",
+  "@type": "Organisation",
+  "id": "46382315-50d6-4b80-8dc3-69b3e0242854",
+  "title": "Aarhus University (AU)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://arctic.au.dk/"
+  },
+  "address": "Ny Munkegade 114, bldg. 1540",
+  "zipcode": "8000",
+  "city": "Aarhus C",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/5f24ea48-2d5f-4cd9-a7d6-96620af33bf9",
+   "/api/taxonomy/departments/6a4637e0-b9e7-42fc-bdc8-d237146cb48c",
+   "/api/taxonomy/departments/b50afbea-cdce-4179-9e86-5d4b4353572c",
+   "/api/taxonomy/departments/df3f0a0f-4239-4e6f-a456-71b076d7653d",
+   "/api/taxonomy/departments/f0165fbc-c820-4236-9bed-89c9f3734f53",
+   "/api/taxonomy/departments/fbe492ad-c821-4b5e-859f-a4c51e84d352"
+  ],
+  "legacyNid": "439"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "a3df3b6c-595c-4c38-8aa5-c62d0babc673",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/81877588-45d2-4e30-bf3a-1e025cb56aac",
+   "@type": "Person",
+   "fullName": "Egon Frandsen",
+   "id": "81877588-45d2-4e30-bf3a-1e025cb56aac",
+   "author": "/api/people/81877588-45d2-4e30-bf3a-1e025cb56aac",
+   "createdAt": "2021-02-08T11:18:42+00:00",
+   "lastModified": "2024-04-22T10:55:01+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2024-06-13T09:28:57+00:00"
+}

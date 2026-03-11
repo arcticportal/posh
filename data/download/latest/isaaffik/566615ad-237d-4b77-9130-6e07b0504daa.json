@@ -1,0 +1,107 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/566615ad-237d-4b77-9130-6e07b0504daa",
+ "@type": "Infrastructure",
+ "name": "Daneborg Research Station",
+ "contactName": "Daneborg Research Station",
+ "contactPhone": "+45 93509049",
+ "contactEmail": "torben.christensen@ecos.au.dk",
+ "organizationLink": {
+  "title": "Zackenberg Research Station",
+  "url": "https://g-e-m.dk/gem-localities/zackenberg-research-station/"
+ },
+ "externalLink": {
+  "title": "Aarhus University",
+  "url": "https://arctic.au.dk/"
+ },
+ "description": "<p><strong>STATION NAME AND OWNER: </strong>Daneborg Research Station is a part of Zackenberg Research Station which is owned by the government of Greenland. Aarhus University (Denmark) is responsible for running the station.</p><p><strong>LOCATION: </strong>Daneborg Research Station is located in the outher part of Young Sund  next to the main station of the Sirius Patrol - in&nbsp; Northeast Greenland. The station is situated in the southern part of the National Park of North and East Greenland, the largest national park in the world (approximately 1 million km2). &nbsp;The nearest town is Ittoqqortoormiit, 450 km south of the station.</p><p><strong>BIODIVERSITY AND NATURAL ENVIRONMENT:&nbsp;</strong>Zackenberg Research Station is situated in the High Arctic in an area with continuous permafrost. The study area is the Fjord-system from the very bottom of Tyroler Fjord until about 50 km into the Greenland Sea.</p><p><strong>HISTORY AND FACILITIES:&nbsp;</strong>In 1974, a national park was established in Northeast Greenland, which became a UNESCO Man and Biosphere Reserve in 1977. In 1992, the first expedition to Daneborg was made as a primary reseach study and more studies were made during the next years. Since 2003 the Marin Basis Monitoring program has taken place from the Daneborg Research Station beside of other scientific reseach on Ice, Atmosphære and Hydrografy.</p><p>The Daneborg station is open by request, and some years it have been running for few weeks and other years it have been running for months.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Daneborg",
+ "areaCode": "3992",
+ "city": "Daneborg",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/b749eeb1-21a0-457f-a0c2-83a8e67658d9",
+ "coordinates": {
+  "name": null,
+  "latitude": 74.309273203415,
+  "longitude": -20.228115320206
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/37327ff5-8921-44d2-b7ee-9269a1ace738",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/46382315-50d6-4b80-8dc3-69b3e0242854",
+  "@type": "Organisation",
+  "id": "46382315-50d6-4b80-8dc3-69b3e0242854",
+  "title": "Aarhus University (AU)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://arctic.au.dk/"
+  },
+  "address": "Ny Munkegade 114, bldg. 1540",
+  "zipcode": "8000",
+  "city": "Aarhus C",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/5f24ea48-2d5f-4cd9-a7d6-96620af33bf9",
+   "/api/taxonomy/departments/6a4637e0-b9e7-42fc-bdc8-d237146cb48c",
+   "/api/taxonomy/departments/b50afbea-cdce-4179-9e86-5d4b4353572c",
+   "/api/taxonomy/departments/df3f0a0f-4239-4e6f-a456-71b076d7653d",
+   "/api/taxonomy/departments/f0165fbc-c820-4236-9bed-89c9f3734f53",
+   "/api/taxonomy/departments/fbe492ad-c821-4b5e-859f-a4c51e84d352"
+  ],
+  "legacyNid": "439"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "566615ad-237d-4b77-9130-6e07b0504daa",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/1bf4037e-6148-45a2-a2d1-bcd82062c8d0",
+   "@type": "Person",
+   "fullName": "Marie Arndal",
+   "id": "1bf4037e-6148-45a2-a2d1-bcd82062c8d0",
+   "author": "/api/people/1bf4037e-6148-45a2-a2d1-bcd82062c8d0",
+   "createdAt": "2021-02-08T11:20:53+00:00",
+   "lastModified": "2024-04-23T16:15:31+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/1bf4037e-6148-45a2-a2d1-bcd82062c8d0",
+  "@type": "Person",
+  "fullName": "Marie Arndal",
+  "id": "1bf4037e-6148-45a2-a2d1-bcd82062c8d0",
+  "author": "/api/people/1bf4037e-6148-45a2-a2d1-bcd82062c8d0",
+  "createdAt": "2021-02-08T11:20:53+00:00",
+  "lastModified": "2024-04-23T16:15:31+00:00"
+ },
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2024-06-04T15:46:56+00:00"
+}

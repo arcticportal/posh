@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/bb5a2614-140b-4f70-904c-2e7fe175c243",
+ "@type": "Infrastructure",
+ "name": "Air Iceland",
+ "contactName": "Air Iceland",
+ "contactPhone": "(+354) 570 3000",
+ "contactEmail": "websales@airiceland.is ",
+ "organizationLink": {
+  "title": "Air Iceland",
+  "url": "https://www.airiceland.is/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Air Iceland, which is a part of Icelandair Group, is a dynamic company with firm roots that go back to the start of aviation in Iceland. Air Iceland is a flexible yet powerful airline servicing domestic flights in Iceland and the West Nordic countries.&nbsp;The head office of Air Iceland is located in the capital, Reykjavík, but the company&#39;s registered domicile is in Akureyri, the main town in north Iceland. Both Reykjavík Airport and Akureyri Airport serve as hubs for Air Iceland&#39;s route network.&nbsp;At Air Iceland our aim is to provide our customers with the best service.&nbsp;The staff of Air Iceland range from airline veterans to new recruits to the industry. With this combination Air Iceland hopes to achieve a great breadth of outlook while maintaining the highest levels of service. Air Iceland is a small company of about 240 employees, a dedicated team who are leaders in their field and aim to be so for years to come.&nbsp;Source:&nbsp;https://www.airiceland.is/</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "@type": "Type",
+   "name": "Airline",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "legacyTid": 42,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 64.1309328,
+  "longitude": -21.9328767
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/127bf5a1-7b29-4315-9120-1dff272988dc",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "bb5a2614-140b-4f70-904c-2e7fe175c243",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

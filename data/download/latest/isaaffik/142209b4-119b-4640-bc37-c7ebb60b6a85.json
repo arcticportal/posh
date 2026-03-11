@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/142209b4-119b-4640-bc37-c7ebb60b6a85",
+ "@type": "Infrastructure",
+ "name": "R/V \"Dana\"",
+ "contactName": "Dana",
+ "contactPhone": null,
+ "contactEmail": "deli@aqua.dtu.dk",
+ "organizationLink": {
+  "title": "DTU Aqua",
+  "url": "www.aqua.dtu.dk"
+ },
+ "externalLink": {
+  "title": "Danas last recieved position",
+  "url": "http://www.marinetraffic.com/en/ais/details/ships/shipid:156955/imo:7912680/mmsi:219384000/vessel:DANA"
+ },
+ "description": "<p><strong>The Research vessel Dana</strong></p><p>DTU Aqua operates Denmark&#39;s largest research vessel&nbsp;Dana.&nbsp;Dana is capable of worldwide operation and can be chartered by other research institutes.</p><p><strong>Research Capabilities</strong></p><p>The research vessel Dana is capable of worldwide operation, is classified for ice navigation and is equipped to carry out a wide range of investigations within arctic research, marine biology research, climate and environment research, geological research and fishery research.</p><p><strong>Laboratories and equipment</strong></p><div id=\"outercontent_0_content_0_ContentText\"><p>The vessel has five&nbsp;laboratories provided with extensive and wide-ranging scientific equipment for analysis and measurements as well as different tools for trawl fishing, water sampling and sampling from the seabed.<br />&nbsp;</p><p><strong>Crew facilities</strong></p><p>Dana houses a total of 38 scientists and crew in&nbsp;single cabins.&nbsp;</p><p style=\"border: 0px; margin-top: 5px; margin-bottom: 20px; padding: 0px;\">&nbsp;</p></div><p>&nbsp;</p><p>&nbsp;</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/1ee113cc-cf06-4b23-a6e3-53211567ee2b",
+   "@type": "Type",
+   "name": "Ship",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "1ee113cc-cf06-4b23-a6e3-53211567ee2b",
+   "legacyTid": 75,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": "/api/images/2af9c0a2-6a97-46ab-a744-f2541976cdd3",
+ "coordinates": {
+  "name": null,
+  "latitude": 57.592025,
+  "longitude": 9.9614048999999
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/55063356-fed8-4b1c-9802-525da4d00582",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "142209b4-119b-4640-bc37-c7ebb60b6a85",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

@@ -1,6 +1,15 @@
 import { Injectable, inject, NgZone } from '@angular/core';
 import {Observable, Subscriber} from 'rxjs'
 
+function cleanObjectArrays(x: any): any {
+  if (typeof x != 'object' || x == null) return x
+  var r: any = {}, k, v
+  for (k in x) {
+    v = x[k]
+    if (!Array.isArray(v)) { r[k] = v; continue }
+    r[k] = v.filter((e: any) => e != null && e !== '') }
+  return r }
+
 @Injectable({
   providedIn: 'root'
 })
@@ -14,7 +23,7 @@ export class JsonSeqService {
     part = part.trim()
     if (!part) return
     try {
-      var x = JSON.parse(part)
+      var x = cleanObjectArrays(JSON.parse(part))
       this.ngZone.run(() => { observer.next(x) }) }
     catch (e) { console.warn('Skipping invalid JSON record:', part) } }
 

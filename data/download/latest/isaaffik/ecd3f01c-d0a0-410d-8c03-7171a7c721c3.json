@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/ecd3f01c-d0a0-410d-8c03-7171a7c721c3",
+ "@type": "Infrastructure",
+ "name": "Werenskioldbreen mass balance stake network",
+ "contactName": "Dariusz Ignatiuk",
+ "contactPhone": null,
+ "contactEmail": "dariusz.ignatiuk@us.edu.pl",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/655"
+ },
+ "description": "Werenskioldbreen mass balance stake network",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 77.0748,
+  "longitude": 15.3641
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/cac61f51-0b96-4db2-9272-1f6206e7f88e",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6353725e-c5f1-485a-b5b8-8d2d73362cd2",
+  "@type": "Organisation",
+  "id": "6353725e-c5f1-485a-b5b8-8d2d73362cd2",
+  "title": "University of Silesia in Katowice",
+  "organisationDepartment": null,
+  "url": {
+   "title": "University of Silesia in Katowice",
+   "url": "https://us.edu.pl/en/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/c8d7c9d2-e0a7-45fb-b3b7-9617ca41475c",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "ecd3f01c-d0a0-410d-8c03-7171a7c721c3",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": null
+}

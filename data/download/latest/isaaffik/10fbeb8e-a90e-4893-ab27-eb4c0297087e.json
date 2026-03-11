@@ -1,0 +1,113 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/10fbeb8e-a90e-4893-ab27-eb4c0297087e",
+ "@type": "Infrastructure",
+ "name": "Arctic Station",
+ "contactName": "Arctic Station, Secretary Gitte Henriksen",
+ "contactPhone": " +45 35324256",
+ "contactEmail": "gin@science.ku.dk",
+ "organizationLink": {
+  "title": "Arctic Station",
+  "url": "http://arktiskstation.ku.dk/english/"
+ },
+ "externalLink": {
+  "title": "University of Copenhagen",
+  "url": "www.ku.dk"
+ },
+ "description": "<p><strong>STATION NAME AND OWNER:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">Arctic Station belongs to the Faculty of Science, University of Copenhagen, Denmark.</span></p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">LOCATION:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">Arctic Station is located on the south coast of the island Disko in central West Greenland (69°15 N, 53°34 W). It is facing the Disko Bugt/Davis Strait and is characterized by a low arctic, coastal climate. Some of the worlds largest icebergs drift by the Arctic Station.</span></p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">BIODIVERSITY AND NATURAL ENVIRONMENT:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">The surroundings of Arctic Station are characterized by a large variety in landscape, flora, and fauna. The station and the nearby town Qeqertarsuaq are situated on a ridge of Precambrian gneisses overlain by massive basalts from the Tertiary. The surrounding mountains have an altitude of 600-800 m a.s.l. Three major valley glaciers, Lyngmarksbræen, Chamberlains Glacier, and Petersens Glacier, can be visited on a single day trip. The area around Qeqertarsuaq is situated in the transition zone between continuous and discontinuous permafrost. A large variety of periglacial phenomena can be studied, i.e. ice- and sand wedges, stone polygons, mud circles as well as palsa and pingo formations. The coastline is situated only 300 m south of the station along a 100 m wide sandy coastal barrier. The vegetation within the immediate surroundings of the Arctic Station is unique to low arctic Greenland. This is illustrated by the number of species of flowering plants within walking distance from the station: 212 of the 513 Greenland flower species occur in the area. This plant diversity is caused by a relatively favorable local climate, a high altitudinal gradient, rich soils, and several homothermic springs.</span></p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">HISTORY AND FACILITIES:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">The botanist Morten Petersen Porsild founded the Arctic Station in 1906. The locality selected was c. 1 km east of the town Qeqertarsuaq (formerly Godhavn) which is located on the south coast of the Disko Island  also named Qeqertarsuaq. The idea of establishing an arctic research facility in Greenland was supported by famous explorers of the northern polar regions, e.g. Knud Rasmussen, Ludwig Mylius-Erichsen, and Fridtjof Nansen. The University of Copenhagen became the owner of the research facility in 1953.</span></p><p><span style=\"font-size: 1.125em; line-height: 1.2em;\">Arctic Station has around 150 Danish and international visitors, students, and researchers each year. It has rooms for 26 people. Kitchen, living room, seminar room, scientific library, and laboratories are found at the station.</span></p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">GENERAL RESEARCH AND DATABASES:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">The surroundings of Arctic Station offer both terrestrial and marine environments, which makes the research station ideal for botanists, zoologists, geologists, geophysicists and physical geographers. A meteorological station was established in 1990 and a full record of climate data exists since 1991. These monitoring data are available through Department of Geoscience and Natural Resource Management, University of Copenhagen.</span></p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">HUMAN DIMENSION:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">Arctic Station is located only 1 km east of the town Qeqertarsuaq (Godhavn) with a population of around 1000 inhabitants. The city was established in 1773 by Sven Sandgren. Whaling has always been very important for the city. Fishing and hunting are still among the primary occupations for the inhabitants. Tourism is another major business. As something quite unique for Greenland, it is possible to ride a dog sledge on the local glaciers at Qeqertarsuaq under the midnight sun during summer. One can hike to the top of the Lyngmarksfjeld where efforts are rewarded by a fantastic view of Disko Bugt and the gigantic icebergs at Ilulissat Icefjord, almost 100 kilometres away.</span></p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">ACCESS:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">The Arctic Station can be visited without problems throughout the year. Qeqertarsuaq Heliport is served in winter by Sikorsky S-61N or Bell 212 helicopters. Air Greenland operates winter-only air services from Qeqertarsuaq Heliport to Ilulissat, Qasigiannguit, and Aasiaat. During summer and autumn, when the waters of Disko Bugt are ice-free, transport between towns and settlements is by sea only. A ferry (Diskoline) links Qeqertarsuaq with Ilulissat, Aasiaat, and Qasigiannguit.&nbsp;</span></p><p><a href=\"http://www.eu-interact.org/field-sites/greenland/arctic-station/\" target=\"_blank\">INTERACT web site</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": "3953",
+ "city": "Qeqertarssuaq",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/8cd5d5e8-0b4f-4f2b-a9e4-cfd803b7e942",
+ "coordinates": {
+  "name": "Qeqertarssuaq",
+  "latitude": 69.251510650658,
+  "longitude": -53.518524242969
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/e9e538b8-db4b-470a-a133-baf609e5ad50",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/0c409a56-1747-45a8-b684-74c437e6536c",
+  "@type": "Organisation",
+  "id": "0c409a56-1747-45a8-b684-74c437e6536c",
+  "title": "University of Copenhagen",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.ku.dk/english/"
+  },
+  "address": null,
+  "zipcode": "1017",
+  "city": "Copenhagen K",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/168e97bc-f102-4e33-93bc-84a98135d997",
+   "/api/taxonomy/departments/17a80f8e-909e-4beb-80ca-4f88c9df0dbe",
+   "/api/taxonomy/departments/40ea841b-a39e-476f-bef6-6b4cd6477a17",
+   "/api/taxonomy/departments/4e1309bd-993d-4926-be5b-29ac95b1e39f",
+   "/api/taxonomy/departments/501ec186-2c6f-4bc4-ae7e-9a7a2bc6ca4e",
+   "/api/taxonomy/departments/5d693cc0-6e91-4312-a656-c0fe615c3c27",
+   "/api/taxonomy/departments/6b76d9c1-4209-4f41-acb7-a6ab83692b6e",
+   "/api/taxonomy/departments/7088229d-2182-4e09-b150-022f0781cfac",
+   "/api/taxonomy/departments/7c074d68-a124-4381-83ed-b5c7a36b003b",
+   "/api/taxonomy/departments/7ecbcc24-b171-4fbe-b84f-b9a8f6b27746",
+   "/api/taxonomy/departments/876410ee-7a37-44b4-a89e-659e62f33c84",
+   "/api/taxonomy/departments/8f81a9e7-5e68-42a2-a0e1-9d8656809a97",
+   "/api/taxonomy/departments/b9fc88c2-b11d-4b63-b333-c2deb6ea4a1c",
+   "/api/taxonomy/departments/c39fb90e-332a-415c-a56a-fa9b5bfbe3b1",
+   "/api/taxonomy/departments/da832e0c-6984-466b-b36d-632d0667276c",
+   "/api/taxonomy/departments/dc3a6eeb-b8fc-46d1-ad6f-5bb3640e85e5",
+   "/api/taxonomy/departments/e8ed1b30-3133-4446-8e8b-a510fa44bcb1",
+   "/api/taxonomy/departments/efd1168d-054d-411d-9b21-8a28881a6d89",
+   "/api/taxonomy/departments/f4b3fb3d-c1c3-4ef8-bb6a-cf9f48db175e",
+   "/api/taxonomy/departments/f6b4e9c1-8e98-4c5c-98e4-95612ff7f99c"
+  ],
+  "legacyNid": "443"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "10fbeb8e-a90e-4893-ab27-eb4c0297087e",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:03:36+00:00"
+}

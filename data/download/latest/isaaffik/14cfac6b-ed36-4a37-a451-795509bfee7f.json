@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/14cfac6b-ed36-4a37-a451-795509bfee7f",
+ "@type": "Infrastructure",
+ "name": "Avataq",
+ "contactName": "Avataq",
+ "contactPhone": "(+299) 36 12 00",
+ "contactEmail": "info@natur.gl",
+ "organizationLink": {
+  "title": "Greenland Institute of Natural Resources",
+  "url": "https://natur.gl/faciliteter/baade/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>\"Avataq\" <span style=\"font-size: 18px; line-height: 21.6000003814697px;\">, Nuuk, is a fast boat for transport and work. Donated by&nbsp;</span><span style=\"font-size: 18px; line-height: 21.6000003814697px;\">Aage V Jensen Foundation.</span></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5974648c-a248-4c59-b089-5fe86c940247",
+   "@type": "Type",
+   "name": "Boat",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "5974648c-a248-4c59-b089-5fe86c940247",
+   "legacyTid": 76,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Greenland Institute of Natural Resources, Box 570",
+ "areaCode": "3900",
+ "city": "Nuuk",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/a3562740-3f89-4a45-b698-ba661b766192",
+ "coordinates": {
+  "name": null,
+  "latitude": 64.169346488336,
+  "longitude": -51.727924760635
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/80d1dfd8-7688-4ad8-adcb-3d7a103079da",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "14cfac6b-ed36-4a37-a451-795509bfee7f",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

@@ -1,0 +1,107 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/c52370ba-3a94-49da-98b6-07bbb84c36e2",
+ "@type": "Infrastructure",
+ "name": "Danmarkshavn Vejrstation",
+ "contactName": "Danmarkshavn Vejrstation",
+ "contactPhone": null,
+ "contactEmail": "xx@xx.gl",
+ "organizationLink": {
+  "title": "Danmarkshavn",
+  "url": "http://www.danmarkshavn.gl/"
+ },
+ "externalLink": {
+  "title": "Wikipedia",
+  "url": "http://en.wikipedia.org/wiki/Danmarkshavn"
+ },
+ "description": "<p>Danmarkshavn (Denmark&#39;s Harbor) is a small weather station located in the Northeast Greenland National Park, in Greenland. The permanent population of the base is eight. Danmarkshavn is also known as the northernmost location on the coast of the Greenland Sea that non-icebreaking vessels can pass through. Therefore, it is resupplied by cargo ship in August every other year; thus the population increases somewhat for a brief time every other August. It is operated by TELE-POST Greenland, a telecommunications company.Source: <a href=\"http://en.wikipedia.org/wiki/Danmarkshavn\" target=\"_blank\">Wikipedia</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=77\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/1121d8cf-17dd-4a9f-b830-5061e690c0ac",
+   "@type": "Type",
+   "name": "STOL airstrip",
+   "description": "<h3>STOL-fly og STOL-baner</h3><p>Helikoptere er langt dyrere (mere end dobbelt) at operere med end fastvingede fly. Derfor tilstræber man i så høj grad som muligt at anvende fastvingede fly. Et fastvinget fly kræver imidlertid en passende&nbsp;landingsbane. I Canada udviklede fly fabrikken de Havilland i 1950erne og 60erne nogle flytyper, som er særligt egnede til at operere under vanskelige baneforhold. Den mest kendte af disse er DHC-6 Twin Otter. Twin Otteren er et såkaldt STOL-fly (Short Take Off and Landing) og kan lande og starte på en meget kort og ujævn naturskabt bane. Twin Otteren har betydet umådelig meget for de seneste 40 års udforskning af Grønland. Takket være den er det lykkedes at nå ud til de yderste afkroge af Grønland på en sikker og rimelig økonomisk måde.&nbsp;I Nord- og Østgrønland er der identificeret mere en 50 lokaliteter, hvor det er muligt at lande med en Twin Otter. Det er flyoperatøren, der kender den præcise position og beskaffenhed på disse STOL-baner.</p>",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "1121d8cf-17dd-4a9f-b830-5061e690c0ac",
+   "legacyTid": 40,
+   "legacyParentTid": 22
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/20e95f59-bf75-4784-b64c-415441cfb231",
+   "@type": "Type",
+   "name": "Station",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "20e95f59-bf75-4784-b64c-415441cfb231",
+   "legacyTid": 28,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Danmarkshavn Vejrstation",
+ "areaCode": "3984",
+ "city": "Danmarkshavn",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/d91d281b-e46c-4e7a-98f0-966ea52ee776",
+ "coordinates": {
+  "name": null,
+  "latitude": 76.769736666083,
+  "longitude": -18.667541503906
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/9625d324-ea6d-488d-9bfd-87f954434a15",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/22256275-0cc0-4361-8a15-4c07b5c0652d",
+  "@type": "Organisation",
+  "id": "22256275-0cc0-4361-8a15-4c07b5c0652d",
+  "title": "Danish Meteorological Institute (DMI)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.dmi.dk/vejr/"
+  },
+  "address": "Lyngbyvej 100",
+  "zipcode": "2100",
+  "city": "Copenhagen Ø",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/a87513f4-b75a-44c6-9e45-f2e28612334c"
+  ],
+  "legacyNid": "438"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "c52370ba-3a94-49da-98b6-07bbb84c36e2",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2024-09-23T07:13:00+00:00"
+}

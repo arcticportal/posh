@@ -1,0 +1,165 @@
+<div class="accordion">
+  @for (d of lst(); track d['POSDT ID']) {
+  @defer (on viewport) {
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed fs-5" type="button"
+	      data-bs-toggle="collapse" aria-expanded="false"
+	      [attr.data-bs-target]="'#collapse' + d['POSDT ID']"
+	      [attr.aria-controls]="'collapse' + d['POSDT ID']"
+	      [innerHTML]="d['Site Name']"></button>
+    </h2>
+    <div id="collapse{{d['POSDT ID']}}"
+	 class="accordion-collapse collapse">
+      <div class="accordion-body">
+	@defer (on viewport) {
+	@if (d['Site Description']) {
+	<div class="row pb-2">
+	  <div class="col">{{d['Site Description']}}</div>
+	</div> }
+	@if (d['Images'].length) {
+	<div class="row">
+	  <!-- <div class="col-auto">Images</div>
+	  <div class="col">
+	    @for (img of d['Images']; track $index) {
+	    <div>{{formatUrl(img)}}</div> }
+	  </div> -->
+	  @for (img of d['Images']; track $index) {
+	  <div class="col-sm-4 pb-2">
+	    <img [src]="img" class="img-fluid" />
+	  </div> }
+	</div> }
+	@if (d['Source Catalog']) {
+	<div class="row">
+	  <div class="col-auto">Source Catalog</div>
+	  <div class="col">{{d['Source Catalog']}}</div>
+	</div> }
+	@if (d['Date Metadata Harvested']) {
+	<div class="row">
+	  <div class="col-auto">Date Metadata Harvested</div>
+	  <div class="col">{{d['Date Metadata Harvested']}}</div>
+	</div> }
+	@if (d['POSDT ID']) {
+	<div class="row">
+	  <div class="col-auto">POSDT ID</div>
+	  <div class="col">{{d['POSDT ID']}}</div>
+	</div> }
+	@if (d['Web Links'].length) {
+	<div class="row">
+	  <div class="col-auto">Web Links</div>
+	  <div class="col">
+	    @for (link of d['Web Links']; track $index) {
+	    <div><a href="{{link}}" target="_blank">{{formatUrl(link)}}</a></div> }
+	  </div>
+	</div> }
+	@if (d['Site IDs'].length) {
+	<div class="row">
+	  <div class="col-auto">Site IDs</div>
+	  <div class="col">{{d['Site IDs'].join(', ')}}</div>
+	</div> }
+	@if (d['Metadata Created'].length) {
+	<div class="row">
+	  <div class="col-auto">Metadata Created</div>
+	  <div class="col">{{d['Metadata Created'][0]}}</div>
+	</div> }
+	@if (d['Metadata Updated'].length) {
+	<div class="row">
+	  <div class="col-auto">Metadata Updated</div>
+	  <div class="col">{{d['Metadata Updated'][0]}}</div>
+	</div> }
+	@if (d['Contact Name'].length) {
+	<div class="row">
+	  <div class="col-auto">Contact</div>
+	  <div class="col">
+	    @for (name of d['Contact Name']; track $index) {
+	    <a [href]="'mailto:' + d['Contact Email'][$index]">{{name}}</a>
+	    @if ($index < d['Contact Name'].length - 1) {, } }
+	  </div>
+	</div> }
+	@if (d['Organization'].length) {
+	<div class="row">
+	  <div class="col-auto">Organization</div>
+	  <div class="col">{{d['Organization'].join(', ')}}</div>
+	</div> }
+	@if (d['Funding Agency'].length) {
+	<div class="row">
+	  <div class="col-auto">Funding Agency</div>
+	  <div class="col">
+	    @for (agency of d['Funding Agency']; track $index) {
+	    <a [href]="agency.url" target="_blank">{{agency.name}}</a>
+	    @if ($index < d['Funding Agency'].length - 1) {, } }
+	  </div>
+	</div> }
+	@if (d['Metadata Creator'].length) {
+	<div class="row">
+	  <div class="col-auto">Metadata Creator</div>
+	  <div class="col">{{d['Metadata Creator'].join(', ')}}</div>
+	</div> }
+	@if (d['Country'].length) {
+	<div class="row">
+	  <div class="col-auto">Country</div>
+	  <div class="col">{{d['Country'].join(', ')}}</div>
+	</div> }
+	@if (d['Related Locations'].length) {
+	<div class="row">
+	  <div class="col-auto">Related Locations</div>
+	  <div class="col">{{d['Related Locations'].join(', ')}}</div>
+	</div> }
+	@if (d['Elevation']) {
+	<div class="row">
+	  <div class="col-auto">Elevation</div>
+	  <div class="col">{{d['Elevation']}} m</div>
+	</div> }
+	@if (d['Coordinates']) {
+	<div class="row">
+	  <div class="col-auto">Coordinates</div>
+	  <div class="col">{{d['Coordinates']}}</div>
+	</div> }
+	@if (d['Observed Properties'].length) {
+	<div class="row">
+	  <div class="col-auto">Observed Properties</div>
+	  <div class="col">
+	    @for (prop of d['Observed Properties']; track $index) {
+	    <div [innerHTML]="prop"></div> }
+	  </div>
+	</div> }
+	@if (d['Networks'].length) {
+	<div class="row">
+	  <div class="col-auto">Networks</div>
+	  <div class="col">{{d['Networks'].join(', ')}}</div>
+	</div> }
+	@if (d['Projects'].length) {
+	<div class="row">
+	  <div class="col-auto">Projects</div>
+	  <div class="col">
+	    @for (proj of d['Projects']; track $index) {
+	    <a [href]="proj.uri" target="_blank">{{proj.label}}</a>
+	    @if ($index < d['Projects'].length - 1) {, } }
+	  </div>
+	</div> }
+	@if (d['Project IDs'].length) {
+	<div class="row">
+	  <div class="col-auto">Project IDs</div>
+	  <div class="col">{{d['Project IDs'].join(', ')}}</div>
+	</div> }
+	@if (d['Operating Status']) {
+	<div class="row">
+	  <div class="col-auto">Operating Status</div>
+	  <div class="col">{{d['Operating Status']}}</div>
+	</div> }
+	@if (d['Start Year']) {
+	<div class="row">
+	  <div class="col-auto">Start Year</div>
+	  <div class="col">{{d['Start Year']}}</div>
+	</div> }
+	@if (d['Site Type'].length) {
+	<div class="row">
+	  <div class="col-auto">Site Type</div>
+	  <div class="col">{{d['Site Type'].join(', ')}}</div>
+	</div> } }
+	@placeholder { <div>Loading...</div> }
+      </div>
+    </div>
+  </div> }
+  @placeholder { <div></div> } }
+</div>

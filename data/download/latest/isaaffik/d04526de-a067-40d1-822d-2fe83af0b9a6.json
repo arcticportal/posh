@@ -1,0 +1,107 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/d04526de-a067-40d1-822d-2fe83af0b9a6",
+ "@type": "Infrastructure",
+ "name": "Kap Harald Moltke Station",
+ "contactName": "Kap Harald Moltke",
+ "contactPhone": null,
+ "contactEmail": "tbd@tdb.gl",
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Kap Harald Moltke",
+  "url": "http://en.wikipedia.org/wiki/Peary_Land"
+ },
+ "description": "<p>There are two Arctic research stations on Jørgen Brønlund Fjord, Brønlundhus (erected in 1948) and Kap Harald Moltke (erected in 1972). Both stations were built on initiative of Eigil Knuth, and have been the basis for many scientific expeditions. Kap Harald Moltke station was built later in connection with use of the natural runway east of Jørgen Brønlund Fjord mouth.&nbsp;The stations located 10 km from each other on either side of the fjord, with Brønlundhus on the western side, and communication between them in summer is by boat, depending on ice conditions. Since the death of Eigil Knuth, the stations are administered by Peary Land Foundation. Today, Brønlundhus can be characterised as a museum, with a collection of artefacts from polar explorations. Source: http://en.wikipedia.org/wiki/Peary_Land</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/1121d8cf-17dd-4a9f-b830-5061e690c0ac",
+   "@type": "Type",
+   "name": "STOL airstrip",
+   "description": "<h3>STOL-fly og STOL-baner</h3><p>Helikoptere er langt dyrere (mere end dobbelt) at operere med end fastvingede fly. Derfor tilstræber man i så høj grad som muligt at anvende fastvingede fly. Et fastvinget fly kræver imidlertid en passende&nbsp;landingsbane. I Canada udviklede fly fabrikken de Havilland i 1950erne og 60erne nogle flytyper, som er særligt egnede til at operere under vanskelige baneforhold. Den mest kendte af disse er DHC-6 Twin Otter. Twin Otteren er et såkaldt STOL-fly (Short Take Off and Landing) og kan lande og starte på en meget kort og ujævn naturskabt bane. Twin Otteren har betydet umådelig meget for de seneste 40 års udforskning af Grønland. Takket være den er det lykkedes at nå ud til de yderste afkroge af Grønland på en sikker og rimelig økonomisk måde.&nbsp;I Nord- og Østgrønland er der identificeret mere en 50 lokaliteter, hvor det er muligt at lande med en Twin Otter. Det er flyoperatøren, der kender den præcise position og beskaffenhed på disse STOL-baner.</p>",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "1121d8cf-17dd-4a9f-b830-5061e690c0ac",
+   "legacyTid": 40,
+   "legacyParentTid": 22
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "@type": "Type",
+   "name": "Hut",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "legacyTid": 67,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "At Kap Harald Moltke in Peary Land",
+  "latitude": 82.068300821137,
+  "longitude": -31.207185839063
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/3c12d82b-ed0a-4d1b-9c00-a49127751fd9",
+ "sarAsset": "/api/sars/2b39c333-e0fc-4620-a917-d1eefb6661a5",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "@type": "Organisation",
+  "id": "6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "title": "North-East Greenland Company NANOK",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://xsirius.dk/da/nanok.html"
+  },
+  "address": "Rosenhøjvej 10",
+  "zipcode": "8410",
+  "city": "Rønde",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/9ec07395-be66-42c7-a138-022199058e86"
+  ],
+  "legacyNid": "445"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "d04526de-a067-40d1-822d-2fe83af0b9a6",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "@type": "Person",
+   "fullName": "Peter Schmidt Mikkelsen",
+   "id": "6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "author": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "createdAt": "2021-02-08T11:18:44+00:00",
+   "lastModified": "2023-01-18T09:39:18+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-21T07:43:25+00:00"
+}

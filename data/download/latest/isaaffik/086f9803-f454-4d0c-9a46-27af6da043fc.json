@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/086f9803-f454-4d0c-9a46-27af6da043fc",
+ "@type": "Infrastructure",
+ "name": "Hyperspectral spectrometer (FLOX-Ocean Optics).",
+ "contactName": "Hans Tømmervik",
+ "contactPhone": null,
+ "contactEmail": "hans.tommervik@nina.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/657"
+ },
+ "description": "Hyperspectral spectrometer (FLOX-Ocean Optics).",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.18533,
+  "longitude": 15.925809
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/0035cd05-f951-40aa-af34-843e24ebfe5f",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/d0a73b25-86d4-414a-991e-1f67b083cad5",
+  "@type": "Organisation",
+  "id": "d0a73b25-86d4-414a-991e-1f67b083cad5",
+  "title": "Norwegian Institute for Nature Research",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Norwegian Institute for Nature Research",
+   "url": "https://www.nina.no/english/Home"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "086f9803-f454-4d0c-9a46-27af6da043fc",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:28+00:00",
+ "lastModified": null
+}

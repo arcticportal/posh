@@ -1,0 +1,99 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/4bb12d96-5fc8-447a-8256-80b36ee23559",
+ "@type": "Infrastructure",
+ "name": "Schooner Hildur",
+ "contactName": "North Sailing",
+ "contactPhone": " +354 464 7272",
+ "contactEmail": "info@northsailing.is",
+ "organizationLink": {
+  "title": "Schooner Hildur",
+  "url": "https://www.northsailing.is/the-boats/schooner-hildur/?_gl=1*nzqxvk*_up*MQ..*_ga*MjAzNjk3NTUwLjE3NTc5MjI0NzQ.*_ga_9NDXJCB26W*czE3NTc5MjI0NzQkbzEkZzAkdDE3NTc5MjI0NzQkajYwJGwwJGgw"
+ },
+ "externalLink": null,
+ "description": "<p>Hildur was built in Akureyri in 1974 by two shipwrights, Gunnlaugur and Trausti. Trausti and sons would later become good friends with North Sailing and help the company convert most of it’s boats into passenger vessels. North Sailing owners got to know their special skills and enthusiasm for wooden boats and set a goal to later behold one of the three big wooden boats built in their shipbuilding station. It was then in the summer of 2009 that Hildur sailed into Husavik Harbour but only for a rather short visit in the local shipyard for overhaul before a 10 day journey to Denmark where she would be converted into a two masted schooner with 250 sqm of sails in the shipyard of Christian Jonsson in Egernsund.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/1ee113cc-cf06-4b23-a6e3-53211567ee2b",
+   "@type": "Type",
+   "name": "Ship",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "1ee113cc-cf06-4b23-a6e3-53211567ee2b",
+   "legacyTid": 75,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512",
+  "@type": "Country",
+  "name": "Iceland",
+  "description": "",
+  "legacyTid": 155,
+  "id": "6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512"
+ },
+ "image": "/api/images/10479ffe-de9a-45e0-8f0a-6301d8eb1b35",
+ "coordinates": {
+  "name": "Húsavik",
+  "latitude": 66.037083337569,
+  "longitude": -17.347157053047
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/844263b2-174e-45ff-a062-8f3b36984a88",
+ "sarAsset": "/api/sars/0f258b10-8b40-4452-b537-bb296f0eb94c",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/2ec57bce-e44c-430f-aa7f-46705dfa58b3",
+  "@type": "Organisation",
+  "id": "2ec57bce-e44c-430f-aa7f-46705dfa58b3",
+  "title": "North Sailing",
+  "organisationDepartment": null,
+  "url": {
+   "title": "North Sailing",
+   "url": "https://www.northsailing.is/about-north-sailing/?_gl=1*6w3wdt*_up*MQ..*_ga*MTg5MjAxNTgyMC4xNzU3OTIwOTEw*_ga_9NDXJCB26W*czE3NTc5MjA5MTAkbzEkZzEkdDE3NTc5MjE2MjIkajckbDAkaDA."
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512",
+  "departments": [
+   "/api/taxonomy/departments/ad6a23c3-94c7-4d15-9cad-4830fad3903b"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "4bb12d96-5fc8-447a-8256-80b36ee23559",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "@type": "Person",
+  "fullName": "Isaaffik admin AU",
+  "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "createdAt": "2022-11-03T08:03:57+00:00",
+  "lastModified": "2024-03-01T14:57:31+00:00"
+ },
+ "createdAt": "2025-09-15T07:46:41+00:00",
+ "lastModified": "2025-09-15T07:53:10+00:00"
+}

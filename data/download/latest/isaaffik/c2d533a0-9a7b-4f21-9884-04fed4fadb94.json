@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/c2d533a0-9a7b-4f21-9884-04fed4fadb94",
+ "@type": "Infrastructure",
+ "name": "Nunavut Research Institute",
+ "contactName": "Nunavut Research Institute",
+ "contactPhone": null,
+ "contactEmail": "MaryEllen.Thomas@arcticcollege.ca",
+ "organizationLink": {
+  "title": "Nunavut Arctic College",
+  "url": "http://www.arcticcollege.ca/"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/observer-stations/canada/nunavut-research-institute/"
+ },
+ "description": "<div class=\"panel-pane pane-entity-field pane-user-field-body\" style=\"font-size: 18px; line-height: 21.6000003814697px; background-color: rgb(233, 237, 235);\"><div class=\"field field--name-field-body field--type-text-long field--label-hidden\" style=\"margin: 0px 0px 0.6em;\"><div class=\"field-items\"><div class=\"field-item even\"><p>Nunavut Research Institute is an observer station of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.&nbsp;</p></div></div></div></div>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": "Iqaluit, NU",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/e2f18f9d-c234-47ee-923c-f035474055c1",
+  "@type": "Country",
+  "name": "Canada",
+  "description": "",
+  "legacyTid": 147,
+  "id": "e2f18f9d-c234-47ee-923c-f035474055c1"
+ },
+ "image": "/api/images/67dfa015-7c7d-40c2-87d8-3cc9b6c3b9e3",
+ "coordinates": {
+  "name": null,
+  "latitude": 63.75117222,
+  "longitude": -68.52236
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/87ab4d89-4c53-462a-acca-87afc840dfa7",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "c2d533a0-9a7b-4f21-9884-04fed4fadb94",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:35:57+00:00"
+}

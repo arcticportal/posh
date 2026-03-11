@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/5ae175c4-32e7-461f-9bd5-8e6eaf272959",
+ "@type": "Infrastructure",
+ "name": "The seamens Home Sisimiut",
+ "contactName": "The seamens Home Sisimiut",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": "The seamens Home Sisimiut",
+  "url": "http://www.soemandshjem.gl/en/sisimiut/the-seamens-home/welcome/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<div><h1>Welcome to a lovely three star Family hotel</h1></div><div><div><div><img alt=\"\" src=\"http://www.soemandshjem.gl/typo3temp/pics/7497fd5c61.jpg\" /></div></div><div><p>The seamen&rsquo;s home in Sisimiut is a nice and homely three star family hotel. The hotel has 30 rooms available, some of which are four bed family rooms and others are economy rooms without bath and classification. All rooms are nice and large, and located in quite surroundings, insuring you a good nights sleep.&nbsp;Every day our cafeteria serves a breakfast &ndash; and cake buffet, &rsquo;the dish of the day&rsquo;, open bread sandwiches and a range of smaller meals. Along with the high quality food, our cafeteria provides a nice and homely atmosphere.&nbsp;The seamen&rsquo;s home is often used for conferences and meetings, and we provide great facilities, such as a 30-person conference room.&nbsp;In other words we provide the right setting for your family trip, company conference, or meeting, and we hope to see you soon.&nbsp;</p></div></div>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5c2e2a9f-f573-4b2c-83dd-dd7d6f450ed0",
+   "@type": "Type",
+   "name": "Accommodation",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "5c2e2a9f-f573-4b2c-83dd-dd7d6f450ed0",
+   "legacyTid": 80,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Sisimiut Sømandshjem",
+ "areaCode": "3911",
+ "city": "Sisimiut",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 66.9394722,
+  "longitude": -53.6733857
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/a3447b08-adc2-4090-a6b0-f76bae2471c3",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "5ae175c4-32e7-461f-9bd5-8e6eaf272959",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

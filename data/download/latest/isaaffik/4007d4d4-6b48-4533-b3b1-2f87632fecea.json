@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/4007d4d4-6b48-4533-b3b1-2f87632fecea",
+ "@type": "Infrastructure",
+ "name": "FOGA ApS",
+ "contactName": null,
+ "contactPhone": "+45 7545 1144",
+ "contactEmail": "fish.info@foga.dk",
+ "organizationLink": {
+  "title": "FOGA ApS",
+  "url": "www.foga.dk"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><strong>INTRODUCTION</strong></p><p><strong>History:</strong><br>FOGA ApS V.A.T. 13982597, was founded in 1982 on the initiative of pipeline operators in the Danish sector, who needed an independent organ that could provide consultancy services facilitating the interests of the fishing industry as well as offshore operators.</p><p><strong>Aim:</strong><br>FOGAs aim is to supply the assistance of experienced fishing skippers as marine advisors to the offshore industry and to encourage increased communication and cooperation between the fishery and offshore industries.<br>Foga work to supply clients with the right tools for the work. This through a one?door shop, enabling the clients to receive the total package via the cooperation with Foga. Foga will work on gathering project specific competences to offer the client a versatile and operational minded team for the projects at hand.</p><p><strong>FOGA Info:</strong><br>FOGA ApS has many years of experience with distributing relevant information to mariners and fishermen with the purpose to prevent accidents during offshore construction and survey tasks. This information is distributed in up to ten different languages to accommodate the needs of the recipients.</p><p><strong>FOGA Chartering:</strong><br>FOGA ApS strives to offer survey? and guard vessels at competitive rates with highly experienced crew and specialized vessel types, which have been prepared to perform a variety of job types.<br>? Survey vessels: FOGA ApS provides specialized vessels that are ready to perform a wide range of survey tasks, such as bottom sampling, side?scan sonar, bird observation, POD?handling and much more.<br>? Guard vessels: FOGA ApS arranges chartering of vessels suitable for guard tasks, such as surveillance of vulnerable subsea installations, rejection and information of fishing vessels that are operating equipment at the sea bed with the risk of damaging their gear and/or the subsea installations.</p><p><strong>FOGA Consult:</strong><br>FOGA Consult ApS offers professional consultancy on issues related to fishery, including the impact of onshore and offshore construction projects on fishery in the affected area.<br>The following fishery consultants are employed on a freelance basis: Peter Lassen Schmidt, Agner Svendsen, Thorvald Børsmose, Thomas Sørensen, Ole Nymann Mortensen, Tony Buhl Nielsen.</p><p>The fishery consultants have been approved by the Danish fisheries associations on grounds of their maritime qualifications and expertise, which they have accumulated through practical experience with all fishing methods and equipment used at the North Sea. Additionally, the fishery consultants possess extensive knowledge of the local environment, subsea hindrances and local fishing vessels.</p><p>Greenland: The General Manager at FOGA ApS has more than six years experience with ships operations in Greenland. He holds an Ice Operations Manager Certificate, and has vast knowledge of shipping procedures and operational handling of projects in this challenging environment. Therefore FOGA is equipped to assist as consultants and operational advisors on projects in Greenland.</p><p><strong>Management and employees:</strong><br>General Manager Bo Fyhring Sørensen: Operations, Charter parties &amp; negotiations.<br>Operations Christian Hey Mortensen. Operations, Documentation, HSEQ.<br>Book keeping/Adm Kirsten Linnet. Accountancy, Administration, ad hoc.</p><p><strong>Subsidiaries of Foga ApS.</strong><br>In order to meet demands of clients and the market Foga ApS has established two ship?owning companies in order to provide specialized vessels meeting specific clients needs and demands.</p><p><strong>O. Log Shipping ApS. V.A.T. 34471797.</strong><br>O. Log Shipping is a ship owning company 100% owned, operated at and by Foga ApS.<br>The company is member of the Danish Ship Owners Association of 2010<br>The vessel M/S Søløven OXQL2 is 100 % owned by O. Log Shipping.<br>The M/S Søløven is a former buoy handling vessel (M/S Løvenørn) previously owned by the Danish state.<br>Foga are as broker offering the vessel to the European offshore markets for charter.</p><p><strong>Nordsøen Offshore P/S. V.A.T. 35379967</strong><br>O. Log Shipping ApS has a 40% share of the ship owning company Nordsøen Offshore P/S.<br>Management of Nordsøen Offshore P/S are managed from &amp; by Foga ApS.<br>The vessel M/S Nordsøen OXGD2 is 100 % owned by Nordsøen Offshore P/S.<br>The M/S Nordsøen is a former rescue &amp; fishery inspection vessel previously owned by the Danish state.<br>Foga are as broker offering the vessel to the offshore markets for charter.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3fbe4382-eb68-494e-a32a-2f9f92a85b90",
+   "@type": "Type",
+   "name": "Shipping",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "3fbe4382-eb68-494e-a32a-2f9f92a85b90",
+   "legacyTid": 43,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Trafikhavnskaj 19",
+ "areaCode": "6700",
+ "city": "Esbjerg",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": "/api/images/01260dd9-7571-4338-8b5c-9ff803ff6323",
+ "coordinates": {
+  "name": null,
+  "latitude": 55.4718819,
+  "longitude": 8.4300513000001
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/8ab3c798-9567-4937-8f5a-e299eb5f01a5",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "4007d4d4-6b48-4533-b3b1-2f87632fecea",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

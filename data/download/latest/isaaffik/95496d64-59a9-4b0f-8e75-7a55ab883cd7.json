@@ -1,0 +1,112 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/95496d64-59a9-4b0f-8e75-7a55ab883cd7",
+ "@type": "Infrastructure",
+ "name": "Danish Arctic Institute",
+ "contactName": "Archival Manager",
+ "contactPhone": null,
+ "contactEmail": "arkiverne@arktisk.dk",
+ "organizationLink": {
+  "title": "Danish Arctic Institute",
+  "url": "https://arktiskinstitut.dk/en"
+ },
+ "externalLink": null,
+ "description": "<p>Danish Arctic Institute is a non-commercial foundation placed in the City of Copenhagen, and more specific in an old warehouse from the time of the Royal Greenlandic Trade (‘Kongelige Grønlandske Handel’), today called The Arctic House (‘Det Arktiske Hus’).</p><p>The main purpose of the institute is to collect, file and register material regarding Greenland and the other Arctic regions, and making this material available to everyone.</p><p>Danish Arctic Institute has a unique collection of documents, photos, maps, art and ethnographic materials, audio and books, which focus on the history of Greenland and the Arctic regions.</p><p>To highlight the many stories in our archive, we share some of these stories on Facebook (Arktisk Institut), Instagram (arktiskebilleder) and Twitter (Arktisk Institut). We also house small exhibitions and have a podcast series (Arktiske Historier).</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/72f405ab-51c5-4971-bb09-6b7deb3ae95b",
+   "@type": "Type",
+   "name": "Other authority",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "72f405ab-51c5-4971-bb09-6b7deb3ae95b",
+   "legacyTid": 74,
+   "legacyParentTid": 24
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/def73992-f3e7-4062-9882-21e643b4f0b9",
+   "@type": "Type",
+   "name": "Research & education",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "def73992-f3e7-4062-9882-21e643b4f0b9",
+   "legacyTid": 47,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Strandgade 102",
+ "areaCode": "1401",
+ "city": "Copenhagen K",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": "/api/images/91967483-0242-4f48-bc79-c82e40544766",
+ "coordinates": {
+  "name": "Copenhagen",
+  "latitude": 55.67383,
+  "longitude": 12.59541
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/af5d8ddb-c653-4a46-a01b-3717c54c4e6a",
+ "sarAsset": "/api/sars/ffc8b987-7a2f-4eb3-987e-bab43b72a73b",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/82725f74-2388-4e93-afe7-74fbf8305aa0",
+  "@type": "Organisation",
+  "id": "82725f74-2388-4e93-afe7-74fbf8305aa0",
+  "title": "Danish Arctic Institute",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "https://arktiskinstitut.dk/en/"
+  },
+  "address": "Strandgade 102",
+  "zipcode": "1401",
+  "city": "Copenhagen K",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/5a113b65-bb6c-4a13-803b-9b656d253859"
+  ],
+  "legacyNid": "3576"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "95496d64-59a9-4b0f-8e75-7a55ab883cd7",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "@type": "Person",
+  "fullName": "Isaaffik admin GN",
+  "id": "9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "author": "/api/people/9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "createdAt": "2021-02-08T11:18:40+00:00",
+  "lastModified": "2024-03-09T09:54:51+00:00"
+ },
+ "createdAt": "2021-03-03T14:49:49+00:00",
+ "lastModified": "2021-03-05T21:03:49+00:00"
+}

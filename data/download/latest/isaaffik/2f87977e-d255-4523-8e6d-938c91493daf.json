@@ -1,0 +1,97 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/2f87977e-d255-4523-8e6d-938c91493daf",
+ "@type": "Infrastructure",
+ "name": "Pinngortitaleriffik - Greenland Institute of Natural Resources",
+ "contactName": "Pinngortitaleriffik",
+ "contactPhone": "(+299) 36 12 00 ",
+ "contactEmail": "info@natur.gl",
+ "organizationLink": {
+  "title": "Pinngortitaleriffik",
+  "url": "http://www.natur.gl/"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/greenland/greenland-institute-of-natural-resources/"
+ },
+ "description": "<p>The Greenland Institute of Natural Resources conducts research into Arctic ecosystems, monitors the living resources and the environment in Greenland and advises the Government of Greenland and other authorities on sustainable exploitation of living resources and safeguarding the environment and biodiversity.</p><p>The Institute has three departments:</p><ul><li>Department of Fish and Shellfish</li><li>Department of Birds and Mammals</li><li>Department of Environment and Mineral Resources</li></ul><p>A cross-disciplinary Danish/Greenlandic climate centre: The Greenland Climate Research Centre, is imbedded in the Greenland Institute of Natural Resources. The centre conducts research into effects of climate change on the Arctic environment and Greenlandic society.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Greenland Institute of Natural Resources, Kivioq 2 P.O. Box 570 ",
+ "areaCode": "3900",
+ "city": "Nuuk, Greenland",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/ca514d18-982c-4caa-b114-6dc1ce3db8fb",
+ "coordinates": {
+  "name": "Nuuk",
+  "latitude": 64.190462277538,
+  "longitude": -51.695287271164
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/2516062b-4818-4882-807a-8ad1a9c150b9",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/9b61b498-cbd8-4233-8330-6f6de5fea0ae",
+  "@type": "Organisation",
+  "id": "9b61b498-cbd8-4233-8330-6f6de5fea0ae",
+  "title": "Greenland Institute of Natural Resources (GINR)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.natur.gl/"
+  },
+  "address": "Postboks 570",
+  "zipcode": "3900",
+  "city": "Nuuk",
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/0d9d4bd9-a3c1-4fe3-b41e-1b74df5c1a80",
+   "/api/taxonomy/departments/5f7bab97-8ba2-46ef-9f2c-96831a443f48",
+   "/api/taxonomy/departments/6019dd49-e699-414e-970c-57b94ef07c52",
+   "/api/taxonomy/departments/df55b886-2c45-4fbb-a538-c083d7cac580"
+  ],
+  "legacyNid": "440"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "2f87977e-d255-4523-8e6d-938c91493daf",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-20T10:51:06+00:00"
+}

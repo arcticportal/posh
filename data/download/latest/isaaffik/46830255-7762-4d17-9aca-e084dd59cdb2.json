@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/46830255-7762-4d17-9aca-e084dd59cdb2",
+ "@type": "Infrastructure",
+ "name": "Canadian High Arctic Research station (CHARS)",
+ "contactName": "CHARS",
+ "contactPhone": "+1 819-953-1160",
+ "contactEmail": "CHARS-SRCEA@aandc-aadnc.gc.ca",
+ "organizationLink": {
+  "title": "Nunavut Goverment and federal agencies",
+  "url": "http://www.gov.nu.ca/"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/observer-stations/canada/chars/"
+ },
+ "description": "<p><span style=\"font-size: 18px; line-height: 21.6000003814697px; background-color: rgb(233, 237, 235);\">CHARS is an observer station of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.&nbsp;</span></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": "Cambridge Bay, NU",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/e2f18f9d-c234-47ee-923c-f035474055c1",
+  "@type": "Country",
+  "name": "Canada",
+  "description": "",
+  "legacyTid": 147,
+  "id": "e2f18f9d-c234-47ee-923c-f035474055c1"
+ },
+ "image": "/api/images/9ee3f57d-3572-4d9a-a91d-d60dd08b6ca4",
+ "coordinates": {
+  "name": null,
+  "latitude": 69.118475,
+  "longitude": -105.05784
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/840377f7-aa52-41bb-9768-240cb4198d51",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "46830255-7762-4d17-9aca-e084dd59cdb2",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:06:00+00:00"
+}

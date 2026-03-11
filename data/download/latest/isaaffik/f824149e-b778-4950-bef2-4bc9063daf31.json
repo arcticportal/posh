@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/f824149e-b778-4950-bef2-4bc9063daf31",
+ "@type": "Infrastructure",
+ "name": "Politiet i Qasigiannguit",
+ "contactName": "Politiet i Qasigiannguit",
+ "contactPhone": "(+299) 70 14 23",
+ "contactEmail": "qasigiannguit@politi.gl",
+ "organizationLink": {
+  "title": "Politiet i Grønland",
+  "url": "https://www.politi.dk/Groenland/da/om_os/om_politikredsen/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Law enforcement in Greenland, a self-governing province of Denmark, is provided by a branch of the Rigspolitiet, the Danish national police service. Since 2006, Greenland has constituted one of the 12 police districts of the Rigspolitiet, headed by a commissioner based in Nuuk, the capital of Greenland.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/dd4d9472-84a0-47de-a91c-315649904f70",
+   "@type": "Type",
+   "name": "Police",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "dd4d9472-84a0-47de-a91c-315649904f70",
+   "legacyTid": 92,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Postboks 99",
+ "areaCode": "3951",
+ "city": "Qasigiannguit",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/f8985d98-e126-4e04-82bd-fbdab830f873",
+ "coordinates": {
+  "name": "Qasigiannguit",
+  "latitude": 68.820144,
+  "longitude": -51.193242
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/eaeb3a0d-3d89-4193-852a-f326053cc94e",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/c34b3e83-23f7-49e0-b1e0-b91a92f30a6a",
+  "@type": "Organisation",
+  "id": "c34b3e83-23f7-49e0-b1e0-b91a92f30a6a",
+  "title": "Greenland Police",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Greenland Police",
+   "url": "https://politi.gl/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/5f5e0393-cf0a-474b-85b7-5251c10ef69a"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "f824149e-b778-4950-bef2-4bc9063daf31",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-31T10:08:54+00:00"
+}

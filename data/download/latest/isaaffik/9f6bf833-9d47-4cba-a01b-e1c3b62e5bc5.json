@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/9f6bf833-9d47-4cba-a01b-e1c3b62e5bc5",
+ "@type": "Infrastructure",
+ "name": "Nordøstgrønlandsk Kompagni Nanok",
+ "contactName": "Nordøstgrønlandsk Kompagni Nanok",
+ "contactPhone": "+45 3071 3950",
+ "contactEmail": "psm@xsirius.dk",
+ "organizationLink": {
+  "title": "Nordøstgrønlandsk Kompagni Nanok",
+  "url": "http://www.xsirius.dk/da/nanok.html"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Nordøstgrønlandsk Kompagni Nanok is a private, non-profit organisation founded in 1992 upon the former Østgrønlandsk Fangstkompagni Nanok A/S, founded in 1929.</p><p>The aim of Nanok is a.o. to contribute to disseminate knowledge of North-East Greenland and its cultural history and to contribute in securing the cultural monuments and buildings in the area.</p><p>Nanok consists of a board of seven and a number of individual Nanok'ers. All work in Nanok is voluntary and unpaid.</p><p>Each summer, Nanok dispatch a field team of typically six persons divided on two teams who work in North-East Greenland for three to five weeks. The result of this work is documented and published in a field report. The board chooses the expedition participants, typical persons with an intimate knowledge of North-East Greenalnd. In the years 1991-2016 a total of 160 Nanok'ers  or more than 75 private individuals  has been dispatched to North- East Greenland.</p><p>To perform its tasks, Nanok controls a considerable amount of expedition equipment; however Nanok possesses no property in Greenland.</p><p>Nanok projects are sponsored by the Aage V. Jensens Fonde (AVJF).</p><p>Nanok is furthermore supported by a number of private contributors. Among Nanoks many, supportive partners are: Royal Arctic Line (RAL), Norlandair, Air Greenland, Arctic Research Centre (ARC), Arctic Science Partnership (ASP), Greenland Self Government, The Greenland National Museum &amp; Archive, Greenland Institute of Natural Resources (GINR), Joint Arctic Command (JACO), The Sirius Dog Sledge Patrol, Defence Guard Mestersvig, and the Education- &amp; Maintaining Section Greenland (UVG).</p><p>Since 1991 Nanok has repaired and maintained approx. 50 cultural historic huts in North-East Greenland and for this effort gained considerable public recognition. The huts Nanok restore are available for shared&nbsp;use by anyone, including scientific expeditions, the Sirius Patrol, tourists, and&nbsp;the public in general.</p><p>Encouraged by The Greenland Self Government, in the years 2003-2007 Nanok carried out a new, unique survey of all old cultural historical cabins and stations in North-East Greenland. The records were made&nbsp;available free of charge for The Greenland National Museum &amp; Archive in Nuuk. Extensive material from these surveys, incl. photos and GPS positions, is published in: North-East Greenland 1908-60. The Trapper Era (Mikkelsen 2008)</p><p>Nanok has since 2010&nbsp;had a formal cooperative agreement with The Greenland National Museum &amp; Archive in Nuuk.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "@type": "Type",
+   "name": "Other",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "legacyTid": 44,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Rosenhøjvej 10",
+ "areaCode": "8410",
+ "city": "Rønde",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 56.305746,
+  "longitude": 10.409963
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/28a81bbc-798f-474f-b93f-3a07bfede16e",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "9f6bf833-9d47-4cba-a01b-e1c3b62e5bc5",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

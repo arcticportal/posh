@@ -1,0 +1,83 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/16bee405-706d-41e3-ac3f-a7f51d5d3aa8",
+ "@type": "Infrastructure",
+ "name": "Pilemand Charter ",
+ "contactName": "Knud Pilemand",
+ "contactPhone": "+299 532500",
+ "contactEmail": "Knud@pilemand.gl",
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><strong>WaterTrucken - SeaTrucken</strong><br>Our two Landingcraft multi purpose speed boats, offer any kind of transportation - staff and/or goods.<br>Also combined with 25 years experience of craftman labour , we have the knowhow for any&nbsp; laborer or sailing task.<br>Facebook: WaterTucken</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3fbe4382-eb68-494e-a32a-2f9f92a85b90",
+   "@type": "Type",
+   "name": "Shipping",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "3fbe4382-eb68-494e-a32a-2f9f92a85b90",
+   "legacyTid": 43,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Konrad Chemnitzip Aqq 30 P.O 515 ",
+ "areaCode": "3952",
+ "city": "Ilulissat",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/1e3f9466-bf68-4a9c-9f96-957a3c12130f",
+ "coordinates": {
+  "name": null,
+  "latitude": 69.2159569,
+  "longitude": -51.0921228
+ },
+ "coverImage": "/api/images/a064fcef-d7fb-4d94-a2e7-043ab17f7b04",
+ "region": null,
+ "sarAsset": "/api/sars/a6b34770-4226-41cf-aaa3-9aba8709047a",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "16bee405-706d-41e3-ac3f-a7f51d5d3aa8",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "@type": "Person",
+  "fullName": "Isaaffik admin GN",
+  "id": "9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "author": "/api/people/9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "createdAt": "2021-02-08T11:18:40+00:00",
+  "lastModified": "2024-03-09T09:54:51+00:00"
+ },
+ "createdAt": "2019-05-03T10:05:44+00:00",
+ "lastModified": null
+}

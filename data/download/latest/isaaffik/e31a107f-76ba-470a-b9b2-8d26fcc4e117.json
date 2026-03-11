@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/e31a107f-76ba-470a-b9b2-8d26fcc4e117",
+ "@type": "Infrastructure",
+ "name": "Automatic Weather Station Holtedahlfonna  4.5",
+ "contactName": "Jack Kohler",
+ "contactPhone": null,
+ "contactEmail": "jack.kohler@npolar.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/922"
+ },
+ "description": "Automatic Weather Station Holtedahlfonna  4.5",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "@type": "Type",
+   "name": "Weather station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "legacyTid": 32,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": true,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.98,
+  "longitude": 13.61
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/3c1197a7-0a71-497a-9eac-9739719094bf",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/c18e15e3-0d03-407a-a62f-368b76fce336",
+  "@type": "Organisation",
+  "id": "c18e15e3-0d03-407a-a62f-368b76fce336",
+  "title": "Norwegian Polar Institute",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Norwegian Polar Institute",
+   "url": "https://www.npolar.no/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "e31a107f-76ba-470a-b9b2-8d26fcc4e117",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:28+00:00",
+ "lastModified": "2023-10-24T12:20:39+00:00"
+}

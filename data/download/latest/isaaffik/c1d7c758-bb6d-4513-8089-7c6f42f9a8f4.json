@@ -1,0 +1,82 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/c1d7c758-bb6d-4513-8089-7c6f42f9a8f4",
+ "@type": "Infrastructure",
+ "name": "GTN-P Barentsburg Borehole 12",
+ "contactName": "Sarah Strand",
+ "contactPhone": null,
+ "contactEmail": "sarah.strand@unis.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/647"
+ },
+ "description": "GTN-P Barentsburg Borehole 12",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.0907,
+  "longitude": 14.2024
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/43cfdedb-1b2a-40bd-a834-886b442570e4",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/b83f9cbc-b587-4cd6-b4ed-6087891276ad",
+  "@type": "Organisation",
+  "id": "b83f9cbc-b587-4cd6-b4ed-6087891276ad",
+  "title": "The University Centre in Svalbard, UNIS",
+  "organisationDepartment": null,
+  "url": {
+   "title": "The University Centre in Svalbard, UNIS",
+   "url": "https://www.unis.no/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/64db892c-3c60-47d8-95b0-50e365e099da",
+   "/api/taxonomy/departments/7634f2c9-108a-4ad8-a469-bfb40e38f6c0"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "c1d7c758-bb6d-4513-8089-7c6f42f9a8f4",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:28+00:00",
+ "lastModified": null
+}

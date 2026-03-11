@@ -1,0 +1,140 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/97abf227-3d3e-45d2-a4c9-10cae4c8aa76",
+ "@type": "Infrastructure",
+ "name": "EGRIP Camp",
+ "contactName": "EGRIP Camp",
+ "contactPhone": "+45 35 32 05 57",
+ "contactEmail": "jps@nbi.ku.dk",
+ "organizationLink": {
+  "title": "Section for Ice and Climate, Niels Bohr Institute, University of Copenhagen",
+  "url": "https://www.iceandclimate.nbi.ku.dk/"
+ },
+ "externalLink": {
+  "title": "East GReenland Ice coring Project (EGRIP)",
+  "url": "https://www.eastgrip.org/"
+ },
+ "description": "<p>The EGRIP camp is in the center of the East Greenland Ice stream. It consists of all camp assets from the former NEEM camp, and the layout of EGRIP is almost similar to the former NEEM camp, which is now removed.</p><p>In May and June 2015 setup of basic camp structures was completed, it is planned to drill an ice core through the ice stream to the base, some 2640 m deep in the summers of 2022 - 2023.&nbsp;</p><p>In 2016 more than 200 m underground caves were excavated and cast using balloon technique. The caves have been outfitted as science laboratories, ice drilling cave and ice core storage areas. The deep ice coring bore hole was drilled to 110 m depth. In 2017 the deep drilling reached 900 m and in 2022 a depth of 2420 m was reached.</p><p>All activity at EGRIP was COVID cancelled in 2020 and 2021</p><p>Drilling for basal material and measurements of ice flow at the base will be performed during the summers of 2023 and 2024.</p><p>EGRIP (East Greenland Ice core Project) is an international project with 52% Danish funding (25 mill DKK from A.P. Møller and Chastine Mc-Kinney Møller Foundation and 10 mill DKK from University of Copenhagen), support and participation from U.S. National Science Foundation, Alfred Wegener Institute, Bremerhaven, Bjerkness Centret, Bergen, National Institute of Polar research (NIPR), Tokyo and KUP, University of Berne. LGGE de CNRS, Grenoble, LSCE, Saclay, Korean Polar Research Institute, Seoul and Chinese Academy of Sciences are willing to support&nbsp; and participate.&nbsp;</p><p>With its unique location on the NE Greenland Ice Sheet,&nbsp; a 3 km skiway for planes, housing for 30 people, infrastructure and fuel supply, we expect that quite a few projects operating in NE greenland will use EGRIP for shorter or longer time in the coming years. Two groups in the 2015 season, four groups in 2016 and four groups in 2017 visited EGRIP. During the 2017 field campaign, 110 persons spent more than 2800 man-days in EGRIP camp and 600 man-days in Kangerlussuaq. Total man-days 2015-2023: 14,875.</p><p>A season field plan is publicly available on www.eastgrip.org</p><p>We expect the EGRIP camp will be operational from 10 May to 11 July 2024. &nbsp; &nbsp; &nbsp;</p><p><a href=\"http://www.eu-interact.org/field-sites/observer-stations/greenland/egrip-field-station/\">INTERACT web site</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "EGRIP 2023, Box 12 - Greenland (Section for Ice and Climate Tagensvej 16-Denmark)",
+ "areaCode": "DK-3910 - Greenland (DK-2200 Copenhagen N - Denmark)",
+ "city": "Kangerlussuaq",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/e3bcc0b7-cddf-48f3-bdd0-5da95aaa8d6b",
+ "coordinates": {
+  "name": "Altitude: 2705 m a.s.l.",
+  "latitude": 75.63,
+  "longitude": -35.99
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/fb506203-40af-4b9b-83ac-ca0fa8d02684",
+ "sarAsset": "/api/sars/dabe529e-8bed-4bbe-a0ab-8b116eae2098",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/0c409a56-1747-45a8-b684-74c437e6536c",
+  "@type": "Organisation",
+  "id": "0c409a56-1747-45a8-b684-74c437e6536c",
+  "title": "University of Copenhagen",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.ku.dk/english/"
+  },
+  "address": null,
+  "zipcode": "1017",
+  "city": "Copenhagen K",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/168e97bc-f102-4e33-93bc-84a98135d997",
+   "/api/taxonomy/departments/17a80f8e-909e-4beb-80ca-4f88c9df0dbe",
+   "/api/taxonomy/departments/40ea841b-a39e-476f-bef6-6b4cd6477a17",
+   "/api/taxonomy/departments/4e1309bd-993d-4926-be5b-29ac95b1e39f",
+   "/api/taxonomy/departments/501ec186-2c6f-4bc4-ae7e-9a7a2bc6ca4e",
+   "/api/taxonomy/departments/5d693cc0-6e91-4312-a656-c0fe615c3c27",
+   "/api/taxonomy/departments/6b76d9c1-4209-4f41-acb7-a6ab83692b6e",
+   "/api/taxonomy/departments/7088229d-2182-4e09-b150-022f0781cfac",
+   "/api/taxonomy/departments/7c074d68-a124-4381-83ed-b5c7a36b003b",
+   "/api/taxonomy/departments/7ecbcc24-b171-4fbe-b84f-b9a8f6b27746",
+   "/api/taxonomy/departments/876410ee-7a37-44b4-a89e-659e62f33c84",
+   "/api/taxonomy/departments/8f81a9e7-5e68-42a2-a0e1-9d8656809a97",
+   "/api/taxonomy/departments/b9fc88c2-b11d-4b63-b333-c2deb6ea4a1c",
+   "/api/taxonomy/departments/c39fb90e-332a-415c-a56a-fa9b5bfbe3b1",
+   "/api/taxonomy/departments/da832e0c-6984-466b-b36d-632d0667276c",
+   "/api/taxonomy/departments/dc3a6eeb-b8fc-46d1-ad6f-5bb3640e85e5",
+   "/api/taxonomy/departments/e8ed1b30-3133-4446-8e8b-a510fa44bcb1",
+   "/api/taxonomy/departments/efd1168d-054d-411d-9b21-8a28881a6d89",
+   "/api/taxonomy/departments/f4b3fb3d-c1c3-4ef8-bb6a-cf9f48db175e",
+   "/api/taxonomy/departments/f6b4e9c1-8e98-4c5c-98e4-95612ff7f99c"
+  ],
+  "legacyNid": "443"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "97abf227-3d3e-45d2-a4c9-10cae4c8aa76",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/055e19a2-a660-4ef2-b1a2-75ba69dd7ee9",
+   "@type": "Person",
+   "fullName": "Jørgen Peder Steffensen",
+   "id": "055e19a2-a660-4ef2-b1a2-75ba69dd7ee9",
+   "author": "/api/people/055e19a2-a660-4ef2-b1a2-75ba69dd7ee9",
+   "createdAt": "2021-02-08T11:19:04+00:00",
+   "lastModified": "2024-04-22T13:46:07+00:00"
+  },
+  {
+   "@id": "/api/people/3d13decb-2b0a-440d-bb5d-40b843c875b2",
+   "@type": "Person",
+   "fullName": "Susanne Andersen",
+   "id": "3d13decb-2b0a-440d-bb5d-40b843c875b2",
+   "author": "/api/people/3d13decb-2b0a-440d-bb5d-40b843c875b2",
+   "createdAt": "2021-02-08T11:20:17+00:00",
+   "lastModified": "2021-08-04T12:02:50+00:00"
+  },
+  {
+   "@id": "/api/people/a33c4ce1-9bfb-4a91-a332-838c4413a7a1",
+   "@type": "Person",
+   "fullName": "Iben Koldtoft",
+   "id": "a33c4ce1-9bfb-4a91-a332-838c4413a7a1",
+   "author": "/api/people/a33c4ce1-9bfb-4a91-a332-838c4413a7a1",
+   "createdAt": "2021-02-08T11:21:09+00:00",
+   "lastModified": "2022-02-07T12:15:48+00:00"
+  },
+  {
+   "@id": "/api/people/adaa2de3-b94b-4974-930f-39a66f802e41",
+   "@type": "Person",
+   "fullName": "Marie Kirk",
+   "id": "adaa2de3-b94b-4974-930f-39a66f802e41",
+   "author": "/api/people/adaa2de3-b94b-4974-930f-39a66f802e41",
+   "createdAt": "2021-02-08T11:19:31+00:00",
+   "lastModified": "2024-04-12T14:20:33+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2024-04-12T14:10:10+00:00"
+}

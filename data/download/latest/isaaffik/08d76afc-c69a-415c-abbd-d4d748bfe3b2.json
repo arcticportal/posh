@@ -1,0 +1,102 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/08d76afc-c69a-415c-abbd-d4d748bfe3b2",
+ "@type": "Infrastructure",
+ "name": "Danish Meteorological Institute - DMI",
+ "contactName": "DMI",
+ "contactPhone": "+4539157500",
+ "contactEmail": "epost@dmi.dk",
+ "organizationLink": {
+  "title": "DMI",
+  "url": "https://www.dmi.dk"
+ },
+ "externalLink": {
+  "title": "About DMI",
+  "url": "http://www.dmi.dk/en/about/profile/introduction-to-dmi/"
+ },
+ "description": "<h3><strong>Research</strong></h3><p><a href=\"http://research.dmi.dk\">research.dmi.dk</a></p><p>The Danish Meteorological Institute (DMI) has a long tradition for studying, monitoring and forecasting Greenland&rsquo;s atmosphere, ocean, ice and climate.</p><p>Many lines of research at the DMI are centered around the Arctic. DMI is responsible for forecasting the weather, ocean, ice and wave conditions for Greenland and thus runs numerical weather, ocean-ice and wave prediction models for Greenland and provides official forecasts. DMI participates in a number of climate studies in the Arctic, including coupled atmosphere -ice sheet modelling as well as ocean and sea ice studies with focus on Greenland fjords, the surrounding waters and the Arctic Ocean.&nbsp;</p><p>Atmosphere and ocean climate models are run over numerous Arctic domains, and coupled atmosphere, ocean, ice sheet and permafrost models are developed. The arctic stratosphere, which is determining for the ozone layer over the Northern Hemisphere, is a long-standing research area at DMI. Finally, DMI researchers are part of the team behind the outreach web site polarportal.org and take part in several expert groups on short-lived climate pollutants (SLCPs) in the Arctic.</p><p>Increasing economic activities in the Arctic waters such as maritime transport, offshore oil and gas exploitation and fishery have raised new research challenges such as e-navigation, environmental protection and ice service. Combining modeling, remote sensing and in-situ monitoring, DMI has been actively developing integrated Arctic System science for serving a variety of social benefit areas.&nbsp;</p><p>The Danish Meteorological Institute participates in a large number of research and development projects, which are highly interdisciplinary and linked with many other institutions nationally and internationally. Activities are presented thematically and heavily cross-linked below to provide easy access to people, projects, publications or possible collaboration opportunities.</p><p>On <a href=\"http://www.polarportal.org\">www.polarportal.org</a>, Danish research institutions display the results of their monitoring of the Greenland Ice Sheet and the sea ice in the Arctic. &nbsp;</p><p>The main purpose of the site is to make updated information from this monitoring available to the general public, both nationally and internationally. In addition, the site will provide access to scientifically based information resources.</p><h3><strong>Education</strong></h3><p>http://research.dmi.dk/contact/msc-and-phd-projects-at-dmi/</p><p>DMI contributes to education at all levels from primary school to university.&nbsp;</p><p>At the university level, DMI staff takes part in courses at several universities within the fields of meteorology, oceanography and climate. In addition, the unique access to data, models and high-performance computing resources makes DMI researchers popular supervisors of BSc, MSc and PhD projects. Visit research.dmi.dk to see a list of MSc and PhD projects we are currently part of.</p><p>We have school classes visiting and DMI staff contributes to teaching material and text books by assisting publishers and authors with examples, figures, text and review. Furthermore, the many theme pages on dmi.dk are a popular resource for teachers at the late-primary school and high school levels.</p><p>Toward the general public, DMI researchers routinely take part in outreach events such as &quot;Naturvidenskabsfestival&quot;, &quot;Forskningens Døgn&quot; and &quot;Kulturnat&quot;.</p><h3 class=\"bodytext\"><strong>Consultancy</strong></h3><p class=\"bodytext\">DMI provides meteorological services in the Commonwealth of the Realm of Denmark, the Faroe Islands, Greenland, and surrounding waters and airspace.</p><p class=\"bodytext\">Meteorological services include forecasting and warnings and monitoring of weather, climate and related environmental conditions in the atmosphere, on land and at sea.</p><p class=\"bodytext\">Purpose of all activities is to safeguard human life and property. DMI&rsquo;s many activities also act as background knowledge in terms of planning and decision-making in economic and environment sectors - especially within transport and industry businesses.</p><p class=\"bodytext\">DMI collects and processes meteorological, climatological and oceanographic measurements/observations, and measures, collects and compiles related geophysical parameters throughout the Realm.</p><p class=\"bodytext\">Conducting <a href=\"http://research.dmi.dk\">research</a> and development within its area of ??expertise, DMI ensures efficient operations and state-of-the-art quality in all productions while monitoring and conducting research on global warming and the stratospheric ozone balance.</p><p>The Danish Meteorological Institute (DMI) was established in 1872. The institute employs around 350 people. DMI is an institution under the Danish Ministry of Climate, Energy and Building.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/98fd0dbc-0249-4534-a102-28d7360fa764",
+   "@type": "Type",
+   "name": "Governmental",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "98fd0dbc-0249-4534-a102-28d7360fa764",
+   "legacyTid": 48,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Sankt Kjelds Plads 11",
+ "areaCode": "DK-2100",
+ "city": "Copenhagen",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": "/api/images/d07efc2f-f0ce-4f7b-9628-7ac0af1b477e",
+ "coordinates": {
+  "name": "Copenhagen",
+  "latitude": 55.715537143943,
+  "longitude": 12.56157875061
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/af5d8ddb-c653-4a46-a01b-3717c54c4e6a",
+ "sarAsset": "/api/sars/c0e46f6a-7595-4388-bed1-1361307f003f",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/22256275-0cc0-4361-8a15-4c07b5c0652d",
+  "@type": "Organisation",
+  "id": "22256275-0cc0-4361-8a15-4c07b5c0652d",
+  "title": "Danish Meteorological Institute (DMI)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.dmi.dk/vejr/"
+  },
+  "address": "Lyngbyvej 100",
+  "zipcode": "2100",
+  "city": "Copenhagen Ø",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/a87513f4-b75a-44c6-9e45-f2e28612334c"
+  ],
+  "legacyNid": "438"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "08d76afc-c69a-415c-abbd-d4d748bfe3b2",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/a0e11dfc-d219-408c-ae6d-895cc749604d",
+   "@type": "Person",
+   "fullName": "Jens Quirin Hansen",
+   "id": "a0e11dfc-d219-408c-ae6d-895cc749604d",
+   "author": "/api/people/a0e11dfc-d219-408c-ae6d-895cc749604d",
+   "createdAt": "2021-02-08T11:19:19+00:00",
+   "lastModified": "2024-04-12T13:31:47+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/a0e11dfc-d219-408c-ae6d-895cc749604d",
+  "@type": "Person",
+  "fullName": "Jens Quirin Hansen",
+  "id": "a0e11dfc-d219-408c-ae6d-895cc749604d",
+  "author": "/api/people/a0e11dfc-d219-408c-ae6d-895cc749604d",
+  "createdAt": "2021-02-08T11:19:19+00:00",
+  "lastModified": "2024-04-12T13:31:47+00:00"
+ },
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2024-04-12T13:39:00+00:00"
+}

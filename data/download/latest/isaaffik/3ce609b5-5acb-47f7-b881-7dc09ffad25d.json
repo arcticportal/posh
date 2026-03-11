@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/3ce609b5-5acb-47f7-b881-7dc09ffad25d",
+ "@type": "Infrastructure",
+ "name": "SPICE: Autonomous snow depth station - CALYPSOBYEN",
+ "contactName": "Piotr Zagórski",
+ "contactPhone": null,
+ "contactEmail": "piotr.zagorski@mail.umcs.pl",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/152390"
+ },
+ "description": "SPICE: Autonomous snow depth station - CALYPSOBYEN",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 77.5611,
+  "longitude": 14.50467
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/75c066a8-de1a-4706-9e4a-97b44193dfa2",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/a5b10239-428e-45f6-960d-2785388da0ab",
+  "@type": "Organisation",
+  "id": "a5b10239-428e-45f6-960d-2785388da0ab",
+  "title": "Maria Curie-Skłodowska University in Lublin",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Maria Curie-Skłodowska University in Lublin",
+   "url": "https://www.umcs.pl/en/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/c8d7c9d2-e0a7-45fb-b3b7-9617ca41475c",
+  "departments": [
+   "/api/taxonomy/departments/cf330efe-1fb8-4423-9e31-7f26da2aca4d"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "3ce609b5-5acb-47f7-b881-7dc09ffad25d",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2024-08-30T00:00:34+00:00",
+ "lastModified": null
+}

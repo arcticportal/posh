@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/5882e6b5-9315-4d9d-849e-67bc3ef70de8",
+ "@type": "Infrastructure",
+ "name": "Ittoqqortoormiit Guesthouse",
+ "contactName": "Ittoqqortoormiit Guesthouse",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": "Ittoqqortoormiit Guesthouse",
+  "url": "http://www.greenland.com/da/providers/ittoqqortoormiit-guesthouese/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>http://www.greenland.com/da/providers/ittoqqortoormiit-guesthouese/</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5c2e2a9f-f573-4b2c-83dd-dd7d6f450ed0",
+   "@type": "Type",
+   "name": "Accommodation",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "5c2e2a9f-f573-4b2c-83dd-dd7d6f450ed0",
+   "legacyTid": 80,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": "3980",
+ "city": "Ittoqqortoormiit",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/0e5767ac-baf7-42e6-9337-f70983deba20",
+ "coordinates": {
+  "name": null,
+  "latitude": 70.4855691,
+  "longitude": -21.9628756
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/fb9f1738-067c-4292-b346-8ca9289668d5",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "5882e6b5-9315-4d9d-849e-67bc3ef70de8",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

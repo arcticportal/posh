@@ -1,0 +1,106 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/34380985-e9cc-4354-b7f8-a33ba80e3aa0",
+ "@type": "Infrastructure",
+ "name": "Geological Survey of Denmark and Greenland ",
+ "contactName": "Marianne Vestergaard",
+ "contactPhone": null,
+ "contactEmail": "mve@geus.dk",
+ "organizationLink": {
+  "title": "Geological Survey of Denmark and Greenland",
+  "url": "www.geus.dk"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>The Geological Survey of Denmark and Greenland (GEUS) is an internationally oriented, independent research and advisory institution established in 1888 within the Danish Ministry of Climate, Energy and Building.</p><p>GEUS carries out activities to exploit and protect geological resources in Denmark and Greenland. Primary activities are mapping, compilation and storage of data, research, monitoring and consultancy within water, energy, minerals and climate and environment. This includes research and technology development in relation to administration of legislation.</p><p>GEUS&nbsp;also undertakes assignments related to energy, minerals, water,&nbsp;climate&nbsp;and the environment on a contractual basis for other public authorities, research agencies, private companies and clients outside Denmark.</p><p>GEUS is part of Geocenter Denmark - a formalised cooperation between GEUS and the Geocience institutes at University of Copenhagen and University of Aarhus.</p><p>In 2013, GEUS had a staff of 340 of which 230 hold a PhD or MSc degree, and 70 PhD students and several MSc students are attached to GEUS for research training.&nbsp;</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/def73992-f3e7-4062-9882-21e643b4f0b9",
+   "@type": "Type",
+   "name": "Research & education",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "def73992-f3e7-4062-9882-21e643b4f0b9",
+   "legacyTid": 47,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Øster Voldgade 10",
+ "areaCode": "1350K ",
+ "city": "Copenhagen",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Copenhagen",
+  "latitude": 55.688366,
+  "longitude": 12.581401
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/af5d8ddb-c653-4a46-a01b-3717c54c4e6a",
+ "sarAsset": "/api/sars/7a349f0f-b8e8-45ca-9fac-aceff3d33e60",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/38d2efcc-abbd-4cb1-b24f-3fb13af87ed5",
+  "@type": "Organisation",
+  "id": "38d2efcc-abbd-4cb1-b24f-3fb13af87ed5",
+  "title": "Geological Survey of Denmark and Greenland (GEUS)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.geus.dk/UK/Pages/default.aspx"
+  },
+  "address": "Øster Voldgade 10",
+  "zipcode": "1350",
+  "city": "Copenhagen K",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/04a3ed51-4433-4ded-bfda-3b03ca1456d8",
+   "/api/taxonomy/departments/0bec07a6-c01d-4247-87e0-bddd5819014b",
+   "/api/taxonomy/departments/2b4bf8c3-4a32-489f-ab3e-ee81bc944e5a",
+   "/api/taxonomy/departments/2fd864a1-a613-4faa-988d-01ae5ab8dde6",
+   "/api/taxonomy/departments/32936133-5185-416f-97b6-299760facdcd",
+   "/api/taxonomy/departments/686e6d48-b0a2-43c4-a901-54fbe340ea3a",
+   "/api/taxonomy/departments/797f6837-1e99-4102-98a7-fd4d8e191952",
+   "/api/taxonomy/departments/7c44c93d-321a-47b2-9b7e-eb6d18367e1a",
+   "/api/taxonomy/departments/9af643f2-14bb-4472-ae70-d01946c003a2",
+   "/api/taxonomy/departments/9de6ed24-38bd-4a6e-a97b-76c304fe6b91",
+   "/api/taxonomy/departments/cd2ac505-93f8-4147-a841-df5d5881e94d",
+   "/api/taxonomy/departments/d18b53b2-82fa-439a-b145-8b1cd7e7bb22",
+   "/api/taxonomy/departments/ff83ebb0-b662-4c45-8f64-2ae5bcef23e8"
+  ],
+  "legacyNid": "446"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "34380985-e9cc-4354-b7f8-a33ba80e3aa0",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "@type": "Person",
+   "fullName": "Marianne Vestergaard",
+   "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "createdAt": "2021-02-08T11:18:43+00:00",
+   "lastModified": "2021-02-08T11:18:43+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-02-25T14:52:14+00:00"
+}

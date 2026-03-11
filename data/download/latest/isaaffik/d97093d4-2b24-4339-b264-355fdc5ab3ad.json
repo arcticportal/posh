@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/d97093d4-2b24-4339-b264-355fdc5ab3ad",
+ "@type": "Infrastructure",
+ "name": "Akureyri International Airport",
+ "contactName": "Akureyri International Airport",
+ "contactPhone": "(+354) 424 4000",
+ "contactEmail": "biar@isavia.is",
+ "organizationLink": {
+  "title": "Akureyri International Airport",
+  "url": "https://www.isavia.is/en/akureyri-airport"
+ },
+ "externalLink": {
+  "title": "www.isavia.is",
+  "url": "http://www.isavia.is/english/airports/akureyri-international-airport/"
+ },
+ "description": "<p>Akureyri International Airport is well located in North Iceland giving a goodgateway into the Arctic North. The airport is also well located between Europe and US for international flights.</p><p>Akureyri Airport has has scheduled flights to several locations in Iceland including Reykjavik in the South, Grimsey Island in North as well as Thorshofn and Vopnafjordur in the East.</p><p>International flight from Akureyri airport includes scheduled and charter flights to Greenland. Charter flights are available to destinations overseas, with travel agencies offering direct flights to several destinations including Stockholm, Dublin, Riga, Ljubljana, Tenerife and Alicante.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "@type": "Type",
+   "name": "International airport",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "legacyTid": 37,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Akureyri International Airport",
+ "areaCode": "600",
+ "city": "Akureyri",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512",
+  "@type": "Country",
+  "name": "Iceland",
+  "description": "",
+  "legacyTid": 155,
+  "id": "6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Akureyri ",
+  "latitude": 65.6586109,
+  "longitude": -18.072222
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/844263b2-174e-45ff-a062-8f3b36984a88",
+ "sarAsset": "/api/sars/b362ede3-b6b5-4e87-88bd-b2070b95346f",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "@type": "Organisation",
+  "id": "f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "title": "Other institution",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Other institution",
+   "url": "https://www.isaaffik.org/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": "1325"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "d97093d4-2b24-4339-b264-355fdc5ab3ad",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T09:44:31+00:00"
+}

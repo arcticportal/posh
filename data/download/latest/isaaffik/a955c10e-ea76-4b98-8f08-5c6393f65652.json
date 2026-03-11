@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/a955c10e-ea76-4b98-8f08-5c6393f65652",
+ "@type": "Infrastructure",
+ "name": "Upernavik",
+ "contactName": "Upernavik",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": "Town",
+  "url": ""
+ },
+ "externalLink": {
+  "title": "Visit Greenland",
+  "url": "http://www.greenland.com/en/destinations/north-greenland/upernavik/"
+ },
+ "description": "<p><a href=\"http://www.dmi.dk/groenland/vejret/byvejr/by/vis/GL/4211/Upernavik,%20Gr%C3%B8nland\">Weather Forecast</a></p><p><a href=\"http://www.dmi.dk/groenland/arkiver/vejrarkiv/\">Weather archive</a></p><p><a href=\"http://www.dmi.dk/uploads/pics/klima_upernavik.png\">Climate</a></p><p>Upernavik (Kalaallisut: &quot;Springtime Place&quot;) is a small town in the Qaasuitsup municipality in northwestern Greenland, located on a small island of the same name. With 1,181 inhabitants as of 2013,&nbsp;it is the twelfth-largest town in Greenland. Owing to the small size of the settlement, everything is within walking distance. It contains the Upernavik Museum. It is the northern-most town in Greenland with a population of over 1,000. Source: <a href=\"http://en.wikipedia.org/wiki/Upernavik\" target=\"_blank\">Wikipedia</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=62\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ee513a41-84f8-46ba-96e3-b79ed5c7c56e",
+   "@type": "Type",
+   "name": "Town",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "ee513a41-84f8-46ba-96e3-b79ed5c7c56e",
+   "legacyTid": 26,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 72.786944,
+  "longitude": -56.147222
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/78b43c2d-9a51-49c6-817a-a937d3ee0524",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "a955c10e-ea76-4b98-8f08-5c6393f65652",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

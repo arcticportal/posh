@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/95d7a4f7-6db8-4786-a4d3-5b01a9482085",
+ "@type": "Infrastructure",
+ "name": "Evenkian Field Station",
+ "contactName": "Evenkian Field Station",
+ "contactPhone": "+7 391 249 44 39",
+ "contactEmail": "prokushkin@ksc.krasn.ru",
+ "organizationLink": {
+  "title": "V.N. Sukachev Institute of Forest SB RAS",
+  "url": "http://www.nsc.ru/sbras/db/dep.phtml?3+77+eng"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/observer-stations/russia/evenkian-field-station/"
+ },
+ "description": "<p>Evenkian Field Station<span style=\"font-size: 18px; line-height: 21.6000003814697px; background-color: rgb(233, 237, 235);\"> is an observer station of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.&nbsp;</span></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Beregovaya street, 3",
+ "areaCode": "648000",
+ "city": "Tura, Krasnoyarskiy kray",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/b3a1e70c-f226-477d-a3a7-424425686c63",
+  "@type": "Country",
+  "name": "Russia",
+  "description": "",
+  "legacyTid": 161,
+  "id": "b3a1e70c-f226-477d-a3a7-424425686c63"
+ },
+ "image": "/api/images/77ce186c-3b91-40bf-b5bc-cd644942e521",
+ "coordinates": {
+  "name": null,
+  "latitude": 64.28711389,
+  "longitude": 100.19706
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/6da85c2f-745a-40b8-9dd7-df7b740a1175",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "95d7a4f7-6db8-4786-a4d3-5b01a9482085",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:14:10+00:00"
+}

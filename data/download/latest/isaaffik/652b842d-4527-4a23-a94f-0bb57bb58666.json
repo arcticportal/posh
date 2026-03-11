@@ -1,0 +1,99 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/652b842d-4527-4a23-a94f-0bb57bb58666",
+ "@type": "Infrastructure",
+ "name": "Schooner Opal",
+ "contactName": "North Sailing / Schooner Opal",
+ "contactPhone": "+354 464 7272",
+ "contactEmail": "info@northsailing.is",
+ "organizationLink": {
+  "title": "Schooner Opal",
+  "url": "https://schooneropal.is/"
+ },
+ "externalLink": null,
+ "description": "<p>Built at the Bodenwerft in&nbsp;Damgarten, Germany in 1951, she served as a trawler in the Baltic- and North Sea and in the Barents Sea. In 1973 new owners started her restoration. During 8 years until 1981, Opal was converted to the elegant but seaworthy, two masted schooner she is today. She has sailed all over the world, completing several trans-Atlantic crossings, being carefully maintained through the years. Opal has remained with the same owners, until becoming part of North Sailing´s fleet in early 2013. She has undergone restoration and had&nbsp;interior work done to better fit her for the new purpose as an expedition ship.</p><p>The Opal has six double/twin cabins plus crew facilities. She has three bathrooms, two showers. She comfortably fits 12 passengers, plus her crew.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/1ee113cc-cf06-4b23-a6e3-53211567ee2b",
+   "@type": "Type",
+   "name": "Ship",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "1ee113cc-cf06-4b23-a6e3-53211567ee2b",
+   "legacyTid": 75,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512",
+  "@type": "Country",
+  "name": "Iceland",
+  "description": "",
+  "legacyTid": 155,
+  "id": "6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512"
+ },
+ "image": "/api/images/74976fa6-5222-41eb-a89d-e1491518b7ce",
+ "coordinates": {
+  "name": "Húsavik",
+  "latitude": 66.038009145849,
+  "longitude": -17.34776569
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/844263b2-174e-45ff-a062-8f3b36984a88",
+ "sarAsset": "/api/sars/b303b053-979b-43e7-9f36-46f73ff6b6e5",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/2ec57bce-e44c-430f-aa7f-46705dfa58b3",
+  "@type": "Organisation",
+  "id": "2ec57bce-e44c-430f-aa7f-46705dfa58b3",
+  "title": "North Sailing",
+  "organisationDepartment": null,
+  "url": {
+   "title": "North Sailing",
+   "url": "https://www.northsailing.is/about-north-sailing/?_gl=1*6w3wdt*_up*MQ..*_ga*MTg5MjAxNTgyMC4xNzU3OTIwOTEw*_ga_9NDXJCB26W*czE3NTc5MjA5MTAkbzEkZzEkdDE3NTc5MjE2MjIkajckbDAkaDA."
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512",
+  "departments": [
+   "/api/taxonomy/departments/ad6a23c3-94c7-4d15-9cad-4830fad3903b"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "652b842d-4527-4a23-a94f-0bb57bb58666",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "@type": "Person",
+  "fullName": "Isaaffik admin AU",
+  "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "createdAt": "2022-11-03T08:03:57+00:00",
+  "lastModified": "2024-03-01T14:57:31+00:00"
+ },
+ "createdAt": "2025-09-15T07:21:18+00:00",
+ "lastModified": "2025-09-15T07:46:31+00:00"
+}

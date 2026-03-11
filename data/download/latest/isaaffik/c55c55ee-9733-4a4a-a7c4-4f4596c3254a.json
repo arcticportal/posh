@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/c55c55ee-9733-4a4a-a7c4-4f4596c3254a",
+ "@type": "Infrastructure",
+ "name": "Fyllas Banke 3 hydrographic station ",
+ "contactName": "Fyllas Banke 3 hydrographic station ",
+ "contactPhone": null,
+ "contactEmail": "jomo@natur.gl",
+ "organizationLink": {
+  "title": "Greenland Institute of Natural Resources",
+  "url": "http://www.natur.gl/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><span style=\"font-size: 18px; line-height: 21.5999984741211px;\">Fyllas Banke 3&nbsp;at 63&deg;55&nbsp;N - 55&deg;07&nbsp;W&nbsp;is a standard hydrographic station&nbsp;on the&nbsp;Fyllas Banke&nbsp;section and&nbsp;part of the Greenland Institute of Natural Resources monitoring program. The purpose of the marine monitoring program is to register specific&nbsp;physical properties&nbsp;of the sea water column,&nbsp;such as temperature and&nbsp;salinity,&nbsp;at the same geographical location&nbsp;once every year, and compare these repeated registrations&nbsp;with&nbsp;previous years&#39; recordings. Hydrographic measurements are&nbsp;typical carried out with a so-called &quot;CTD&quot; instrument (Conductivity, Temperature, and Depth). The hydrographic station is&nbsp;monitored one time each year&nbsp;in June/July.</span></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": "/api/images/89f0c2cd-274b-4e13-af5a-2377c57a8406",
+ "coordinates": {
+  "name": null,
+  "latitude": 63.916999959906,
+  "longitude": -53.11700284481
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/f23bf79a-5f1e-4aaa-87de-ac3071bc644f",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "c55c55ee-9733-4a4a-a7c4-4f4596c3254a",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

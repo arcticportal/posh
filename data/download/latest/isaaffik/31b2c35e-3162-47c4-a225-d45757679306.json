@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/31b2c35e-3162-47c4-a225-d45757679306",
+ "@type": "Infrastructure",
+ "name": "Kangerluk - Diskofjord",
+ "contactName": "Kangerluk",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Wikipedia",
+  "url": "http://da.wikipedia.org/wiki/Kangerluk"
+ },
+ "description": "<p>Kangerluk (old spelling: Kangerdluk) is a settlement in the Qaasuitsup municipality, in western Greenland, located on the southwestern shore of Disko Island. It had 33 inhabitants in 2010. Source: <a href=\"http://da.wikipedia.org/wiki/Kangerluk\" target=\"_blank\">Wikipedia</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=44\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "@type": "Type",
+   "name": "Settlement",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "legacyTid": 27,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 69.500687,
+  "longitude": -53.932671
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/a8d34e78-8fc8-497c-8767-68f7187e9374",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "31b2c35e-3162-47c4-a225-d45757679306",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

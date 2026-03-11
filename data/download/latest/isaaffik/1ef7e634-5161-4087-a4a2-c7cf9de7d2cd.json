@@ -1,0 +1,109 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/1ef7e634-5161-4087-a4a2-c7cf9de7d2cd",
+ "@type": "Infrastructure",
+ "name": "Absolute gravity station Kangerlussuaq",
+ "contactName": "Absolute gravity station Kangerlussuaq",
+ "contactPhone": null,
+ "contactEmail": "jemni@space.dtu.dk",
+ "organizationLink": {
+  "title": "Geodynamics at DTU Space",
+  "url": "http://www.space.dtu.dk/english/Research/Research_divisions/Geodynamics"
+ },
+ "externalLink": {
+  "title": "DTU Space",
+  "url": "www.space.dtu.dk/english"
+ },
+ "description": "<p style=\"font-size: 18px; line-height: 21.6000003814697px;\"><strong>Absolute gravity stations in Greenland</strong></p><p style=\"font-size: 18px; line-height: 21.6000003814697px;\">Point near the inland ice on bedrock by the road. Marked with a plate.&nbsp;</p><p style=\"font-size: 18px; line-height: 21.6000003814697px;\">The absolute gravity stations are basis stations in the national gravity network of Greenland. These basis stations are the backbone in the densification of gravity measurements in an area used for geoid determination or exploration for natural resources.</p><p style=\"font-size: 18px; line-height: 21.6000003814697px;\">The stations are also used for scientific research by repeated measuring at the stations.&nbsp;These repeated measurements can be used for studies of geodynamics in Greenland, e.g. the study of glacial isostatic adjustment in connection with the ongoing climatic changes.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/d705e09f-188a-4520-9f7d-9421f9cc7396",
+ "coordinates": {
+  "name": "Kangerlussuaq",
+  "latitude": 67.15347,
+  "longitude": -50.06106
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/caa3a8a7-e3cd-4731-8148-1315cc534294",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f067c229-ea9c-49ff-bc04-0d23b90e29a8",
+  "@type": "Organisation",
+  "id": "f067c229-ea9c-49ff-bc04-0d23b90e29a8",
+  "title": "Technical University of Denmark (DTU)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.dtu.dk/english"
+  },
+  "address": "Anker Engelunds Vej 1",
+  "zipcode": "2800",
+  "city": "Kgs. Lyngby",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/31b93626-9a43-4f8b-bf1c-e4adf60d7f02",
+   "/api/taxonomy/departments/3cff37b5-cd96-46e1-9217-e4591df04619",
+   "/api/taxonomy/departments/5da13632-177e-44b2-9bdf-a3a21605645a",
+   "/api/taxonomy/departments/6a9faa15-d61c-452c-b253-256cf79be169",
+   "/api/taxonomy/departments/70da6929-868c-4e16-a5ce-951203d82b05",
+   "/api/taxonomy/departments/92ea2de2-25c0-400e-9544-9b467946bf44",
+   "/api/taxonomy/departments/b4de0917-5f46-4b4d-84d7-35e025186cae",
+   "/api/taxonomy/departments/d06736f3-be69-4480-bf07-bddd58f31fd7"
+  ],
+  "legacyNid": "442"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "1ef7e634-5161-4087-a4a2-c7cf9de7d2cd",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/a22537f0-83ba-42f0-aac8-b63286f24c97",
+   "@type": "Person",
+   "fullName": "Finn Bo Madsen",
+   "id": "a22537f0-83ba-42f0-aac8-b63286f24c97",
+   "author": "/api/people/a22537f0-83ba-42f0-aac8-b63286f24c97",
+   "createdAt": "2021-02-08T11:18:48+00:00",
+   "lastModified": "2023-03-22T12:32:31+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/a22537f0-83ba-42f0-aac8-b63286f24c97",
+  "@type": "Person",
+  "fullName": "Finn Bo Madsen",
+  "id": "a22537f0-83ba-42f0-aac8-b63286f24c97",
+  "author": "/api/people/a22537f0-83ba-42f0-aac8-b63286f24c97",
+  "createdAt": "2021-02-08T11:18:48+00:00",
+  "lastModified": "2023-03-22T12:32:31+00:00"
+ },
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-21T12:41:44+00:00"
+}

@@ -1,0 +1,117 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/ea5f23fb-ba82-49d3-94f7-fadf199c070f",
+ "@type": "Infrastructure",
+ "name": "Arctic Capacity ApS",
+ "contactName": "Henrik P. Ø. Lassen",
+ "contactPhone": "+45 31 15 16 00",
+ "contactEmail": "henrik@arctic-capacity.dk",
+ "organizationLink": {
+  "title": "Arctic Capacity ApS",
+  "url": "http://arctic-capacity.gl/"
+ },
+ "externalLink": null,
+ "description": "<p>Arctic Capacity is your logistics expert in the Arctic. We have extensive experience and thorough knowledge of the area and provide logistics solutions and services for scientific projects and minerals exploration in the Arctic. When the minerals industry, exploration teams, or research units need to reach Greenland’s most remote areas – where infrastructure still does not exist – they contact Arctic Capacity as their professional, qualified, and reliable logistics partner.</p><p>Our team has more than 20 years of experience facilitating comprehensive logistics challenges and creating accessibility with new infrastructure in the unique northern landscape.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/6e9b18a0-05ec-405e-b5b6-b471d7a1cd31",
+   "@type": "Type",
+   "name": "Field services",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "6e9b18a0-05ec-405e-b5b6-b471d7a1cd31",
+   "legacyTid": 98,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": "Frederiksberg",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": "/api/images/2c7fe6f2-41b2-4484-bf10-736797c305bd",
+ "coordinates": {
+  "name": "Copenhagen",
+  "latitude": 55.695066115541,
+  "longitude": 12.531122197254
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/af5d8ddb-c653-4a46-a01b-3717c54c4e6a",
+ "sarAsset": "/api/sars/94923007-fa34-4a2a-8f68-f088b09ef7da",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/363cc0c2-5c22-461c-9736-55cd2329fe81",
+  "@type": "Organisation",
+  "id": "363cc0c2-5c22-461c-9736-55cd2329fe81",
+  "title": "Arctic Capacity ApS",
+  "organisationDepartment": "",
+  "url": {
+   "title": "Arctic Capacity ApS",
+   "url": "https://cvrapi.dk/virksomhed/dk/arctic-capacity-aps/41128208"
+  },
+  "address": "Rolfsvej 37, 1. tv.",
+  "zipcode": "2000",
+  "city": "Frederiksberg",
+  "country": null,
+  "departments": [
+   "/api/taxonomy/departments/2cb6c706-e360-475c-acb1-de1ba7bcc57a"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "ea5f23fb-ba82-49d3-94f7-fadf199c070f",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  },
+  {
+   "@id": "/api/people/48181974-103c-4373-9276-099e36d1ab93",
+   "@type": "Person",
+   "fullName": "Henrik Peter Ølgaard Lassen",
+   "id": "48181974-103c-4373-9276-099e36d1ab93",
+   "author": "/api/people/48181974-103c-4373-9276-099e36d1ab93",
+   "createdAt": "2021-02-08T11:21:12+00:00",
+   "lastModified": "2025-02-04T12:58:31+00:00"
+  },
+  {
+   "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "@type": "Person",
+   "fullName": "Marianne Vestergaard",
+   "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "createdAt": "2021-02-08T11:18:43+00:00",
+   "lastModified": "2021-02-08T11:18:43+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "@type": "Person",
+  "fullName": "Isaaffik admin AU",
+  "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+  "createdAt": "2022-11-03T08:03:57+00:00",
+  "lastModified": "2024-03-01T14:57:31+00:00"
+ },
+ "createdAt": "2024-06-17T14:37:27+00:00",
+ "lastModified": "2024-06-17T14:58:46+00:00"
+}

@@ -1,0 +1,113 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/fc50540d-7aa0-4935-ad56-13594a260aa4",
+ "@type": "Infrastructure",
+ "name": "Københavns Universitet, Institut for Statskundskab",
+ "contactName": "Marc Jacobsen",
+ "contactPhone": "+45 35 33 13 60",
+ "contactEmail": "marc.jacobsen@ifs.ku.dk",
+ "organizationLink": {
+  "title": "Arctic Politics Group",
+  "url": "http://ir.polsci.ku.dk/research_projects/arctic-politics/"
+ },
+ "externalLink": {
+  "title": "Seminars on Arctic Politics",
+  "url": "http://ir.polsci.ku.dk/research_projects/arctic-politics/boxes/news_list/"
+ },
+ "description": "<p>The Research Group on Arctic Politics in the Department at Political Science, UCPH, shares a research interest in the political developments in the Arctic. The overall aim is to create a platform to discuss current and future Arctic research projects and papers. The group consist of researchers applying a variety of approaches and relating to a series of sub-disciplines. Members carry out studies on Arctic politics including, i.a., Asian interests in the Arctic, concepts of sustainability in the Arctic, Danish defense policy in the Arctic, the planning for extraction of Greenlands raw materials, nation building, human resources and the educational system in Greenland.\r<br>\r<br>The ambition of the research group is to be a central hub in a network with researchers at other institutions conducting research in and on Greenland and the Arctic. The core instrument in relation to this ambition is a series of seminars on Arctic Politics hosted by the research group.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/def73992-f3e7-4062-9882-21e643b4f0b9",
+   "@type": "Type",
+   "name": "Research & education",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "def73992-f3e7-4062-9882-21e643b4f0b9",
+   "legacyTid": 47,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Øster Farimagsgade 5",
+ "areaCode": "1353",
+ "city": "København K.",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Copenhagen",
+  "latitude": 55.6890355,
+  "longitude": 12.570862
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/af5d8ddb-c653-4a46-a01b-3717c54c4e6a",
+ "sarAsset": "/api/sars/42743285-e765-4911-9b69-3d2204c02830",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/0c409a56-1747-45a8-b684-74c437e6536c",
+  "@type": "Organisation",
+  "id": "0c409a56-1747-45a8-b684-74c437e6536c",
+  "title": "University of Copenhagen",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.ku.dk/english/"
+  },
+  "address": null,
+  "zipcode": "1017",
+  "city": "Copenhagen K",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/168e97bc-f102-4e33-93bc-84a98135d997",
+   "/api/taxonomy/departments/17a80f8e-909e-4beb-80ca-4f88c9df0dbe",
+   "/api/taxonomy/departments/40ea841b-a39e-476f-bef6-6b4cd6477a17",
+   "/api/taxonomy/departments/4e1309bd-993d-4926-be5b-29ac95b1e39f",
+   "/api/taxonomy/departments/501ec186-2c6f-4bc4-ae7e-9a7a2bc6ca4e",
+   "/api/taxonomy/departments/5d693cc0-6e91-4312-a656-c0fe615c3c27",
+   "/api/taxonomy/departments/6b76d9c1-4209-4f41-acb7-a6ab83692b6e",
+   "/api/taxonomy/departments/7088229d-2182-4e09-b150-022f0781cfac",
+   "/api/taxonomy/departments/7c074d68-a124-4381-83ed-b5c7a36b003b",
+   "/api/taxonomy/departments/7ecbcc24-b171-4fbe-b84f-b9a8f6b27746",
+   "/api/taxonomy/departments/876410ee-7a37-44b4-a89e-659e62f33c84",
+   "/api/taxonomy/departments/8f81a9e7-5e68-42a2-a0e1-9d8656809a97",
+   "/api/taxonomy/departments/b9fc88c2-b11d-4b63-b333-c2deb6ea4a1c",
+   "/api/taxonomy/departments/c39fb90e-332a-415c-a56a-fa9b5bfbe3b1",
+   "/api/taxonomy/departments/da832e0c-6984-466b-b36d-632d0667276c",
+   "/api/taxonomy/departments/dc3a6eeb-b8fc-46d1-ad6f-5bb3640e85e5",
+   "/api/taxonomy/departments/e8ed1b30-3133-4446-8e8b-a510fa44bcb1",
+   "/api/taxonomy/departments/efd1168d-054d-411d-9b21-8a28881a6d89",
+   "/api/taxonomy/departments/f4b3fb3d-c1c3-4ef8-bb6a-cf9f48db175e",
+   "/api/taxonomy/departments/f6b4e9c1-8e98-4c5c-98e4-95612ff7f99c"
+  ],
+  "legacyNid": "443"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "fc50540d-7aa0-4935-ad56-13594a260aa4",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-31T10:40:02+00:00"
+}

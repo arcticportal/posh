@@ -1,0 +1,95 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/9eaafae0-27b7-47f9-8a80-060fe3b54caa",
+ "@type": "Infrastructure",
+ "name": "Forsvarets Vagt Mestersvig",
+ "contactName": "Forsvarets Vagt Mestersvig",
+ "contactPhone": null,
+ "contactEmail": "FKO-KTP-AKO@mil.dk",
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/42f3df03-b151-4782-abec-e9a83972ae9c",
+   "@type": "Type",
+   "name": "Military",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "42f3df03-b151-4782-abec-e9a83972ae9c",
+   "legacyTid": 45,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Mestersvig",
+  "latitude": 72.2350486,
+  "longitude": -23.9224938
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/bb0d4d9d-7aee-4766-9869-8baf2065b1a6",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6e3ea8de-a05f-4006-a033-a90d46038fbc",
+  "@type": "Organisation",
+  "id": "6e3ea8de-a05f-4006-a033-a90d46038fbc",
+  "title": "Joint Arctic Command",
+  "organisationDepartment": null,
+  "url": {
+   "title": "",
+   "url": "https://www.forsvaret.dk/en/organisation/joint-arctic-command/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/3fddf062-e8f7-4966-8a1b-cc65884fc769",
+   "/api/taxonomy/departments/e2e67407-2b55-45d8-8c0c-f0e547d376ba"
+  ],
+  "legacyNid": "3697"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "9eaafae0-27b7-47f9-8a80-060fe3b54caa",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-27T12:28:07+00:00"
+}

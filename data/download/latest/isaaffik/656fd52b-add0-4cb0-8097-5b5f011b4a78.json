@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/656fd52b-add0-4cb0-8097-5b5f011b4a78",
+ "@type": "Infrastructure",
+ "name": "Alabamahuset",
+ "contactName": "Peter Schmidt Mikkelsen",
+ "contactPhone": null,
+ "contactEmail": "nanok@xsirius.dk",
+ "organizationLink": {
+  "title": "Nordøstgrønlandsk Kompagni Nanok",
+  "url": "http://xsirius.dk/da/nanok.html"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>When the Denmark Expedition returned to Denmark in the summer of 1908 it became known that Ludvig Mylius-Erichsen, Niels Peter Høeg Hagen and Jørgen Brønlund had lost their lives. However, only the body of Jørgen Brønlund had been found, and the diaries of Mylius-Erichsen and Høeg Hagen had not been recovered. On the initiative of Ejnar Mikkelsen, the Committee for the Danmark Expedition launched an expedition in the summer of 1909 to find the lost diaries, and if possible to discover the fate of the missing men. For transport, the 50 ton \"Alabama\"  a so called \"Nordlandsjagt\"  was purchased in Norway. The Alabama Expedition under the leadership of Ejnar Mikkelsen made winter harbour on the east coast of Shannon, a little south of Kap Sussi. The expedition members included Lieutenant Vilhelm Laub, Lieutenant Christian H. Jørgensen, the sailors Hans Olsen and Georg Paulsen, a carpenter Carl Unger and the engineer Iver P. Iversen. In September-December 1909 Mikkelsen, Jørgensen and Iversen undertook a sledge journey to Lambert Land, where they re-discovered the body of Brønlund together with various belongings, including a notebook with sketches. A search in the vicinity for the bodies of Mylius-Erichsen and Høeg Hagen was not successful.</p><p>In the beginning of March 1910, Mikkelsen and Iversen set forth on a sledge journey across the Inland Ice to Danmark Fjord. This journey did not solve the riddle of the missing bodies and diaries of the deceased, but two cairns containing messages from Mylius-Erichsen were located. The return journey of Mikkelsen and Iversen along the outer coast was very dangerous and full of incident, and they did not reach Shannon until the 25th November 1910, only to discover that \"Alabama\" in the meantime had been wrecked and their companions had gone home.</p><p>During the winter of 1909-10 \"Alabama\" had sprung a leak and continuous attempts to stop the leak and save the ship proved in vain. The five stranded crew of \"Alabama\" now prepared themselves for a forced wintering and built a winter house from the wreckage of the ship - Alabamahuset. However, on the 27th July 1910 they were unexpectedly rescued by the Norwegian 7de juni Expedition. Vebjørn Landmark, the leader of the Norwegian expedition, had found a message at the Bass Rock depot left by lieutenant Laub reporting the loss of Alabama and the location of the stranded crew members.</p><p>After spending the winter of 1910-11 at Alabamahuset [518], Mikkelsen and Iversen undertook a journey to Skærfjorden in the spring of 1911, to recover their own diaries and other equipment that they had been forced to abandon during their epic journey down the coast in autumn 1910. On their return to Shannon, they stayed at Alabamahuset until October 1911, then moved first to the Kap Philip Broke depot, and then to Bass Rock (see Bass Rock). While Alabamahuset is best known from its association with Ejnar Mikkelsen and Iver Iversen, the house has occasionally served as a winter base for trappers.</p><p>After wintering in Germaniahavn during 1919-20, the trappers Hans Nielsen, Ejnar Falsøe and Johan F. Petersen decided to move to the house at Kap Philip Broke. However, in the summer of 1920, the ship \"Dagny\" was wrecked in the ice off Shannon while carrying supplies to Danish trapping stations. The crew of Dagny all survived, and managed to reach Kap Philip Broke. Since the house was now becoming over-crowded, Johan Petersen moved to Alabamahuset where he lived by himself from August 17th 1920 until May 27th 1921. His friend, Marius Madsen, visited him in the spring of 1921, but finding the house too cold Petersen had decided to live in a snow cave nearby. In his cave Petersen had a snow couch covered with bear skins, which was reached by a crawl through an eight metre long passage.</p><p>Since the 1920s Alabamahuset has only served as a travellers hut, and probably only on very few occasions. For several decades it has been uninhabitable.</p><p>However, in the In the summer of 2016 Nanok made thorough, but gentle, restoration of Alabamahuset. The historical house is now expected to last for at least another one hundred years.</p><p><a href=\"https://avjcf.org/\">Aage V. Jensens Fonde</a> sponsor Nanok's work.</p><p>Number in brackets [ ] refer to hut number in Peter Schmidt Mikkelsen: <i>\"</i><a href=\"http://www.xsirius.dk/en/node/88\"><i>North-East Greenland 1908-60. &nbsp;The Trapper Era</i></a><i>\"&nbsp; </i>(2008) published by Scott&nbsp;Polar Research Institute.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "@type": "Type",
+   "name": "Hut",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "legacyTid": 67,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/c14c41f7-94c0-45fd-a4ff-8ead09d4b0b9",
+ "coordinates": {
+  "name": "On the east coast of Shannon at Kap Sussi",
+  "latitude": 75.28655,
+  "longitude": -17.84113
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/d60506e9-8f47-4917-87bd-ef82ff262e2c",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "@type": "Organisation",
+  "id": "6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "title": "North-East Greenland Company NANOK",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://xsirius.dk/da/nanok.html"
+  },
+  "address": "Rosenhøjvej 10",
+  "zipcode": "8410",
+  "city": "Rønde",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/9ec07395-be66-42c7-a138-022199058e86"
+  ],
+  "legacyNid": "445"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "656fd52b-add0-4cb0-8097-5b5f011b4a78",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "@type": "Person",
+   "fullName": "Peter Schmidt Mikkelsen",
+   "id": "6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "author": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "createdAt": "2021-02-08T11:18:44+00:00",
+   "lastModified": "2023-01-18T09:39:18+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2024-04-17T10:41:11+00:00"
+}

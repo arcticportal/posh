@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/6c2c5159-1112-469c-b1f7-0e2f98505fe3",
+ "@type": "Infrastructure",
+ "name": "Timelaps camera - KAFFIØYRA",
+ "contactName": "Ireneusz Sobota",
+ "contactPhone": null,
+ "contactEmail": "irso@umk.pl",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/152411"
+ },
+ "description": "Timelaps camera - KAFFIØYRA",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.6756,
+  "longitude": 11.8264
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/1cb57eac-15c8-4e7c-8f9b-728b6b0fecbb",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/0e76ec18-c065-4c0b-9236-8e79e61cb536",
+  "@type": "Organisation",
+  "id": "0e76ec18-c065-4c0b-9236-8e79e61cb536",
+  "title": "Nicolaus Copernicus University in Toruń",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Nicolaus Copernicus University in Toruń",
+   "url": "https://www.umk.pl/en/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/c8d7c9d2-e0a7-45fb-b3b7-9617ca41475c",
+  "departments": [
+   "/api/taxonomy/departments/b064a1d1-6a9a-4f71-b109-04bc8e39d138"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "6c2c5159-1112-469c-b1f7-0e2f98505fe3",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2024-08-30T00:00:34+00:00",
+ "lastModified": null
+}

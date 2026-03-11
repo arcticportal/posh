@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/13749c2a-e558-4dba-aeac-d2db24a52c01",
+ "@type": "Infrastructure",
+ "name": "Tele-Post",
+ "contactName": "Tele-Post",
+ "contactPhone": "(+299) 34 12 55",
+ "contactEmail": null,
+ "organizationLink": {
+  "title": "Tele-Post",
+  "url": "https://www.telepost.gl/en"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Behind TELE-POST is the TELE Greenland A/S group, wholly owned by the Government of Greenland.&nbsp;TELE Greenland A/S covers a population of 56,000 scattered over thousands of kilometres, providing telecommunications, IT and postal services.&nbsp;Even the smallest village has radio, TV and a telephone link to the outside world, and all settlements with a population of more than 70 have broadband Internet and GSM mobile phone service.&nbsp;TELE Greenland A/S employs approximately 460 staff. The head office is in Nuuk, and we have divisions in every town in Greenland.</p><p><a href=\"http://post.gl/da/tele-post-centre\">TELE-POST centers in Greenland</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "@type": "Type",
+   "name": "Other",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "legacyTid": 44,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Postbox 1002    ",
+ "areaCode": "3900",
+ "city": "Nuuk, Greenland",
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 64.175,
+  "longitude": -51.738889
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/4751d3b1-fd70-4586-a2df-fee6e2a8ebe1",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "13749c2a-e558-4dba-aeac-d2db24a52c01",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

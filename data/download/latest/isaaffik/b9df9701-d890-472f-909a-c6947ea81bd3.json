@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/b9df9701-d890-472f-909a-c6947ea81bd3",
+ "@type": "Infrastructure",
+ "name": "Finse Alpine Research Centre",
+ "contactName": "Finse Alpine Research Centre",
+ "contactPhone": "(+47) 22 85 73 11",
+ "contactEmail": "t.h.ergon@ibv.uio.no",
+ "organizationLink": {
+  "title": "University of Oslo",
+  "url": "http://www.mn.uio.no/english/"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/mainland-norway/finse/"
+ },
+ "description": "<p>Finse Alpine Research Centre is a member of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "P.O. Box 53",
+ "areaCode": "N-5719",
+ "city": "Finse",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": "/api/images/d7e0105b-83bc-4b5e-816c-b287d3e306a8",
+ "coordinates": {
+  "name": null,
+  "latitude": 60.601667,
+  "longitude": 7.503889
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/35d1d3ca-e536-41d5-8e95-acb4653bb95a",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "b9df9701-d890-472f-909a-c6947ea81bd3",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:14:38+00:00"
+}

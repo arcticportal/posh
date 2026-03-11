@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/f8dae204-bd52-402b-a76b-7deff4b075b8",
+ "@type": "Infrastructure",
+ "name": "Condensation particle counter",
+ "contactName": "Dominique Fleury",
+ "contactPhone": null,
+ "contactEmail": "Dominique.Fleury@ipev.fr",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/481"
+ },
+ "description": "Condensation particle counter",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.90312,
+  "longitude": 12.12157
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/9556fd64-19d2-42a5-8973-ef4012125fa2",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f1c812a7-1566-48aa-88fc-8470d58b2623",
+  "@type": "Organisation",
+  "id": "f1c812a7-1566-48aa-88fc-8470d58b2623",
+  "title": "WGBH Educational Foundation",
+  "organisationDepartment": "WGBH Educational Foundation",
+  "url": {
+   "title": "WGBH Educational Foundation",
+   "url": "https://www.wgbh.org/foundation/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/dafc3182-a0ff-4dac-ac78-f02709583ab4",
+  "departments": [
+   "/api/taxonomy/departments/b527e275-cddd-4ebe-8e4d-b9f47895f288"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "f8dae204-bd52-402b-a76b-7deff4b075b8",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:28+00:00",
+ "lastModified": null
+}

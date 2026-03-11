@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/bb9280b3-6466-48a4-96e9-5813f7e887af",
+ "@type": "Infrastructure",
+ "name": "Station Hintereis",
+ "contactName": "Station Hintereis",
+ "contactPhone": null,
+ "contactEmail": "Georg.Kaser@uibk.ac.at",
+ "organizationLink": {
+  "title": " Institute of Meteorology and Geophysics, University of Innsbruck",
+  "url": "http://www.eu-interact.org/field-sites/austria/hintereisferner-research-station/"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/austria/hintereisferner-research-station/"
+ },
+ "description": "<p>Station Hintereis<span style=\"font-size: 18px; line-height: 21.6000003814697px; background-color: rgb(233, 237, 235);\">&nbsp;is an observer station of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.&nbsp;</span></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/9a254b83-eed5-4c35-97f8-5ffad4eb55f5",
+  "@type": "Country",
+  "name": "Austria",
+  "description": "",
+  "legacyTid": 145,
+  "id": "9a254b83-eed5-4c35-97f8-5ffad4eb55f5"
+ },
+ "image": "/api/images/85c09096-1813-4158-9caa-fee244b1984f",
+ "coordinates": {
+  "name": null,
+  "latitude": 46.8036,
+  "longitude": 10.76674
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/8f2d0bec-418c-4cb0-84ae-eb40ee12841c",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "bb9280b3-6466-48a4-96e9-5813f7e887af",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:40:59+00:00"
+}

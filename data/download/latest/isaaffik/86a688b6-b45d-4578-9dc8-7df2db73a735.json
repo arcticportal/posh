@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/86a688b6-b45d-4578-9dc8-7df2db73a735",
+ "@type": "Infrastructure",
+ "name": "SPICE: Autonomous snow depth station - Brøggerbreen tundra",
+ "contactName": "Jean-Charles Gallet",
+ "contactPhone": null,
+ "contactEmail": "jean.charles.gallet@npolar.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/153246"
+ },
+ "description": "SPICE: Autonomous snow depth station - Brøggerbreen tundra",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.92116,
+  "longitude": 11.86548
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/166ddf47-c691-45eb-b448-18aa27b6fbab",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/c18e15e3-0d03-407a-a62f-368b76fce336",
+  "@type": "Organisation",
+  "id": "c18e15e3-0d03-407a-a62f-368b76fce336",
+  "title": "Norwegian Polar Institute",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Norwegian Polar Institute",
+   "url": "https://www.npolar.no/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "86a688b6-b45d-4578-9dc8-7df2db73a735",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2024-10-11T13:00:11+00:00",
+ "lastModified": null
+}

@@ -1,0 +1,82 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/0baeb0ab-75c7-45a2-8b39-279c74073bd6",
+ "@type": "Infrastructure",
+ "name": "Weather station Adventdalen",
+ "contactName": "Stefan Claes",
+ "contactPhone": null,
+ "contactEmail": "stefanc@unis.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/435"
+ },
+ "description": "Weather station Adventdalen",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "@type": "Type",
+   "name": "Weather station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "legacyTid": 32,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": true,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.202,
+  "longitude": 15.831
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/1df67880-8b2f-438d-855c-5b5ff9034739",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/b83f9cbc-b587-4cd6-b4ed-6087891276ad",
+  "@type": "Organisation",
+  "id": "b83f9cbc-b587-4cd6-b4ed-6087891276ad",
+  "title": "The University Centre in Svalbard, UNIS",
+  "organisationDepartment": null,
+  "url": {
+   "title": "The University Centre in Svalbard, UNIS",
+   "url": "https://www.unis.no/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/64db892c-3c60-47d8-95b0-50e365e099da",
+   "/api/taxonomy/departments/7634f2c9-108a-4ad8-a469-bfb40e38f6c0"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "0baeb0ab-75c7-45a2-8b39-279c74073bd6",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": "2023-10-24T12:26:02+00:00"
+}

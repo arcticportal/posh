@@ -1,0 +1,105 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/706e6ef5-d332-4336-91a0-091e291a5f53",
+ "@type": "Infrastructure",
+ "name": "Kobbefjord Research Station",
+ "contactName": "Greenland Institute of Natural Resources",
+ "contactPhone": "(+299) 36 12 00",
+ "contactEmail": "info@natur.gl",
+ "organizationLink": {
+  "title": "Kobbefjord Research Station",
+  "url": "https://natur.gl/arter/feltstationen-i-kobbefjorden/?lang=en"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Kobbefjord Research Station is located ca. 25 km from Nuuk at the inner part of Kobbefjord. The station has 4 buildings: one with accommodation of up to 8 people, one with kithcen, toilet/shower and basic lab facilities, and two storage buildings giving a total of 145m2 under roof. In 2019 the station was updated with a solar panel system that generates power to run the station during summer.</p><p>The station is used by personel affiliated with the <a href=\"https://g-e-m.dk/\">Greenland Ecosystem Monitoring</a> program, as well as other visiting scientists. External users must submit an application for work to be carried out and accommodation before arrival. Transport to and from the station is by boat (ca. 35 minutes in boat from Nuuk) and is arranged by the <a href=\"https://natur.gl/facilities/bookinger/?lang=en\">Greenland Institute of Natural Resources</a>.</p><p>For more information about the site please read the <a href=\"https://g-e-m.dk/fileadmin/g-e-m/Nuuk/Kobbefjord_Site_Manual.pdf\">Kobbefjord Site Manual</a> (pdf file).</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": "Nuuk",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/0956f781-af99-4f4c-95ac-27ae89a4e73f",
+ "coordinates": {
+  "name": "Kobbefjord",
+  "latitude": 64.135646933051,
+  "longitude": -51.384995877743
+ },
+ "coverImage": "/api/images/afccd2de-470c-4e99-89fb-add4303c682c",
+ "region": "/api/taxonomy/regions/5024520e-60b9-43d4-8e1c-db370a845786",
+ "sarAsset": "/api/sars/1e66bb1c-e129-455f-80c8-a54608543de8",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/9b61b498-cbd8-4233-8330-6f6de5fea0ae",
+  "@type": "Organisation",
+  "id": "9b61b498-cbd8-4233-8330-6f6de5fea0ae",
+  "title": "Greenland Institute of Natural Resources (GINR)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.natur.gl/"
+  },
+  "address": "Postboks 570",
+  "zipcode": "3900",
+  "city": "Nuuk",
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/0d9d4bd9-a3c1-4fe3-b41e-1b74df5c1a80",
+   "/api/taxonomy/departments/5f7bab97-8ba2-46ef-9f2c-96831a443f48",
+   "/api/taxonomy/departments/6019dd49-e699-414e-970c-57b94ef07c52",
+   "/api/taxonomy/departments/df55b886-2c45-4fbb-a538-c083d7cac580"
+  ],
+  "legacyNid": "440"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "706e6ef5-d332-4336-91a0-091e291a5f53",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/3656f8cc-c58c-4100-8d30-840076c7841c",
+   "@type": "Person",
+   "fullName": "Katrine Raundrup",
+   "id": "3656f8cc-c58c-4100-8d30-840076c7841c",
+   "author": "/api/people/3656f8cc-c58c-4100-8d30-840076c7841c",
+   "createdAt": "2021-02-08T11:21:04+00:00",
+   "lastModified": "2021-02-17T14:51:40+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/3656f8cc-c58c-4100-8d30-840076c7841c",
+  "@type": "Person",
+  "fullName": "Katrine Raundrup",
+  "id": "3656f8cc-c58c-4100-8d30-840076c7841c",
+  "author": "/api/people/3656f8cc-c58c-4100-8d30-840076c7841c",
+  "createdAt": "2021-02-08T11:21:04+00:00",
+  "lastModified": "2021-02-17T14:51:40+00:00"
+ },
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-21T16:03:56+00:00"
+}

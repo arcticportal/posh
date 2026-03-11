@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/26099130-7ce3-433f-86d0-02a19e5cf146",
+ "@type": "Infrastructure",
+ "name": "Long-term atmospheric precipitation monitoring in Hornsund region (Ariebreen)",
+ "contactName": "Adam Nawrot",
+ "contactPhone": null,
+ "contactEmail": "anawrot@igf.edu.pl",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/1081"
+ },
+ "description": "Long-term atmospheric precipitation monitoring in Hornsund region (Ariebreen)",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 77.02756,
+  "longitude": 15.4754
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/6437ec59-edaf-4b57-9934-d9bf7d118680",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/3b7b9ac6-e66f-463c-8af6-7d9dfb65b154",
+  "@type": "Organisation",
+  "id": "3b7b9ac6-e66f-463c-8af6-7d9dfb65b154",
+  "title": "Institute of Geophysics, Polish Academy of Sciences",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Institute of Geophysics, Polish Academy of Sciences",
+   "url": "https://www.igf.edu.pl/home.php"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/c8d7c9d2-e0a7-45fb-b3b7-9617ca41475c",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "26099130-7ce3-433f-86d0-02a19e5cf146",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": null
+}

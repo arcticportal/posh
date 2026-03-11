@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/5049a277-bc5c-4eaa-95d8-1effd6dad8d5",
+ "@type": "Infrastructure",
+ "name": "Sisimiut Regional Hospital",
+ "contactName": "Sisimiut Regional Hospital",
+ "contactPhone": "(+299) 86 42 11",
+ "contactEmail": "sisshv@peqqik.gl",
+ "organizationLink": {
+  "title": "Sisimiut Regional Hospital",
+  "url": "http://www.peqqik.gl/Kontakt/Sundhedscentre/Qeqqa/Sisimiut-gl-og-dk.aspx?sc_lang=da-DK"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<h1>Regionssygehuset Sisimiut</h1><div><p>Postbox 1013<br />3911 Sisimiut<br />Telefon: (+299) 86 42 11<br />Fax: (+299) 86 45 33<br />E-postadresse:&nbsp;<a href=\"mailto:sisshv@peqqik.gl\">sisshv@peqqik.gl</a></p></div>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/09fef170-3156-48f8-9ba4-3ece63487227",
+   "@type": "Type",
+   "name": "Medical",
+   "description": "",
+   "marker": 2,
+   "children": [],
+   "parent": "/api/taxonomy/types/5bcbaa6c-1a09-40c0-a17f-20cf2fb075d6",
+   "id": "09fef170-3156-48f8-9ba4-3ece63487227",
+   "legacyTid": 94,
+   "legacyParentTid": 24
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Postbox 1013",
+ "areaCode": "3911",
+ "city": "Sisimiut",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Sisimiut",
+  "latitude": 66.9394722,
+  "longitude": -53.6733857
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/ee0ae4cc-f2ac-4814-ad56-a87faadf4a64",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6a19036d-b74e-4259-a760-6d53790ad766",
+  "@type": "Organisation",
+  "id": "6a19036d-b74e-4259-a760-6d53790ad766",
+  "title": "Government of Greenland",
+  "organisationDepartment": "Ændrede planer",
+  "url": {
+   "title": null,
+   "url": "https://naalakkersuisut.gl/en/Naalakkersuisut/Departments/Raastoffer-Arbejdsmarked-og-Indenrigsanliggender"
+  },
+  "address": "Box 930",
+  "zipcode": "3900",
+  "city": "Nuuk",
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/ccee4ed9-9dea-47b1-b3a7-dc896be339d1"
+  ],
+  "legacyNid": "1951"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "5049a277-bc5c-4eaa-95d8-1effd6dad8d5",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-02-25T14:43:18+00:00"
+}

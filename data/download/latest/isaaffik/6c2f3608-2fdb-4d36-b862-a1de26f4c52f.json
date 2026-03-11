@@ -1,0 +1,83 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/6c2f3608-2fdb-4d36-b862-a1de26f4c52f",
+ "@type": "Infrastructure",
+ "name": "Sermeq Helicopters A/S",
+ "contactName": "Pilu Nielsen",
+ "contactPhone": "+299494230",
+ "contactEmail": "info@helicopter.gl",
+ "organizationLink": {
+  "title": "Sermeq Helicopters",
+  "url": "https://www.sermeqhelicopters.gl/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Sermeq Helicopters is a helicopter tour- and charter company based in Qaqortoq, South Greenland. <a href=\"https://www.sermeqhelicopters.gl/about/\">Read more ....</a></p><p>HELICOPTER TOURS</p><p>We aim to be the first choice when it comes to discovering Greenland by helicopter and we are committed to give you an unforgettable experience. We work with local tour operators and guides to make sure that you get the most out of your trip. Glacier landings, hot springs, scenic mountains and historical UNESCO sites; these are just some of the adventure experiences waiting for you when you take a helicopter flight with us. Our&nbsp;<a href=\"https://www.sermeqhelicopters.gl/helicopter-tours/\">helicopter tours</a>&nbsp;are perfect for those who like to immerse themselves into the incredible sights of nature. We all love what we do and are excited to share our adventures with you.</p><p>STAFF</p><p>Our professional staff is committed to give customers the best possible experience. Our pilots have many years of experience in flying in Greenland and&nbsp; Iceland.</p><p>HELICOPTER CHARTER</p><p>We offer a variety of services to meet the needs of individuals, companies and government agencies at competitive prices. Our personalized service and local know-how are prerequisites to fulfill your service needs.</p><p>HELICOPTER</p><p>To offer most variety of both tour and utility flights, we operate 2 proven helicopter types. The first is Bell 206L4 with seating for 6 passengers. This helicopter was chosen to suit the needs of our customers and to give them a safe and comfortable experience. We also offer Airbus Helicopters AS350 with seating for 5 passengers and higher lifting capacity.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "@type": "Type",
+   "name": "Airline",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "legacyTid": 42,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Jaaraatooq B-1284",
+ "areaCode": "3920",
+ "city": "Qaqortoq",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 60.7161169,
+  "longitude": -46.0295001
+ },
+ "coverImage": "/api/images/01c3945c-9a58-43e8-a6a3-3c5846c88228",
+ "region": null,
+ "sarAsset": "/api/sars/51e6bcbe-ca80-4bfc-8199-59d7e3ffd0d9",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "6c2f3608-2fdb-4d36-b862-a1de26f4c52f",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "@type": "Person",
+  "fullName": "Isaaffik admin GN",
+  "id": "9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "author": "/api/people/9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "createdAt": "2021-02-08T11:18:40+00:00",
+  "lastModified": "2024-03-09T09:54:51+00:00"
+ },
+ "createdAt": "2020-02-21T06:37:02+00:00",
+ "lastModified": null
+}

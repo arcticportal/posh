@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/a0aaf99d-43fa-43ef-8670-2c12f302dff9",
+ "@type": "Infrastructure",
+ "name": "CEN Radisson Ecological Research Station",
+ "contactName": "Radisson",
+ "contactPhone": "+1-418 654-2575",
+ "contactEmail": "yves.begin@ete.inrs.ca ",
+ "organizationLink": {
+  "title": "Centre détudes Nordiques (CEN: Centre for Northern Studies): Université Laval",
+  "url": "http://www.cen.ulaval.ca/en/page.aspx?lien=index"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/canada/cen-radisson/"
+ },
+ "description": "<p>CEN Radisson Ecological Research Station is a member of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": "Radisson",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/e2f18f9d-c234-47ee-923c-f035474055c1",
+  "@type": "Country",
+  "name": "Canada",
+  "description": "",
+  "legacyTid": 147,
+  "id": "e2f18f9d-c234-47ee-923c-f035474055c1"
+ },
+ "image": "/api/images/bcbd473a-5d7a-49c8-b670-b29d6564edf2",
+ "coordinates": {
+  "name": null,
+  "latitude": 53.79333611,
+  "longitude": -77.60741
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/7e78541e-70fc-4ccf-a9ec-dc7445763785",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "a0aaf99d-43fa-43ef-8670-2c12f302dff9",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:08:49+00:00"
+}

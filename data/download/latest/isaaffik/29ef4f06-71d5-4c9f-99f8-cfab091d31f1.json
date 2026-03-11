@@ -1,0 +1,115 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/29ef4f06-71d5-4c9f-99f8-cfab091d31f1",
+ "@type": "Infrastructure",
+ "name": "QAS L Automatic Weather Station Qassimiut",
+ "contactName": "Signe Bech Andersen",
+ "contactPhone": "+45 9133 3804",
+ "contactEmail": "siba@geus.dk",
+ "organizationLink": {
+  "title": "Geological Survey of Denmark and Greenland (GEUS)",
+  "url": "http://www.geus.dk/DK/Sider/default.aspx"
+ },
+ "externalLink": {
+  "title": "Programme for Monitoring of the Greenland Ice Sheet",
+  "url": "http://www.promice.org"
+ },
+ "description": "<p>Elevation: 290 m<br /><br />To monitor the surface mass budget in the melt zone of the ice sheet the PROMICE network of automatic weather stations is installed. The stations measure air temperature, relative humidity, wind speed and direction, atmospheric pressure, incoming and outgoing short- and longwave radiation, ice temperature, surface velocity, snow depth and ice ablation. Data from the stations is freely available from www.promice.org.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "@type": "Type",
+   "name": "Weather station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "legacyTid": 32,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/d12d5bdc-dc7b-481c-bfc1-d178aac57755",
+ "coordinates": {
+  "name": "Qassimiut",
+  "latitude": 61.031,
+  "longitude": -46.8487
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/5024520e-60b9-43d4-8e1c-db370a845786",
+ "sarAsset": "/api/sars/ae0b75e5-30bb-405e-99e4-c86eeeea223c",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/38d2efcc-abbd-4cb1-b24f-3fb13af87ed5",
+  "@type": "Organisation",
+  "id": "38d2efcc-abbd-4cb1-b24f-3fb13af87ed5",
+  "title": "Geological Survey of Denmark and Greenland (GEUS)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.geus.dk/UK/Pages/default.aspx"
+  },
+  "address": "Øster Voldgade 10",
+  "zipcode": "1350",
+  "city": "Copenhagen K",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/04a3ed51-4433-4ded-bfda-3b03ca1456d8",
+   "/api/taxonomy/departments/0bec07a6-c01d-4247-87e0-bddd5819014b",
+   "/api/taxonomy/departments/2b4bf8c3-4a32-489f-ab3e-ee81bc944e5a",
+   "/api/taxonomy/departments/2fd864a1-a613-4faa-988d-01ae5ab8dde6",
+   "/api/taxonomy/departments/32936133-5185-416f-97b6-299760facdcd",
+   "/api/taxonomy/departments/686e6d48-b0a2-43c4-a901-54fbe340ea3a",
+   "/api/taxonomy/departments/797f6837-1e99-4102-98a7-fd4d8e191952",
+   "/api/taxonomy/departments/7c44c93d-321a-47b2-9b7e-eb6d18367e1a",
+   "/api/taxonomy/departments/9af643f2-14bb-4472-ae70-d01946c003a2",
+   "/api/taxonomy/departments/9de6ed24-38bd-4a6e-a97b-76c304fe6b91",
+   "/api/taxonomy/departments/cd2ac505-93f8-4147-a841-df5d5881e94d",
+   "/api/taxonomy/departments/d18b53b2-82fa-439a-b145-8b1cd7e7bb22",
+   "/api/taxonomy/departments/ff83ebb0-b662-4c45-8f64-2ae5bcef23e8"
+  ],
+  "legacyNid": "446"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "29ef4f06-71d5-4c9f-99f8-cfab091d31f1",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/068d3af9-9166-4dc8-b59a-00a765994ba5",
+   "@type": "Person",
+   "fullName": "Jason Box",
+   "id": "068d3af9-9166-4dc8-b59a-00a765994ba5",
+   "author": "/api/people/068d3af9-9166-4dc8-b59a-00a765994ba5",
+   "createdAt": "2021-02-08T11:19:07+00:00",
+   "lastModified": "2026-01-12T07:43:22+00:00"
+  },
+  {
+   "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "@type": "Person",
+   "fullName": "Marianne Vestergaard",
+   "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "createdAt": "2021-02-08T11:18:43+00:00",
+   "lastModified": "2021-02-08T11:18:43+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2022-03-16T14:58:01+00:00"
+}

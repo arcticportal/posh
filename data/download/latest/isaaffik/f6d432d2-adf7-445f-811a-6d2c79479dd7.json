@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/f6d432d2-adf7-445f-811a-6d2c79479dd7",
+ "@type": "Infrastructure",
+ "name": "Norlandair",
+ "contactName": "Norlandair",
+ "contactPhone": "(+ 354) 414 69 60",
+ "contactEmail": "norlandair@norlandair.is",
+ "organizationLink": {
+  "title": "www.norlandair.is",
+  "url": "http://www.norlandair.is/en"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Norlandair was founded on the 1st of June 2008 when it acquired the Twin Otter flight operation of Air lceland. But the company can trace its roots to a company with the same name, i.e. Norlandair, which was founded in 1974. That company was founded by a few aviation professionals that acquired North Air, an aviation company based in Akureyri. ln 1975 lcelandair bought a stake in the company and by that Norlandair purchased a Twin Otter aircraft that was used in scheduled flights and charter flights. This event also marks the beginning of Norlandair offering aviation services on the east coast of Greenland<br /><br />ln 1997, Norlandair and the domestic flight operations of lcelandair merged and the name was changed to Air lceland. The charter flight department was located in Akureyri and the maintenance department for the Twin Otter aircrafts. ln 2008 Air lceland decided to divest the Twin Otter aircrafts and the maintenance department in Akureyri. Following that decision, a few former employees of Air lceland and investors decided to buy the operations from Air lceland on the 3rd of June 2008 and it was decided to use the good name of Norlandair as the company was called prior to the merger with lcelandair.</p><p>Source: <a href=\"http://www.norlandair.is/en\" target=\"_blank\">Norlandair</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "@type": "Type",
+   "name": "Airline",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "legacyTid": 42,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Akureyri Airport",
+ "areaCode": "600",
+ "city": "Akureyri, Iceland",
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 65.6586109,
+  "longitude": -18.072222
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/0edc7060-f551-4780-80d9-1a4d52c3b282",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "f6d432d2-adf7-445f-811a-6d2c79479dd7",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

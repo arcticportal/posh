@@ -1,0 +1,107 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/1b5a3ee3-6f29-4795-8d76-fd8100faa665",
+ "@type": "Infrastructure",
+ "name": "Nuuk Airport",
+ "contactName": "Nuuk Airport",
+ "contactPhone": "(+299) 32 60 05 ",
+ "contactEmail": "bggh@mit.gl",
+ "organizationLink": {
+  "title": "Mittarfeqarfiit",
+  "url": "http://www.mit.gl/en/todays-flights/airports/nuuk-airport/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Nuuk Airport (Greenlandic: Mittarfik Nuuk; Danish: Nuuk Lufthavn; (IATA: GOH, ICAO: BGGH)) is an airport in Nuuk, the capital of Greenland. The airport is a technical base and focus city for Air Greenland, the flag-carrier airline of Greenland, linking the capital with several towns in western and south-western part of the country, including the airline hub at Kangerlussuaq Airport. With connections to Iceland, Nuuk Airport is also one of 6 international airports in Greenland.&nbsp;In the early 1960s, water planes of the newly established Air Greenland landed in Nuuk Port. In 1965, the airline invested in developing a more robust fleet based on the large Sikorsky S-61 helicopter, which continued to serve the town for the next four decades, even after the construction of an airport in Nuuk capable of serving the short takeoff and landing de Havilland Canada Dash-7 aircraft, which dominated at the airport since the 1970s.&nbsp;The airport was constructed to serve the largest town in Greenland, yet due to space constraints at the location in a mountainous area and problems with the weather, it is unable to service large airliners or flights reaching Denmark. A large expansion of the airport is not an acceptable option also due to the approach over the urbanized area of the outlying districts of Nuuk, although the issue continues to be a subject of internal debate in Greenland.&nbsp;Source: <a href=\"http://en.wikipedia.org/wiki/Nuuk_Airport\" target=\"_blank\">Wikipedia</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "@type": "Type",
+   "name": "International airport",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "legacyTid": 37,
+   "legacyParentTid": 22
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac044c33-4aba-4cb7-9bb8-e71fefa38167",
+   "@type": "Type",
+   "name": "Regional airport",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "ac044c33-4aba-4cb7-9bb8-e71fefa38167",
+   "legacyTid": 38,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Postboks 5300",
+ "areaCode": "3905",
+ "city": "Nuussuaq",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Nuuk",
+  "latitude": 64.1917098,
+  "longitude": -51.6743553
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/741a05c7-eb25-40bc-a4e2-849befe3ce30",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/7823e229-ff2c-4aa8-afca-454d21ab4610",
+  "@type": "Organisation",
+  "id": "7823e229-ff2c-4aa8-afca-454d21ab4610",
+  "title": "Greenland Airports / Mittarfeqarfiit",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Greenland Airports",
+   "url": "https://www.mit.gl/en/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/21bc7af3-e4ff-42cf-a7bf-dc9d6f87a13f"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "1b5a3ee3-6f29-4795-8d76-fd8100faa665",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T09:23:21+00:00"
+}

@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/6d55f7a4-d2db-4149-8d04-c6f78e5f196c",
+ "@type": "Infrastructure",
+ "name": "Wildlife camera",
+ "contactName": "Maarten Loonen",
+ "contactPhone": null,
+ "contactEmail": "m.j.j.e.loonen@rug.nl",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/966"
+ },
+ "description": "Wildlife camera",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.93351,
+  "longitude": 11.83824
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/7ac49862-40c2-4563-ae61-788b7e9ae3fd",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/66d208b3-7f41-40ae-814c-955378aec3ad",
+  "@type": "Organisation",
+  "id": "66d208b3-7f41-40ae-814c-955378aec3ad",
+  "title": "University of Groningen",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "https://www.rug.nl/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/c11e7117-566b-4d35-9c6c-37c9727aee19",
+  "departments": [
+   "/api/taxonomy/departments/cdf82737-f858-4204-aca7-88330ccbabde"
+  ],
+  "legacyNid": "3581"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "6d55f7a4-d2db-4149-8d04-c6f78e5f196c",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": null
+}

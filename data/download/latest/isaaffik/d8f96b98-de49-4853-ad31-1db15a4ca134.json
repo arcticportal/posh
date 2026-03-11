@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/d8f96b98-de49-4853-ad31-1db15a4ca134",
+ "@type": "Infrastructure",
+ "name": "Qaanaaq",
+ "contactName": "Qaanaaq",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Visit Greenland",
+  "url": "http://www.greenland.com/en/destinations/north-greenland/qaanaaq/"
+ },
+ "description": "<p>Qaanaaq, formerly Thule or New Thule, is the main town in the northern part of the Qaasuitsup municipality in northwestern Greenland. It is one of the northernmost towns in the world. The inhabitants of Qaanaaq speak Kalaallisut and Danish and many also speak the Inuktun language. The town has a population of 656 as of 2013. Source: <a href=\"http://en.wikipedia.org/wiki/Qaanaaq\">Wikipedia</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=74\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ee513a41-84f8-46ba-96e3-b79ed5c7c56e",
+   "@type": "Type",
+   "name": "Town",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "ee513a41-84f8-46ba-96e3-b79ed5c7c56e",
+   "legacyTid": 26,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": "3971",
+ "city": "Qaanaaq",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 77.46616352076,
+  "longitude": -69.230003356934
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/56bd36ac-b286-49d0-a967-e1312382600b",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "d8f96b98-de49-4853-ad31-1db15a4ca134",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

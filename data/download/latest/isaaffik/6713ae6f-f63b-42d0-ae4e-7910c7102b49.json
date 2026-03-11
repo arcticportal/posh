@@ -1,0 +1,102 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/6713ae6f-f63b-42d0-ae4e-7910c7102b49",
+ "@type": "Infrastructure",
+ "name": "Blue Ice Explorer",
+ "contactName": "info@blueice.gl",
+ "contactPhone": "+299 497371",
+ "contactEmail": "info@blueice.gl",
+ "organizationLink": {
+  "title": "Blue Ice Explorer",
+  "url": "http://blueice.gl/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Blue Ice Explorer is a locally based tourism operator in Narsarsuaq founded by Jacky Simoud in 1996. Jacky, who hails from France, first came to Greenland with some friends on a sailboat in 1976.&nbsp; In 1996, he moved from North Greenland to the South, where he started making a living sailing tourists with his charming old wooden boat Puttut. In 2002, Jacky initiated a close collaboration with&nbsp;<a href=\"http://www.topas.dk/\" target=\"_blank\" title=\"Topas\">Topas</a>. Since then, Blue Ice has grown to become a company that employs several staff members during the summer season. Blue Ice Explorer is from 2017 owned 100% by Topas Group.</p><p>Jacky Simoud retired from Blue Ice Explorer 01.01.2020 and since then the company has been run by a team of experienced employees behind the helm. Among those are Claus Pedersen who has been a part of Blue Ice explorer since 2003.</p><h3 data-fontsize=\"22\" data-lineheight=\"27\">Blue Ice service</h3><p>Our speciality is tailor-made&nbsp;<a href=\"http://blueice.gl/package-tours/\" target=\"_blank\" title=\"Package tours\">package tours</a>, for individuals as well as for groups, ranging from one to several days. We have our office in Narsarsuaq (the gateway to South Greenland), but we cover most of South Greenland. We have nine passenger boats for&nbsp;<a href=\"http://blueice.gl/day-trips/\" target=\"_blank\" title=\"Day trips\">tours</a>&nbsp;and&nbsp;<a href=\"http://blueice.gl/boat-transfers/\" target=\"_blank\" title=\"Boat transfers\">transfers</a>. We run the&nbsp;<a href=\"http://blueice.gl/accommodation/#narsarsuaq_hostel\" target=\"_blank\" title=\"Narsarsuaq Hostel\">hostel in Narsarsuaq</a>&nbsp;as well as&nbsp;<a href=\"http://blueice.gl/accommodation/#countryhotel\" target=\"_blank\" title=\"Igaliku Country Hotel\">Igaliku Country Hotel</a>&nbsp;in Igaliku. Our knowledge of the area and many years of experience allow us to meet your individual requests and pave the way for an unforgettable experience during your stay in Greenland.</p><h3 data-fontsize=\"22\" data-lineheight=\"27\">Blue Ice Café</h3><p>Blue Ice Café is more than just a café!</p><p>It is our office and the official tourist information centre in Narsarsuaq. Here is where we sell day trips and boat tickets and brief you on your itinerary if you have already purchased one of our package tours. You can relax inside as well as in the sun outside the café, browse through our library and meet other travellers.</p><p><strong>We serve</strong><br>Coffee, croissants and light meals<br>Beer, soft drinks and ice cream</p><p><strong>We offer</strong><br>Wi-Fi<br>Library with Greenlandic books<br>Tickets for Narsarsuaq Museum (in the same building as the café)<br>Post cards, maps and books<br>Handicraft &amp; souvenirs</p><p><strong>For rent at Blue Ice Café</strong><br>You can&nbsp;<a href=\"http://blueice.gl/hiking/#equipment\" target=\"_blank\">rent equipment</a>&nbsp;for a range of activities including hiking, camping, angling, mountain biking and sea kayaking.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "@type": "Type",
+   "name": "Other",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "legacyTid": 44,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "P.O. Box 58",
+ "areaCode": "3923",
+ "city": "Narsarsuaq",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/1126fb75-2e17-4ade-b587-ed9d311755d5",
+ "coordinates": {
+  "name": null,
+  "latitude": 61.156703,
+  "longitude": -45.4254299
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/5024520e-60b9-43d4-8e1c-db370a845786",
+ "sarAsset": "/api/sars/d5808bfe-70d1-4ba6-92c5-b7f7c857ddbe",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "@type": "Organisation",
+  "id": "f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "title": "Other institution",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Other institution",
+   "url": "https://www.isaaffik.org/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": "1325"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "6713ae6f-f63b-42d0-ae4e-7910c7102b49",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "@type": "Person",
+   "fullName": "Marianne Vestergaard",
+   "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "createdAt": "2021-02-08T11:18:43+00:00",
+   "lastModified": "2021-02-08T11:18:43+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "@type": "Person",
+  "fullName": "Marianne Vestergaard",
+  "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "createdAt": "2021-02-08T11:18:43+00:00",
+  "lastModified": "2021-02-08T11:18:43+00:00"
+ },
+ "createdAt": "2020-11-05T11:44:55+00:00",
+ "lastModified": "2024-04-30T10:47:56+00:00"
+}

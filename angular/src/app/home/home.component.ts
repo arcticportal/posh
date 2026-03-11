@@ -1,20 +1,32 @@
-import { Component, inject, signal } from '@angular/core';
-import {merge} from 'rxjs'
+import {
+  Component, HostBinding, inject, ViewChild } from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router'
+import {FormControl, ReactiveFormsModule} from '@angular/forms'
+import {debounceTime} from 'rxjs/operators'
 
-import {JsonSeqService} from '../json-seq.service'
+import {ApiService} from '../api.service'
+import {HomeFilterComponent} from '../home-filter/home-filter.component'
+import {HomeResultComponent} from '../home-result/home-result.component'
 
 @Component({
   selector: 'app-home',
-  imports: [],
+  imports: [
+    ReactiveFormsModule, HomeFilterComponent, HomeResultComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  private jseq = inject(JsonSeqService)
-  lst = signal<any[]>([])
+  @HostBinding('class.container') container = true
+  @ViewChild(HomeResultComponent) result!: HomeResultComponent
+  private route = inject(ActivatedRoute)
+  private router = inject(Router)
+  private api = inject(ApiService)
+  window = window
+  ctrl = new FormControl('')
 
   ngOnInit(): void {
-    merge(this.jseq.stream('/sios.json-seq'),
-	  this.jseq.stream('/deims.json-seq')).subscribe({
-      next: x => { this.lst.set([...this.lst(), x]) }}) }
+    this.ctrl.setValue(this.route.snapshot.queryParams['search'] || '')
+    this.ctrl.valueChanges.pipe(debounceTime(300)).subscribe(s => {
+      this.router.navigate([], {queryParams: this.api.changedQuery(
+	this.route, 'search', s || '')}) }) }
 }

@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/95eef7dd-0a04-4193-85cc-3c8d8655042a",
+ "@type": "Infrastructure",
+ "name": "S1",
+ "contactName": "Manuel Bensi ",
+ "contactPhone": null,
+ "contactEmail": "mbensi@ogs.it",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/908"
+ },
+ "description": "S1",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/be1127de-1a81-48f3-94a6-d416cce23704",
+   "@type": "Type",
+   "name": "Mooring",
+   "description": null,
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "be1127de-1a81-48f3-94a6-d416cce23704",
+   "legacyTid": null,
+   "legacyParentTid": null
+  }
+ ],
+ "dontOverrideTypesWhenExporting": true,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 76.43,
+  "longitude": 13.93
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/fe27976f-487a-4e7a-831c-a01b0e2336f1",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/d08681b9-5634-4759-8277-01c2c892fd58",
+  "@type": "Organisation",
+  "id": "d08681b9-5634-4759-8277-01c2c892fd58",
+  "title": "National Institute of Oceanography and applied Geophysics (OGS)",
+  "organisationDepartment": null,
+  "url": {
+   "title": "National Institute of Oceanography and applied Geophysics (OGS)",
+   "url": "https://www.ogs.it/en"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/a7887d02-cf3f-4792-9a07-1e0e99f4bb25",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "95eef7dd-0a04-4193-85cc-3c8d8655042a",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": "2023-10-16T14:09:23+00:00"
+}

@@ -1,0 +1,122 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/3120b80f-c121-4d8d-bd57-d7b3e401a03e",
+ "@type": "Infrastructure",
+ "name": "Ella Ø Station",
+ "contactName": "Ella Ø",
+ "contactPhone": "",
+ "contactEmail": "nanok@xsirius.dk",
+ "organizationLink": {
+  "title": "Nordøstgrønlandsk Kompagni Nanok",
+  "url": "http://xsirius.dk/da/nanok.html"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><strong>History</strong></p><p>From 1931 to the end the 1950s Lauge Kochs research station at Ella Ø [235] was the definitive stronghold of scientific research in North-East Greenland. Over the years, hundreds of scientists used Ella Ø as main base both summer and winter for their scientific expeditions into the entire region.&nbsp;Through the years of 1931-43, Ella Ø and the sister station, Eskimonæs, functioned partly as main stations for the Lauge Koch Expeditions and partly as headquarters for the local Danish government authorities.&nbsp;In August 1941 the North-East Greenland Sledge Patrol was established and Ella Ø became the headquarters of the one of the patrol groups. After the war Ella Ø, was permanently manned by the Lauge Koch Expeditions during the years 1947-54.</p><p>In 1950-51 the newly established sledge patrol, Operation Resolut, which later changed name to Sirius, had its headquarters at Ella Ø Station, before moving to Daneborg. Sirius still uses Ella Ø as a summer base when supplying their depots in the large interconnected fiord complex between Hold with Hope in the north and Scoresby Land in the south. &nbsp;Since 2003 Nordøstgrønlandsk Kompagni Nanok (Nanok), also has used Ella Ø as main summer base station.</p><p><strong>Important notices</strong></p><p>Access to all parts of the Ella Ø Station requires permission from the military&nbsp;authorities (Joint Arctic Command).</p><p>The Greenland government authorities has granted Nanok a land allocation (arealtildeling) to a specific area&nbsp; (<a href=\"https://isaaffik.org/api/documents/3eab77b9-2df6-4e2b-a95a-4e8b1bc016cd/download\">see image</a>) of the Ella Ø station, including the houses: <a href=\"https://isaaffik.org/infrastructures/view/rnereden?iri=%2Fapi%2Finfrastructures%2F7a1f16a7-feb4-405b-90c1-c98a329828fe\">Ørnereden</a>, <a href=\"https://isaaffik.org/infrastructures/view?iri=%2Fapi%2Finfrastructures%2F775bbfac-62cb-489c-89bc-b9690412bc69\">Fjøset</a>, and <a href=\"https://isaaffik.org/infrastructures/view/tolvmandsbarakken?iri=%2Fapi%2Finfrastructures%2F4a9a3af8-0cb6-4dd8-8de8-69d079f109ff\">Tolvmandsbarakken</a>. The area is named \"Nordøstgrønlandsk Kompagni Nanok Station Ella Ø\". Nanok is therefore permitted to organize and administer this area. The remaining part of the Ella Ø station is administered by the military authorities. As a consequence no equipment, material, provisions, cargo, containers, etc. should be moved to - or left in - this area without prior permission. In the Nanok allocated area there is also a scientific monitoring station with sensitive measuring equipment. Helicopter operations will therefore not be allowed in the area.</p><p>..................................................................................................................................................</p><p>Have a <a href=\"https://www.google.dk/maps/@72.8745064,-25.1356737,3a,90y,162.49h,85.79t/data=!3m8!1e1!3m6!1sAF1QipNsXVzge8t6Ad7NDAefRbeMD4DafQqruhOuGES_!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNsXVzge8t6Ad7NDAefRbeMD4DafQqruhOuGES_%3Dw203-h100-k-no-pi-3.4785023-ya324.69904-ro3.1733663-fo100!7i5376!8i2688\">Street View look at Ella Ø Station</a>.</p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"https://www.gronlandskehavnelods.dk/#HID=1c7df826-1d2a-4aa1-b26d-890e8c0be379\">Den grønlandske Havnelods</a></p><p>Number in brackets [ ] refer to hut number in P.S. Mikkelsen: <i>\"</i><a href=\"http://www.xsirius.dk/en/node/88\"><i>North-East Greenland 1908-60. &nbsp;The Trapper Era</i></a><i>\"&nbsp; </i>(2008) published by Scott&nbsp;Polar Research Institute.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/1121d8cf-17dd-4a9f-b830-5061e690c0ac",
+   "@type": "Type",
+   "name": "STOL airstrip",
+   "description": "<h3>STOL-fly og STOL-baner</h3><p>Helikoptere er langt dyrere (mere end dobbelt) at operere med end fastvingede fly. Derfor tilstræber man i så høj grad som muligt at anvende fastvingede fly. Et fastvinget fly kræver imidlertid en passende&nbsp;landingsbane. I Canada udviklede fly fabrikken de Havilland i 1950erne og 60erne nogle flytyper, som er særligt egnede til at operere under vanskelige baneforhold. Den mest kendte af disse er DHC-6 Twin Otter. Twin Otteren er et såkaldt STOL-fly (Short Take Off and Landing) og kan lande og starte på en meget kort og ujævn naturskabt bane. Twin Otteren har betydet umådelig meget for de seneste 40 års udforskning af Grønland. Takket være den er det lykkedes at nå ud til de yderste afkroge af Grønland på en sikker og rimelig økonomisk måde.&nbsp;I Nord- og Østgrønland er der identificeret mere en 50 lokaliteter, hvor det er muligt at lande med en Twin Otter. Det er flyoperatøren, der kender den præcise position og beskaffenhed på disse STOL-baner.</p>",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "1121d8cf-17dd-4a9f-b830-5061e690c0ac",
+   "legacyTid": 40,
+   "legacyParentTid": 22
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/20e95f59-bf75-4784-b64c-415441cfb231",
+   "@type": "Type",
+   "name": "Station",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "20e95f59-bf75-4784-b64c-415441cfb231",
+   "legacyTid": 28,
+   "legacyParentTid": 20
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "@type": "Type",
+   "name": "Hut",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "legacyTid": 67,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/cc88cdc2-16cb-49d1-8186-0050ae590686",
+ "coordinates": {
+  "name": "At Solitærbugt on the north-west side of Ella Ø",
+  "latitude": 72.876859671248,
+  "longitude": -25.110282897949
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/e99c633e-a84f-44d3-81f4-a2fc68fdaef9",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "@type": "Organisation",
+  "id": "6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "title": "North-East Greenland Company NANOK",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://xsirius.dk/da/nanok.html"
+  },
+  "address": "Rosenhøjvej 10",
+  "zipcode": "8410",
+  "city": "Rønde",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/9ec07395-be66-42c7-a138-022199058e86"
+  ],
+  "legacyNid": "445"
+ },
+ "url": "",
+ "attachments": [
+  "/api/documents/3eab77b9-2df6-4e2b-a95a-4e8b1bc016cd"
+ ],
+ "id": "3120b80f-c121-4d8d-bd57-d7b3e401a03e",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "@type": "Person",
+   "fullName": "Peter Schmidt Mikkelsen",
+   "id": "6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "author": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "createdAt": "2021-02-08T11:18:44+00:00",
+   "lastModified": "2023-01-18T09:39:18+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2025-11-21T11:13:09+00:00"
+}

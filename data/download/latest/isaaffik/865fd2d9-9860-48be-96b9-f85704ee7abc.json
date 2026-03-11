@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/865fd2d9-9860-48be-96b9-f85704ee7abc",
+ "@type": "Infrastructure",
+ "name": "Riometer (40MHz)",
+ "contactName": "Chris Hall/Magnar Gullikstad",
+ "contactPhone": null,
+ "contactEmail": "chris.hall@uit.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/1006"
+ },
+ "description": "Riometer (40MHz)",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.92346,
+  "longitude": 11.93007
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/a6fed8a9-1f1a-4039-ab5a-953ee5252dbe",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/3cb6ff5d-e0d4-4503-b2d0-5eee4ce0ba91",
+  "@type": "Organisation",
+  "id": "3cb6ff5d-e0d4-4503-b2d0-5eee4ce0ba91",
+  "title": "UiT University of Tromsø",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "https://en.uit.no/om/enhet/forsiden?p_dimension_id=88163"
+  },
+  "address": "Postboks 6050 Langnes",
+  "zipcode": "9037",
+  "city": "Tromsø",
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/380bb30b-f640-430f-8326-6b3510cc3d13"
+  ],
+  "legacyNid": "909"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "865fd2d9-9860-48be-96b9-f85704ee7abc",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": null
+}

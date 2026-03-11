@@ -1,0 +1,107 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/3623b6b5-6c69-40fb-af5a-c5bab64b7fda",
+ "@type": "Infrastructure",
+ "name": "Ittoqqortoormiit",
+ "contactName": "Ittoqqortoormiit",
+ "contactPhone": null,
+ "contactEmail": "mit@mit.gl",
+ "organizationLink": {
+  "title": "Ittoqqortoormiit",
+  "url": ""
+ },
+ "externalLink": {
+  "title": "Visit Greenland",
+  "url": "http://www.greenland.com/en/destinations/east-greenland/ittoqqortoormiit/"
+ },
+ "description": "<p><a href=\"http://www.dmi.dk/groenland/vejret/byvejr/by/vis/GL/4339/Ittoqqortoormiit,%20Gr%C3%B8nland\">Weather forecast</a></p><p><a href=\"http://www.dmi.dk/groenland/arkiver/vejrarkiv/\">Weather archive</a></p><p><a href=\"http://www.dmi.dk/uploads/pics/klima_ittoqqortoormiit.png\">Climate</a></p><p>Ittoqqortoormiit (East Greenlandic) or Illoqortormiut (West Greenlandic), formerly known as Scoresbysund, is a settlement in the Sermersooq municipality in eastern Greenland. Its population is 452 as of 2013.&nbsp;<span style=\"font-size: 1.125em; line-height: 1.2em;\">The former name Scoresbysund derives from the Arctic explorer and whaler William Scoresby, who was the first to map the area in 1822. The name &quot;Ittoqqortoormiit&quot; means &quot;Big-House Dwellers&quot; in the Eastern Greenlandic dialect. The region is known for its wildlife, including polar bears, muskoxen, and seals. Source: Wikipedia</span></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=81\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/0696cff1-c286-46dd-8abc-6b7873edaa91",
+   "@type": "Type",
+   "name": "Helistop",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "0696cff1-c286-46dd-8abc-6b7873edaa91",
+   "legacyTid": 91,
+   "legacyParentTid": 22
+  },
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ee513a41-84f8-46ba-96e3-b79ed5c7c56e",
+   "@type": "Type",
+   "name": "Town",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "ee513a41-84f8-46ba-96e3-b79ed5c7c56e",
+   "legacyTid": 26,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": "3980",
+ "city": "Ittoqqortoormiit",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/35979e3b-6203-4cb7-91d5-b0adc63abdfb",
+ "coordinates": {
+  "name": "Ittoqqortoormiit",
+  "latitude": 70.485278,
+  "longitude": -21.966667
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/a5dac56c-5070-4443-b4b0-bb067d83226d",
+ "sarAsset": "/api/sars/2a41d83f-4791-4a2b-a41c-36ebf772d6d2",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/7823e229-ff2c-4aa8-afca-454d21ab4610",
+  "@type": "Organisation",
+  "id": "7823e229-ff2c-4aa8-afca-454d21ab4610",
+  "title": "Greenland Airports / Mittarfeqarfiit",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Greenland Airports",
+   "url": "https://www.mit.gl/en/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "departments": [
+   "/api/taxonomy/departments/21bc7af3-e4ff-42cf-a7bf-dc9d6f87a13f"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "3623b6b5-6c69-40fb-af5a-c5bab64b7fda",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T10:39:40+00:00"
+}

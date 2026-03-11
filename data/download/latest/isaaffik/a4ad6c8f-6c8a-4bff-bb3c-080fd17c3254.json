@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/a4ad6c8f-6c8a-4bff-bb3c-080fd17c3254",
+ "@type": "Infrastructure",
+ "name": "SvalRak: Grand Challenge Initiative Cusp",
+ "contactName": "Jøran I. Moen",
+ "contactPhone": null,
+ "contactEmail": "j.i.moen@fys.uio.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/659"
+ },
+ "description": "SvalRak: Grand Challenge Initiative Cusp",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.9235,
+  "longitude": 11.9099
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/7f824460-ab33-4c9f-9e9a-06c790ba1f0e",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/8332b55a-7ab3-457c-ba9b-50fc798e39bf",
+  "@type": "Organisation",
+  "id": "8332b55a-7ab3-457c-ba9b-50fc798e39bf",
+  "title": "University of Oslo",
+  "organisationDepartment": null,
+  "url": {
+   "title": "University of Oslo",
+   "url": "https://www.uio.no/english/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": null,
+  "departments": [
+   "/api/taxonomy/departments/a8cc52f7-e386-4f68-bf37-0c94673d5346"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "a4ad6c8f-6c8a-4bff-bb3c-080fd17c3254",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:29+00:00",
+ "lastModified": null
+}

@@ -1,0 +1,132 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/1c29610a-d938-406a-92ef-476d039de62c",
+ "@type": "Infrastructure",
+ "name": "GIOS/PROMICE - Lake Russell",
+ "contactName": "Kristian Kjellerup Kjeldsen ",
+ "contactPhone": "+45 9133 3428",
+ "contactEmail": "kkk@geus.dk",
+ "organizationLink": {
+  "title": "",
+  "url": "https://eng.geus.dk/"
+ },
+ "externalLink": {
+  "title": "",
+  "url": "https://promice.org/"
+ },
+ "description": "<p>High precision, high resolution GNSS base station to monitor bedrock motion.</p><p>Moreover, we measure air temperature, air pressure, rain, wind speed, and wind direction.</p><p>Elevation: 411 msl</p><p>The infrastructure is supported by <i>GIOS: Greenland Integrated Observing System </i>and maintained by GEUS under the PROMICE-program.</p><p>Data will be transmitted and made available through the GEUS dataverse-portal.</p><p>For now, the data is available upon request.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "@type": "Type",
+   "name": "Weather station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "legacyTid": 32,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": "Kangerlussuaq",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/a8e47646-8a58-427d-a503-87b2f5aaac67",
+ "coordinates": {
+  "name": "Kangerlussuaq",
+  "latitude": 67.139557,
+  "longitude": -50.082446
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/6d4618d7-0117-4a87-8d1a-0af87bcd90ba",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/38d2efcc-abbd-4cb1-b24f-3fb13af87ed5",
+  "@type": "Organisation",
+  "id": "38d2efcc-abbd-4cb1-b24f-3fb13af87ed5",
+  "title": "Geological Survey of Denmark and Greenland (GEUS)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.geus.dk/UK/Pages/default.aspx"
+  },
+  "address": "Øster Voldgade 10",
+  "zipcode": "1350",
+  "city": "Copenhagen K",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/04a3ed51-4433-4ded-bfda-3b03ca1456d8",
+   "/api/taxonomy/departments/0bec07a6-c01d-4247-87e0-bddd5819014b",
+   "/api/taxonomy/departments/2b4bf8c3-4a32-489f-ab3e-ee81bc944e5a",
+   "/api/taxonomy/departments/2fd864a1-a613-4faa-988d-01ae5ab8dde6",
+   "/api/taxonomy/departments/32936133-5185-416f-97b6-299760facdcd",
+   "/api/taxonomy/departments/686e6d48-b0a2-43c4-a901-54fbe340ea3a",
+   "/api/taxonomy/departments/797f6837-1e99-4102-98a7-fd4d8e191952",
+   "/api/taxonomy/departments/7c44c93d-321a-47b2-9b7e-eb6d18367e1a",
+   "/api/taxonomy/departments/9af643f2-14bb-4472-ae70-d01946c003a2",
+   "/api/taxonomy/departments/9de6ed24-38bd-4a6e-a97b-76c304fe6b91",
+   "/api/taxonomy/departments/cd2ac505-93f8-4147-a841-df5d5881e94d",
+   "/api/taxonomy/departments/d18b53b2-82fa-439a-b145-8b1cd7e7bb22",
+   "/api/taxonomy/departments/ff83ebb0-b662-4c45-8f64-2ae5bcef23e8"
+  ],
+  "legacyNid": "446"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "1c29610a-d938-406a-92ef-476d039de62c",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/c25dfc5a-b4a0-4f50-bdb1-a82c7bd8cd5d",
+   "@type": "Person",
+   "fullName": "Kristian Kjellerup Kjeldsen",
+   "id": "c25dfc5a-b4a0-4f50-bdb1-a82c7bd8cd5d",
+   "author": "/api/people/c25dfc5a-b4a0-4f50-bdb1-a82c7bd8cd5d",
+   "createdAt": "2022-03-14T14:25:21+00:00",
+   "lastModified": "2024-04-22T12:13:19+00:00"
+  },
+  {
+   "@id": "/api/people/c575fc40-16ee-4b24-b715-8561bcbbfce4",
+   "@type": "Person",
+   "fullName": "Robert Fausto",
+   "id": "c575fc40-16ee-4b24-b715-8561bcbbfce4",
+   "author": "/api/people/c575fc40-16ee-4b24-b715-8561bcbbfce4",
+   "createdAt": "2021-02-08T11:18:51+00:00",
+   "lastModified": "2021-02-08T11:18:52+00:00"
+  },
+  {
+   "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "@type": "Person",
+   "fullName": "Marianne Vestergaard",
+   "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "createdAt": "2021-02-08T11:18:43+00:00",
+   "lastModified": "2021-02-08T11:18:43+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "@type": "Person",
+  "fullName": "Marianne Vestergaard",
+  "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "createdAt": "2021-02-08T11:18:43+00:00",
+  "lastModified": "2021-02-08T11:18:43+00:00"
+ },
+ "createdAt": "2024-06-17T12:19:09+00:00",
+ "lastModified": "2024-06-17T12:24:15+00:00"
+}

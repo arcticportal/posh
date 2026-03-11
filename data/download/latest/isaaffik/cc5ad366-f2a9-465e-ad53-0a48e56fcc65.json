@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/cc5ad366-f2a9-465e-ad53-0a48e56fcc65",
+ "@type": "Infrastructure",
+ "name": "Centrumsø",
+ "contactName": "Centrumsø",
+ "contactPhone": null,
+ "contactEmail": "na@na.gl",
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/1121d8cf-17dd-4a9f-b830-5061e690c0ac",
+   "@type": "Type",
+   "name": "STOL airstrip",
+   "description": "<h3>STOL-fly og STOL-baner</h3><p>Helikoptere er langt dyrere (mere end dobbelt) at operere med end fastvingede fly. Derfor tilstræber man i så høj grad som muligt at anvende fastvingede fly. Et fastvinget fly kræver imidlertid en passende&nbsp;landingsbane. I Canada udviklede fly fabrikken de Havilland i 1950erne og 60erne nogle flytyper, som er særligt egnede til at operere under vanskelige baneforhold. Den mest kendte af disse er DHC-6 Twin Otter. Twin Otteren er et såkaldt STOL-fly (Short Take Off and Landing) og kan lande og starte på en meget kort og ujævn naturskabt bane. Twin Otteren har betydet umådelig meget for de seneste 40 års udforskning af Grønland. Takket være den er det lykkedes at nå ud til de yderste afkroge af Grønland på en sikker og rimelig økonomisk måde.&nbsp;I Nord- og Østgrønland er der identificeret mere en 50 lokaliteter, hvor det er muligt at lande med en Twin Otter. Det er flyoperatøren, der kender den præcise position og beskaffenhed på disse STOL-baner.</p>",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "1121d8cf-17dd-4a9f-b830-5061e690c0ac",
+   "legacyTid": 40,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Centrumsø",
+  "latitude": 80.151539956592,
+  "longitude": -22.538528465666
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/e6d7b6b1-8da3-4f35-a8dd-fc2bdbb31ec7",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "@type": "Organisation",
+  "id": "f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "title": "Other institution",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Other institution",
+   "url": "https://www.isaaffik.org/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": "1325"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "cc5ad366-f2a9-465e-ad53-0a48e56fcc65",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T09:56:27+00:00"
+}

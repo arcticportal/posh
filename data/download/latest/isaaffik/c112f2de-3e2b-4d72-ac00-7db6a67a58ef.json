@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/c112f2de-3e2b-4d72-ac00-7db6a67a58ef",
+ "@type": "Infrastructure",
+ "name": "Reykjavík International Airport",
+ "contactName": "Reykjavík International Airport",
+ "contactPhone": "(+354) 424 4000",
+ "contactEmail": "birk@isavia.is",
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Isavia",
+  "url": "http://www.isavia.is/flugvellir/reykjavikurflugvollur/"
+ },
+ "description": "<p style=\"color: rgb(51, 51, 51); font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: normal;\">Reykjavík International Airport is the centre for domestic flights in Iceland. The airport is located in Vatnsmýri which is near the centre of Reykjavík. Reykjavík International Airport is close to Landspítali University Hospital at Hringbraut and serves an important role in ambulance flights in Iceland.</p><p style=\"color: rgb(51, 51, 51); font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: normal;\">The airport is one of four international airports in Iceland, and quite a lot of international traffic travels through it, mainly private flights. Approximately 400 thousand passengers travel through the airport each year.</p><p style=\"color: rgb(51, 51, 51); font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: normal;\">There are three runways at the airport; 01/19 which is 1.567 metres, 06/24 which is 960 metres, and 13/31 which is 1.230 metres.</p><p style=\"color: rgb(51, 51, 51); font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif; font-size: 13px; line-height: normal;\">Reykjavík International Airport is open from 07:00 - 23:00 on weekdays and from 08:00 - 23:00 on Saturdays, Sundays, and on public holidays.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "@type": "Type",
+   "name": "International airport",
+   "description": "",
+   "marker": 1,
+   "children": [],
+   "parent": "/api/taxonomy/types/2c9aa45b-0e8c-4de1-a1e6-0a6b741b9158",
+   "id": "6e92b04a-ca57-4089-b5eb-0de9de84c46c",
+   "legacyTid": 37,
+   "legacyParentTid": 22
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Reykjavík Airport ",
+ "areaCode": "101 ",
+ "city": "Reykjavík",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512",
+  "@type": "Country",
+  "name": "Iceland",
+  "description": "",
+  "legacyTid": 155,
+  "id": "6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Reykjavík ",
+  "latitude": 64.1309328,
+  "longitude": -21.9328767
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/844263b2-174e-45ff-a062-8f3b36984a88",
+ "sarAsset": "/api/sars/70473762-2a51-4452-bd04-397753a14e11",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "@type": "Organisation",
+  "id": "f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "title": "Other institution",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Other institution",
+   "url": "https://www.isaaffik.org/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": "1325"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "c112f2de-3e2b-4d72-ac00-7db6a67a58ef",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-28T09:50:33+00:00"
+}

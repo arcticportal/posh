@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/e2416a7c-8e55-4b2c-9c90-0d1c920e8252",
+ "@type": "Infrastructure",
+ "name": "Kenn Borek Air Ltd - Iqaluit",
+ "contactName": "Kenn Borek Air Ltd - Iqaluit",
+ "contactPhone": "(+1) 867 979 0040",
+ "contactEmail": "yfbdispatch@northwestel.net",
+ "organizationLink": {
+  "title": "Kenn Borek Air Ltd",
+  "url": "http://www.borekair.com/index.php"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Kenn Borek Air Ltd. started with a vision by one man - Kenn Borek. Born and raised on a farm in Stettler, AB, Borek has been described as a true pioneer. Starting with one tractor in 1955, Borek worked hard clearing land for farmers in the Peace Country and worked with the oil industry pulling water trucks, supplies, cutting seismic lines and site preparation for drill rigs.&nbsp;As the Arctic was being explored and developed, Borek followed and in 1970 started his airline, Kenn Borek Air Ltd. (KBAL). Now KBAL, a Calgary-based airline, has one of the largest Twin Otter fleets in the world and provides a comprehensive service with its turbo prop fleet.&nbsp;We are best known for our remote polar services utilizing ski equipped Twin Otter. KBAL provides a wide range of additional services including medevac, survey, paradrop, float operations, third party maintenance and overhaul. Source: http://www.borekair.com/about-us.php</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "@type": "Type",
+   "name": "Airline",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "legacyTid": 42,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "PO Box 1741 Iqaluit. ",
+ "areaCode": "NU X0A 0H0",
+ "city": "Iqaluit",
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 63.751799134664,
+  "longitude": -68.534574152637
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/6c1711bc-a3ad-4394-8f73-92fae7bec379",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "e2416a7c-8e55-4b2c-9c90-0d1c920e8252",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

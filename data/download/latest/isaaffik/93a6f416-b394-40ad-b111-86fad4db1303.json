@@ -1,0 +1,102 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/93a6f416-b394-40ad-b111-86fad4db1303",
+ "@type": "Infrastructure",
+ "name": "Ilulissat Logistics Services",
+ "contactName": "Flemming Bisgaard ",
+ "contactPhone": null,
+ "contactEmail": "bissen@ils.gl",
+ "organizationLink": {
+  "title": "Bisgaard Trading - Ilulissat Logistics Services ",
+  "url": "https://www.facebook.com/ilulissat.logistics.services"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><strong>Leadership.</strong>&nbsp;Danish-born entrepreneur Flemming Bisgaard owns the facilities, equipment, and gear available through Ilulissat Logistics Services. Having made his home in the scenic fishing port of Ilulissat for more than two decades, he has traveled&nbsp;all over Greenland.</p><p>Bisgaard is one of just a few people certified to fly the giant Sikorsky helicopter, which (in addition to routine air services) functions as an air ambulance serving Greenlands remote communities. An affable and adventurous soul, Bisgaard draws on his extensive contacts around the island to provide services that delight his clients, a mix of scientists, filmmakers, adventurers, teachers, and miners.</p><p>To learn more about Bisgaard, read an interview he gave to&nbsp;<em>Discovery</em>&nbsp;several years ago, available&nbsp;<a href=\"http://blogs.discovery.com/bites-animal-planet/2014/04/getting-to-know-greenland-meet-flemming-bisgaard.html#\">here</a>.</p><p><strong>Capability.&nbsp;</strong>Experience, assets, and connections equal the unparalleled ability to provide rooms, logistics, transportation, equipment, storage, and temporary labor, to a variety of clients. These&nbsp;include:</p><p><strong>Entertainment:&nbsp;</strong>Paramount Pictures,&nbsp;<em>The Last Airbender</em>&nbsp;(feature film);&nbsp;Discovery Channel,&nbsp;<em>Ice Cold Gold</em>&nbsp;(television reality series)<br><strong>Scientific Research:&nbsp;</strong>CH2M HILL Polar Services, research support and logistics services for U.S. National Science Foundation Arctic Program participants<br><strong>Energy:&nbsp;</strong>Nord-Trøndelag Elektrisitetsverk AS, building the Ilulissat Ice Rig;&nbsp;Cougar Helicopters, subcontractor to Cairn Energy LPC<br><strong>Other Industry:&nbsp;</strong>ISTAK Greenland, Water plant construction in Pakitsoq;<b>&nbsp;</b>Avannaar Logistics (mining); Qeqertaq Fish;&nbsp;Uummannaq Seafood;&nbsp;BoConcept, home furniture showroom construction</p><p>&nbsp;</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "@type": "Type",
+   "name": "Other",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "legacyTid": 44,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Ilulissat",
+ "areaCode": null,
+ "city": "Ilulissat",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/21b18bfd-6ecd-42c9-a07d-3d2f12681322",
+ "coordinates": {
+  "name": null,
+  "latitude": 69.2198118,
+  "longitude": -51.0986031
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/05d6b2df-89d0-40cf-b211-9b4e5d205777",
+ "sarAsset": "/api/sars/f9e3f40a-76c4-4495-ab44-5005210ecb93",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "@type": "Organisation",
+  "id": "f17af1a0-e215-44f7-85a1-d4d1f301e97a",
+  "title": "Other institution",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Other institution",
+   "url": "https://www.isaaffik.org/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": "1325"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "93a6f416-b394-40ad-b111-86fad4db1303",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "@type": "Person",
+   "fullName": "Marianne Vestergaard",
+   "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+   "createdAt": "2021-02-08T11:18:43+00:00",
+   "lastModified": "2021-02-08T11:18:43+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "@type": "Person",
+  "fullName": "Marianne Vestergaard",
+  "id": "e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "author": "/api/people/e431c6ef-8770-4df9-a4a3-278a86043f2e",
+  "createdAt": "2021-02-08T11:18:43+00:00",
+  "lastModified": "2021-02-08T11:18:43+00:00"
+ },
+ "createdAt": "2020-11-05T11:32:54+00:00",
+ "lastModified": "2024-04-30T10:51:23+00:00"
+}

@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/84c793de-a907-462c-90b3-013dc405764a",
+ "@type": "Infrastructure",
+ "name": "ECN Cairngorm",
+ "contactName": "ECN Cairngorms",
+ "contactPhone": "+44 131 4458578",
+ "contactEmail": "chan@ceh.ac.uk",
+ "organizationLink": {
+  "title": "Scottish National Heritage, research is managed  by Centre for Ecology and Hydrology",
+  "url": "http://www.ceh.ac.uk/"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/scotland/cairngorm/"
+ },
+ "description": "<p>ECN Cairngorms is a member of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/3c3c0ed4-b644-494f-a576-4fdd61da957b",
+  "@type": "Country",
+  "name": "United Kingdom",
+  "description": "",
+  "legacyTid": 166,
+  "id": "3c3c0ed4-b644-494f-a576-4fdd61da957b"
+ },
+ "image": "/api/images/5fe1c916-5167-45e2-a52c-baf0c1bf4e6c",
+ "coordinates": {
+  "name": null,
+  "latitude": 57.115,
+  "longitude": -3.83194
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/13210612-95a4-4db8-a323-54c834dda385",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "84c793de-a907-462c-90b3-013dc405764a",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

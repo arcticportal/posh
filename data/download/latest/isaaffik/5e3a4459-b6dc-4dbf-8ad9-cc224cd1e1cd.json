@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/5e3a4459-b6dc-4dbf-8ad9-cc224cd1e1cd",
+ "@type": "Infrastructure",
+ "name": "Ilulissat",
+ "contactName": "Ilulissat",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": "Town",
+  "url": ""
+ },
+ "externalLink": {
+  "title": "Visit Greenland",
+  "url": "http://www.greenland.com/en/destinations/north-greenland/ilulissat/"
+ },
+ "description": "<p><a href=\"http://www.dmi.dk/groenland/vejret/byvejr/by/vis/GL/4221/Ilulissat,%20Gr%C3%B8nland\">Weather Forecast</a></p><p><a href=\"http://www.dmi.dk/groenland/arkiver/vejrarkiv/\">Weather archive</a></p><p><a href=\"http://www.dmi.dk/uploads/pics/klima_ililissat.png\">Climate</a></p><p>Ilulissat, formerly Jakobshavn or Jacobshaven, is a town in the Qaasuitsup municipality in western Greenland, located approximately 350 km (220 mi) north of the Arctic Circle. With the population of 4,541 as of 2013, it is the third-largest city in Greenland, after Nuuk and Sisimiut. The city is home to almost as many sledge-dogs.</p><p>In direct translation, Ilulissat is the Kalaallisut word for &quot;Icebergs&quot;. The nearby Ilulissat Icefjord is a UNESCO World Heritage Site, and has made Ilulissat the most popular tourist destination in Greenland. Tourism is now the town&#39;s principal industry. The city neighbours the Ilulissat Icefjord, where enormous icebergs from the most productive glacier in the northen hemisphere. These white giants are a source of astonishment for both residents and visitors, when the gaze drifts to the wide Disco Bay and when you walk close to the fjord. Source: <a href=\"http://en.wikipedia.org/wiki/Ilulissat\" target=\"_blank\">Wikipedia</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=48\" rel=\"nofollow\" target=\"_blank\">Den grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ee513a41-84f8-46ba-96e3-b79ed5c7c56e",
+   "@type": "Type",
+   "name": "Town",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "ee513a41-84f8-46ba-96e3-b79ed5c7c56e",
+   "legacyTid": 26,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": "3952  ",
+ "city": "Ilulissat",
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 69.216667,
+  "longitude": -51.1
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/8f80d1e1-972d-4a4c-ba76-9c0fa9bc1e17",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "5e3a4459-b6dc-4dbf-8ad9-cc224cd1e1cd",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

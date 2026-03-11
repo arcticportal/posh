@@ -1,0 +1,82 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/47dec19b-dd24-4bd6-a609-aff484f72fca",
+ "@type": "Infrastructure",
+ "name": "IWIN Weather Station, Gåsøyane",
+ "contactName": "Marius Jonassen",
+ "contactPhone": null,
+ "contactEmail": "mariusj@unis.no",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/153330"
+ },
+ "description": "IWIN Weather Station, Gåsøyane",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.45792,
+  "longitude": 16.20082
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/a9ef0d1e-c5e0-4b7f-a6bc-23458ee30776",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/b83f9cbc-b587-4cd6-b4ed-6087891276ad",
+  "@type": "Organisation",
+  "id": "b83f9cbc-b587-4cd6-b4ed-6087891276ad",
+  "title": "The University Centre in Svalbard, UNIS",
+  "organisationDepartment": null,
+  "url": {
+   "title": "The University Centre in Svalbard, UNIS",
+   "url": "https://www.unis.no/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "departments": [
+   "/api/taxonomy/departments/64db892c-3c60-47d8-95b0-50e365e099da",
+   "/api/taxonomy/departments/7634f2c9-108a-4ad8-a469-bfb40e38f6c0"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "47dec19b-dd24-4bd6-a609-aff484f72fca",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2025-05-13T17:00:02+00:00",
+ "lastModified": null
+}

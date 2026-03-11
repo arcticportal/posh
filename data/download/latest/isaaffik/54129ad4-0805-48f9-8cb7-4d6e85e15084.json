@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/54129ad4-0805-48f9-8cb7-4d6e85e15084",
+ "@type": "Infrastructure",
+ "name": "Alluitsoq - Lichtenau",
+ "contactName": "Alluitsoq - Lichtenau",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Wikipedia",
+  "url": "http://en.wikipedia.org/wiki/Alluitsoq"
+ },
+ "description": "<p>Alluitsoq (Old Spelling: Agdluitsok) is the name of a former settlement in southern Greenland, located on the Alluitsoq or Lichtenau Fjord near Cape Farewell. It is about 7 kilometers from Ammassivik (Sletten), located on the opposite side of the same fjord. It was founded as Lichtenau (German: &quot;Light Water&quot;) by the Moravian missionary Gotfried Grillich and five families in 1774. For a time, it was the largest permanent settlement in Greenland. The mission was surrendered to the Lutheran Church of Denmark in 1900. The site has a large graveyard and was used as a children&#39;s home for the Gertrud Rask Institute between 1942 and 1980. The fjord separates in two at the end. One houses the largest waterfall in Greenland, Qorlortorsuaq, and a trout farm. The other holds a Norse farm&#39;s ruins. Source: <a href=\"http://en.wikipedia.org/wiki/Alluitsoq\" target=\"_blank\">Wikipedia</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;<a href=\"http://www.gronlandskehavnelods.dk/#HID=7\" target=\"_blank\">Den grønlandske Havnelods</a>.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "@type": "Type",
+   "name": "Settlement",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "legacyTid": 27,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 60.507278,
+  "longitude": -45.546188
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/c5c4cc3e-2d46-4c99-b58a-7d2e6a521052",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "54129ad4-0805-48f9-8cb7-4d6e85e15084",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

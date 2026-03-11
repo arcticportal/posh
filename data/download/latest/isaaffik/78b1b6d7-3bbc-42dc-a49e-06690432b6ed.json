@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/78b1b6d7-3bbc-42dc-a49e-06690432b6ed",
+ "@type": "Infrastructure",
+ "name": "Hornsund Seismological Station HSP",
+ "contactName": "Kaj Michałowski",
+ "contactPhone": null,
+ "contactEmail": "kaj@igf.edu.pl",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/656"
+ },
+ "description": "Hornsund Seismological Station HSP",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": "/api/images/16b42449-d9cf-4ef6-b71a-7baefac2edea",
+ "coordinates": {
+  "name": null,
+  "latitude": 77.001877,
+  "longitude": 15.53318
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/6c4410e5-70b9-43d9-bdfb-f3849a030dfd",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/3b7b9ac6-e66f-463c-8af6-7d9dfb65b154",
+  "@type": "Organisation",
+  "id": "3b7b9ac6-e66f-463c-8af6-7d9dfb65b154",
+  "title": "Institute of Geophysics, Polish Academy of Sciences",
+  "organisationDepartment": null,
+  "url": {
+   "title": "Institute of Geophysics, Polish Academy of Sciences",
+   "url": "https://www.igf.edu.pl/home.php"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/c8d7c9d2-e0a7-45fb-b3b7-9617ca41475c",
+  "departments": [
+   "/api/taxonomy/departments/47fa9a71-e0d9-4091-82bd-27d75539d477"
+  ],
+  "legacyNid": null
+ },
+ "url": "",
+ "attachments": [],
+ "id": "78b1b6d7-3bbc-42dc-a49e-06690432b6ed",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:28+00:00",
+ "lastModified": "2024-05-01T09:43:41+00:00"
+}

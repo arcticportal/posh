@@ -1,0 +1,102 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/969decf0-a0b4-4360-be1d-0470b8aa8778",
+ "@type": "Infrastructure",
+ "name": "Nordfjordhuset",
+ "contactName": "Nordøstgrønlandsk Kompagni Nanok",
+ "contactPhone": "+45 30713950",
+ "contactEmail": "nanok@xsirius.dk",
+ "organizationLink": {
+  "title": "Nordøstgrønlandsk Kompagni Nanok",
+  "url": "https://www.xsirius.dk/da/nanok.html"
+ },
+ "externalLink": {
+  "title": "Nanok",
+  "url": "https://www.xsirius.dk/da/nanok.html"
+ },
+ "description": "<p>Nordfjordhuset [358-2]&nbsp;is a&nbsp;former travellers' hut, located on the south side of Lakseelv at the entrance to Brogetdal.&nbsp;In 2019&nbsp;the hut was restored by Nanok.&nbsp;Nordfjordhuset&nbsp;is well suited for overnight stay or as temporary base camp for 1-3&nbsp;persons.&nbsp;Visitors are welcome to use the hut and the supplies during&nbsp;the stay. The hut must always be left only in a good condition,&nbsp;meaning:</p><ul><li>Any damages repaired</li><li>All doors and windows / shutters securely closed</li><li>Coal stove cleaned for ashes and ready for use</li><li>Floor&nbsp;nicely swept and cleaned</li><li>Coal bucket filled with coal</li><li>Pieces of firewood put in paraffin</li><li>Hut lamp filled and the glass removed</li><li>Matchboxes with matches ready in opening</li><li>Snow shovel secured and visible on the outside of the hut</li><li>Never use all&nbsp;coal and fuel</li><li>No garbage or open and smelling food in or near&nbsp;the hut</li><li>Never&nbsp;leave any food opened. The smell attracts polar bears, and nobody else will eat it anyway</li></ul><p>Note: Due to possible damage by polar bears the present condition of the station is unknown.&nbsp;</p><p>You are welcome to contact Nanok, if you need further information. Nanok would appreciate&nbsp;any report&nbsp;from your stay.&nbsp;&nbsp;</p><p><a href=\"https://avjcf.org/\">Aage V. Jensens Fonde</a> sponsor Nanok's work.</p><p>Number in brackets [ ] refer to hut number in Peter Schmidt Mikkelsen: <i>\"</i><a href=\"http://www.xsirius.dk/en/node/88\"><i>North-East Greenland 1908-60. The Trapper Era</i></a><i>\"&nbsp; </i>(2008) published by Scott&nbsp;Polar Research Institute.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "@type": "Type",
+   "name": "Hut",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "legacyTid": 67,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Rosenhøjvej 10",
+ "areaCode": "8410",
+ "city": "Rønde",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/65f6a228-80cb-4bc7-87be-714ad2f7495f",
+ "coordinates": {
+  "name": "On the south side of Lakseelv at the entrance to Brogedal at Strindberg Land",
+  "latitude": 73.702012892036,
+  "longitude": -24.514864137172
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/db46afbe-000f-4dea-ae5e-18e89f6579a6",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "@type": "Organisation",
+  "id": "6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "title": "North-East Greenland Company NANOK",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://xsirius.dk/da/nanok.html"
+  },
+  "address": "Rosenhøjvej 10",
+  "zipcode": "8410",
+  "city": "Rønde",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/9ec07395-be66-42c7-a138-022199058e86"
+  ],
+  "legacyNid": "445"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "969decf0-a0b4-4360-be1d-0470b8aa8778",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "@type": "Person",
+   "fullName": "Peter Schmidt Mikkelsen",
+   "id": "6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "author": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "createdAt": "2021-02-08T11:18:44+00:00",
+   "lastModified": "2023-01-18T09:39:18+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "@type": "Person",
+  "fullName": "Isaaffik admin GN",
+  "id": "9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "author": "/api/people/9b8a4e0c-ebd1-4e1b-ad9e-6638ebc2193f",
+  "createdAt": "2021-02-08T11:18:40+00:00",
+  "lastModified": "2024-03-09T09:54:51+00:00"
+ },
+ "createdAt": "2020-12-31T06:46:30+00:00",
+ "lastModified": "2024-04-17T12:34:08+00:00"
+}

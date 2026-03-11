@@ -1,0 +1,94 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/43b68dff-5cbe-40f5-a6f8-5bd4f3647421",
+ "@type": "Infrastructure",
+ "name": "Myggbukta",
+ "contactName": "Nordøstgrønlandsk Kompagni Nanok",
+ "contactPhone": "-",
+ "contactEmail": "nanok@xsirius.dk",
+ "organizationLink": {
+  "title": "Nordøstgrønlandsk Kompagni Nanok",
+  "url": "http://xsirius.dk/da/nanok.html"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Myggbukta [335]&nbsp;is a&nbsp;former weather and&nbsp;trappers' station, located at the south coast of Hold with Hope on the north side of Mackenzie Bugt. In&nbsp;1999, 2002, and 2011 the station was restored&nbsp;by Nanok.&nbsp;Myggbukta is well suited for overnight stay or as temporary base camp for 1-6&nbsp;persons.&nbsp;Visitors are welcome to use the house and supplies provided by Nanok during&nbsp;the stay. &nbsp;</p><p>OBS! Visitors must NOT use any&nbsp;supplies belonging to the Sirius Sledge Patrol, including: fuel, coal, food, dog food, equipment, etc.&nbsp;&nbsp;&nbsp;</p><p>The house must always be left only in a good condition,&nbsp;meaning:</p><ul><li>Any damages repaired</li><li>All doors and windows / shutters securely closed</li><li>Coal stove cleaned for ashes and ready for use</li><li>Floor&nbsp;nicely swept and cleaned</li><li>Coal bucket filled with coal</li><li>Pieces of firewood put in paraffin</li><li>Hut lamp filled and the glass removed</li><li>Matchboxes with matches ready in opening</li><li>Snow shovel secured and visible on the outside of the hut</li><li>Never use all&nbsp;coal and fuel</li><li>No garbage or open and smelling food in or near&nbsp;the hut</li><li>Never&nbsp;leave any food opened. The smell attracts polar bears, and nobody else will eat it anyway</li></ul><p>Note: Due to possible damage by polar bears the present condition of the station is unknown.&nbsp;</p><p>You are welcome to contact Nanok, if you need further information. Nanok would appreciate&nbsp;any report&nbsp;from your stay.&nbsp;</p><p><a href=\"https://avjcf.org/\">Aage V. Jensens Fonde</a> sponsor Nanok's work.</p><p>Number in brackets [ ] refer to hut number in Peter Schmidt Mikkelsen: <i>\"</i><a href=\"http://www.xsirius.dk/en/node/88\"><i>North-East Greenland 1908-60. &nbsp;The Trapper Era</i></a><i>\"&nbsp; </i>(2008) published by Scott&nbsp;Polar Research Institute.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "@type": "Type",
+   "name": "Hut",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "eb3ad0e9-822c-464e-a8c6-dd9bdaafad51",
+   "legacyTid": 67,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/954b2fd7-d098-4e37-8b34-3bf0ee8e19ea",
+ "coordinates": {
+  "name": "At the south coast of Hold with Hope at the head of Mackenzie Bugt",
+  "latitude": 73.490587779316,
+  "longitude": -21.554908195679
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/0ea994b4-8195-44d4-9c26-8d5f375ed4cd",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "@type": "Organisation",
+  "id": "6cc2e598-459a-49b4-ac15-272e4af7aa23",
+  "title": "North-East Greenland Company NANOK",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://xsirius.dk/da/nanok.html"
+  },
+  "address": "Rosenhøjvej 10",
+  "zipcode": "8410",
+  "city": "Rønde",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/9ec07395-be66-42c7-a138-022199058e86"
+  ],
+  "legacyNid": "445"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "43b68dff-5cbe-40f5-a6f8-5bd4f3647421",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "@type": "Person",
+   "fullName": "Peter Schmidt Mikkelsen",
+   "id": "6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "author": "/api/people/6f87c711-a84a-4baa-a6ee-c377464d5f95",
+   "createdAt": "2021-02-08T11:18:44+00:00",
+   "lastModified": "2023-01-18T09:39:18+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2024-04-17T12:32:32+00:00"
+}

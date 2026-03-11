@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/fe0855d0-b336-42c3-b3cc-945aa0f59e6e",
+ "@type": "Infrastructure",
+ "name": "BackBone Aviation ",
+ "contactName": "BackBone Aviation, Narsarsuaq",
+ "contactPhone": "+45 8110 1230",
+ "contactEmail": "go@backbone.aero",
+ "organizationLink": {
+  "title": "BackBone Aviation A/S",
+  "url": "http://www.backboneaviation.com/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>BackBone is located in Esbjerg, Denmark and in Narsarsuaq, Greenland.</p><p>In Narsarsuaq BackBone Aviation operates an EC120B helicopter in Narsarsuaq. The helicopter is currently (2015) obligated on a contract with DMI. Outside DMI obigations&nbsp;it is possible to charter the helicopter for different purposes. &nbsp;</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "@type": "Type",
+   "name": "Airline",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "a7bf0d79-4b98-4a58-8d35-99605ae61da6",
+   "legacyTid": 42,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "John Tranums Vej 20",
+ "areaCode": "6705",
+ "city": "Esbjerg Ø",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "@type": "Country",
+  "name": "Denmark",
+  "description": "",
+  "legacyTid": 148,
+  "id": "65d1cf9f-afa6-4597-87d0-71761439f981"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 61.1620481,
+  "longitude": -45.4143882
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/6565d24a-3ec6-48a4-8724-a87c1aefd57f",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "fe0855d0-b336-42c3-b3cc-945aa0f59e6e",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

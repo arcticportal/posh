@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/b9fb46ae-6791-446a-8ebb-65fc38a224ca",
+ "@type": "Infrastructure",
+ "name": "Sea level station monitoring facility Ittoqqortoormiit Scoresbysund",
+ "contactName": "Sea level station monitoring facility Ittoqqortoormiit",
+ "contactPhone": null,
+ "contactEmail": "obh@space.dtu.dk",
+ "organizationLink": {
+  "title": "DTU Space",
+  "url": "www.space.dtu.dk/english"
+ },
+ "externalLink": {
+  "title": "Sea leavel at Ittoqqortoormiit",
+  "url": "http://www.ioc-sealevelmonitoring.org/station.php?code=scor"
+ },
+ "description": "<p><strong>Sea level stations - monitoring facilities in Greenland</strong></p><p>The danish Space Institute at the Technichal University of Denmark&nbsp;contributes to international collaboration on monitoring sea level and warning of tsunamis&nbsp;by operating&nbsp;tide gauges in Greenland.&nbsp;&nbsp;</p><p>The objective of this service is to provide information about the operational status of global and regional networks of real time sea level station and to provide a display service for quick inspection of the raw data stream from individual stations.&nbsp;The sea level stations provide near real-time data - observations (5 minutes interval) are available within 5-10 minutes from the time they have been logged on at the location.&nbsp;</p><p><o:p></o:p></p><p>In addition, the sea level stations contribute to the global sea level observing system GLOSS and provide information about sea level in the Arctic region. Subsequently, the stations plays a key role in maintaining the geodetic reference system in Greenland.<o:p></o:p></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 70.4842158,
+  "longitude": -21.9630822
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/a77cc722-a300-454a-a273-18c81e2bace8",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "b9fb46ae-6791-446a-8ebb-65fc38a224ca",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

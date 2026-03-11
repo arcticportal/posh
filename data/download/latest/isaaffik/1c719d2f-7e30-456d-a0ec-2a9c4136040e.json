@@ -1,0 +1,81 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/1c719d2f-7e30-456d-a0ec-2a9c4136040e",
+ "@type": "Infrastructure",
+ "name": "Air samples",
+ "contactName": "Molly Heller",
+ "contactPhone": null,
+ "contactEmail": "ccggflask@noaa.gov",
+ "organizationLink": null,
+ "externalLink": {
+  "title": null,
+  "url": "https://sios-svalbard.org/node/894"
+ },
+ "description": "Air samples",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": true,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": true,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/ba99d82c-3f42-4a71-89a0-27fff549db12",
+  "@type": "Country",
+  "name": "Norway",
+  "description": "",
+  "legacyTid": 158,
+  "id": "ba99d82c-3f42-4a71-89a0-27fff549db12"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 78.90721,
+  "longitude": 11.88605
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/1ab3288d-0815-4772-97f7-6653fb143a39",
+ "sarAsset": "/api/sars/d27cf286-91b9-4b61-91ce-b7688d968dc1",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/43022917-ef75-4cad-b0b1-b5575e89aa86",
+  "@type": "Organisation",
+  "id": "43022917-ef75-4cad-b0b1-b5575e89aa86",
+  "title": "National Oceanic & Atmospheric Administration (NOAA)",
+  "organisationDepartment": null,
+  "url": {
+   "title": "",
+   "url": "https://www.noaa.gov/"
+  },
+  "address": null,
+  "zipcode": null,
+  "city": null,
+  "country": "/api/taxonomy/countries/dafc3182-a0ff-4dac-ac78-f02709583ab4",
+  "departments": [
+   "/api/taxonomy/departments/c76b514e-3376-4060-a9d5-f582fd7a4217"
+  ],
+  "legacyNid": "2986"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "1c719d2f-7e30-456d-a0ec-2a9c4136040e",
+ "draft": false,
+ "owners": [],
+ "author": null,
+ "createdAt": "2023-07-18T21:27:28+00:00",
+ "lastModified": "2023-08-04T13:45:25+00:00"
+}

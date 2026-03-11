@@ -1,0 +1,101 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/59bef2b9-7d7f-49bc-926c-61d74e1be291",
+ "@type": "Infrastructure",
+ "name": "Thule Research Station, Technical University of Denmark",
+ "contactName": "Thule Research Station, Technical University of Denmark",
+ "contactPhone": null,
+ "contactEmail": "bm@dtu.dk",
+ "organizationLink": {
+  "title": "DTU Space",
+  "url": "www.space.dtu.dk/english"
+ },
+ "externalLink": {
+  "title": "Technical University of Denmark",
+  "url": "www.space.dtu.dk/english"
+ },
+ "description": "<p style=\"font-size: 18px; line-height: 21.6000003814697px;\"><strong>STATION NAME AND OWNER:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">Thule Research&nbsp;Station is owned and&nbsp;operated by National Space Institute, Technical University of Denmark.</span></p><p style=\"font-size: 18px; line-height: 21.6000003814697px;\"><strong style=\"font-size: 1.125em; line-height: 1.2em;\">LOCATION:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">Thule Research&nbsp;Station is located</span><span style=\"font-size: 1.125em; line-height: 1.2em;\">&nbsp;on the coast in the northwest of Greenland at Pituffik - Thule Air Base&nbsp;1,207&nbsp;km north of the Arctic Circle</span><span style=\"font-size: 1.125em; line-height: 1.2em;\">&nbsp;and 1,524&nbsp;km from the North Pole (N 76.5352, W 68.7864). Pituffik and the research station are&nbsp;situated in a valley between two ridges called the North Mountain and the South Mountain. The station is located close to&nbsp;the ocean and the harbour, the latter being&nbsp;the nothernmost deep water harbour in the world.&nbsp;</span><span style=\"font-size: 1.125em; line-height: 1.2em;\">From Mount Dundas, featuring&nbsp;the distinctive profile with steep, eroding&nbsp;slopes&nbsp;and the flat sloping top, you can see into the fiord north of Thule and the three meeting glaciers that are calving enourmous amounts of icebergs.&nbsp;</span></p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">BIODIVERSITY AND NATURAL ENVIRONMENT:&nbsp;</strong><span style=\"line-height: 21.6000003814697px;\">The climate in the Thule area is high &nbsp;Arctic and can be described as an Arctic desert.&nbsp;&nbsp;Humidity and rainfall is very low in the area, and the air is very dry. On average, t</span><span style=\"line-height: 21.6000003814697px;\">emperatures in the area range from&nbsp;4 &deg; Celsius in summer to -27 &deg; Celsius in the winter. In the winter, temperatures&nbsp;may come down to -50 &deg; Celsius. During the f</span><span style=\"line-height: 21.6000003814697px;\">our months of&nbsp;summer, it is daylight 24 hours a day. In winter, however, it&nbsp;is almost completely dark around the clock.</span></p><p>Despite the low temperatures and the continuos permafrost, the Thule district has a rich fauna and many different plants. Both animals and plants &quot;wake&quot; of hibernation in May and is thus extremely busy growing in the short Arctic summer. Summer is at its peak in July and August, with temperatures mostly above 12 degrees.</p><p><span style=\"font-size: 1.125em; line-height: 1.2em;\">The Thule District is home to&nbsp;many species of&nbsp;birds, especially waterfowl such as&nbsp;eider ducks, geese, ducks, glaucous gulls, terns, ravens, peregrine falcons, gyrfalcons, ptarmigan, and puffins. Animal life also features&nbsp;</span><span style=\"font-size: 1.125em; line-height: 1.2em;\">many Arctic foxes (white as well as blue), hares, musk oxen, and, occasionally, polar bears.&nbsp;Seals and walruses are plentiful and, if you are lucky, you can also see both narwhals,&nbsp;white whales, and even orcas.</span></p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">HISTORY AND FACILITIES:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">The Thule Research Station was established in 1995 when a permanent GPS station was built to support the&nbsp;International GNSS Service (IGS).&nbsp;</span><span style=\"font-size: 18px; line-height: 21.6000003814697px;\">The IGS</span><span style=\"font-size: 18px; line-height: 21.6000003814697px;\">&nbsp;has a global tracking network of GNSS stations and provides precise orbits, clocks, models for ionosphere and troposphere to support point positioning at the millimeter level for various geophysical research activities. Over the years, additional equipment such as meteorological sensors, tide gauge station, DORIS satellite beacon, seismometer, and a geomagnetic station has been added to the infrastructure.</span></p><p>The research station consists of a small hut, housing all processing and data communication, and a small, unheated storage hut. Additionally,&nbsp;the infrastructure houses episodic international science campaigns such as the NASA Icebridge Project. The station also contains facilities for repeated absolute gravity measurements, to provide&nbsp;long-term facility for monitoring Greenland Isostatic Rebound, closely connected to the permanent monitoring with GNSS and DORIS, The current gravity time series was started in 1988.</p><p>The station is manned approximately 6-8 weeks per year and has 100 bednights per year.&nbsp;</p><p><strong style=\"font-size: 1.125em; line-height: 1.2em;\">GENERAL RESEARCH AND DATABASES:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">The surroundings of the Thule Research Station&nbsp;offer both terrestrial and marine environments, which makes the research station ideal for botanists, zoologists, geologists, geophysicists, and physical geographers. The station is the entry port for activites in Northwest Greenland, e.g. for studies of polonya and sea ice in the Nares Strait and the Kennedy Canal. The station delivers long-term and unbroken time-series for precise positioning, sea leavel data etc.&nbsp;</span></p><p style=\"font-size: 18px; line-height: 21.6000003814697px;\"><strong style=\"font-size: 1.125em; line-height: 1.2em;\">HUMAN DIMENSION:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">The Thule Reseach Station is located at Pituffik, which is operated by Greenland Contractors and manned year around.&nbsp;</span></p><p style=\"font-size: 18px; line-height: 21.6000003814697px;\">North of the research station is the town of Qaanaaq and, further north, the nothernmost settlement of the world Siorapaluk.&nbsp;</p><p style=\"font-size: 18px; line-height: 21.6000003814697px;\"><strong style=\"font-size: 1.125em; line-height: 1.2em;\">ACCESS:&nbsp;</strong><span style=\"font-size: 1.125em; line-height: 1.2em;\">A valid residence permit is required to&nbsp;visit the Thule Research Station. </span><span style=\"font-size: 1.125em; line-height: 1.2em;\">You can reach the research station&nbsp;in two ways: With a chartered Airbus 330 from Copenhagen to Thule, or with an Airbus from Copenhagen to Kangerlussuaq and from there the next day ahead with Dash-8 to Thule.</span></p><p>About once a month (Wednesday) at&nbsp;8:25, the&nbsp;Airbus 330 departs from Copenhagen and flies directly to the Thule Air Base. On the same day - after a short stay - the plane&nbsp;returns&nbsp;to Copenhagen. Flight time is&nbsp;approximately 5 hours each way.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "Thule",
+  "latitude": 76.527557,
+  "longitude": -68.847939
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/fc4b37c8-8f0e-456d-a5ad-c10f401c32e6",
+ "sarAsset": "/api/sars/48d3f377-3380-422c-bbd1-ab7328425b25",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/f067c229-ea9c-49ff-bc04-0d23b90e29a8",
+  "@type": "Organisation",
+  "id": "f067c229-ea9c-49ff-bc04-0d23b90e29a8",
+  "title": "Technical University of Denmark (DTU)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.dtu.dk/english"
+  },
+  "address": "Anker Engelunds Vej 1",
+  "zipcode": "2800",
+  "city": "Kgs. Lyngby",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/31b93626-9a43-4f8b-bf1c-e4adf60d7f02",
+   "/api/taxonomy/departments/3cff37b5-cd96-46e1-9217-e4591df04619",
+   "/api/taxonomy/departments/5da13632-177e-44b2-9bdf-a3a21605645a",
+   "/api/taxonomy/departments/6a9faa15-d61c-452c-b253-256cf79be169",
+   "/api/taxonomy/departments/70da6929-868c-4e16-a5ce-951203d82b05",
+   "/api/taxonomy/departments/92ea2de2-25c0-400e-9544-9b467946bf44",
+   "/api/taxonomy/departments/b4de0917-5f46-4b4d-84d7-35e025186cae",
+   "/api/taxonomy/departments/d06736f3-be69-4480-bf07-bddd58f31fd7"
+  ],
+  "legacyNid": "442"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "59bef2b9-7d7f-49bc-926c-61d74e1be291",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/a22537f0-83ba-42f0-aac8-b63286f24c97",
+   "@type": "Person",
+   "fullName": "Finn Bo Madsen",
+   "id": "a22537f0-83ba-42f0-aac8-b63286f24c97",
+   "author": "/api/people/a22537f0-83ba-42f0-aac8-b63286f24c97",
+   "createdAt": "2021-02-08T11:18:48+00:00",
+   "lastModified": "2023-03-22T12:32:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-21T12:55:01+00:00"
+}

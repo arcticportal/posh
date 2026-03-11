@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/e9758322-4be2-47cd-954d-a8f1bc587404",
+ "@type": "Infrastructure",
+ "name": "The Seamen's Home Nuuk",
+ "contactName": "The Seamen's Home Nuuk",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": "The Seamen's Home Nuuk",
+  "url": "http://www.soemandshjem.gl/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<div><h1>Three star hotel with a view of the harbor and a great atmosphere</h1></div><div><div><div><img alt=\"\" src=\"http://www.soemandshjem.gl/typo3temp/pics/f5963a2074.jpg\" /></div></div><div><p>Regardless if you are a sailor, a workman or a tourist, you are always welcome at the seamen&rsquo;s home in Nuuk. The seamen&rsquo;s home is a three star hotel with 41 rooms, four of which are handicap friendly.&nbsp;The seamen&rsquo;s home is located on the harbor and offers a great view of the sea, the mountains and the many activities on the harbor.&nbsp;Our guests especially enjoy the quiet atmosphere, which provides the setting for a good nights sleep.&nbsp;Furthermore, they always appreciate the homely atmosphere and the high standard of service.&nbsp;All rooms are large and light, and contain a hotspot, phone and a TV. We offer rooms of different standards and at different price levels.&nbsp;Our cafeteria offers a large menu, and we are known for our high quality food. Many locals have their daily meals in our cafeteria.&nbsp;The seamen&rsquo;s home is often used for conference &ndash; and course purposes. We have a new and modern conference room with room for 30 people. Here you will have all the electronic equipment you need. We also have a number of smaller group rooms.We will do our best to give you a pleasant stay, and are looking forwards to seeing you.</p></div></div>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5c2e2a9f-f573-4b2c-83dd-dd7d6f450ed0",
+   "@type": "Type",
+   "name": "Accommodation",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "5c2e2a9f-f573-4b2c-83dd-dd7d6f450ed0",
+   "legacyTid": 80,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": "3900",
+ "city": "Nuuk",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/d08faf13-a06b-4284-985c-a2f961448163",
+ "coordinates": {
+  "name": null,
+  "latitude": 64.168889,
+  "longitude": -51.725833
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/331d25e8-8352-44f8-9132-e9eb46b64ff5",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "e9758322-4be2-47cd-954d-a8f1bc587404",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

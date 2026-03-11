@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/ca759c06-f963-4c12-a831-2f836d15cc01",
+ "@type": "Infrastructure",
+ "name": "Nukissiorfiit",
+ "contactName": "Nukissiorfiit",
+ "contactPhone": "(+299) 34 95 00",
+ "contactEmail": "kundeservice@nukissiorfiit.gl",
+ "organizationLink": {
+  "title": "Nukissiorfiit",
+  "url": "https://www.nukissiorfiit.gl/?lang=da"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p><span style=\"font-size: 18px; line-height: 21.5999984741211px;\">Nukissiorfiit (</span>Grønlands Energiforsyning) er det nationale el-, vand- og varmeforsyningsselskab i Grønland. Virksomheden forvalter og udvikler landets grundlæggende energiinfrastruktur. Selskabets ejes af Grønlands Selvstyre og beskæftiger samlet omkring 400 medarbejdere, som er fordelt på 17 byer og 54 bygder. Hovedkontoret ligger i Nuuk.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "@type": "Type",
+   "name": "Other",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "5e2e965f-3c70-476e-a38e-35b55db51faa",
+   "legacyTid": 44,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Nukissiorfiit Postbox 1080",
+ "areaCode": "3900",
+ "city": "Nuuk",
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 64.1843988,
+  "longitude": -51.7194486
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/588ddc30-10ea-4849-ae36-c901e12cdf98",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "ca759c06-f963-4c12-a831-2f836d15cc01",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

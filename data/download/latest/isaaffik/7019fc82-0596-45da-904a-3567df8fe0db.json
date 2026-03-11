@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/7019fc82-0596-45da-904a-3567df8fe0db",
+ "@type": "Infrastructure",
+ "name": "NEEM/EGRIP warehouse",
+ "contactName": "Jørgen Peder Steffensen",
+ "contactPhone": "+45 35 32 05 57",
+ "contactEmail": "jps@gfy.ku.dk",
+ "organizationLink": {
+  "title": "Centre for Ice and Climate, Niels Bohr Institute, University of Copenhagen",
+  "url": "www.iceandclimate.dk"
+ },
+ "externalLink": {
+  "title": "North greenland EEMian ice core drilling (NEEM)",
+  "url": "www.neem.dk"
+ },
+ "description": "<p>Kangerlussuaq/Søndre Strømfjord is the main base of operations for expeditions to the interior of the Greenland ice sheet. As Kangerlussuaq weatherwise is one of the best airports in the entire global Arctic (if not the best) and as the airport has an international runway, it can support operations with U.S. Air Force ski equipped LC-130, Hercules, aircraft. The aircraft are operated by the New York Air National Guard under contract with the U.S. National Science Foundation.</p><p>There are only few known access points to the interior of the Greenland ice sheet, e.g. point 660 some 42km from Kangerlussuaq and Tuttu ramp some 40 km from Thule Air Base, and these points become increasingly inaccessible due to strong melting at the ice sheet margin.</p><p>The access to ski equipped LC-130&nbsp; is absolutely vital for ice sheet operations, and therefore Kangerlussuaq is a cargo and passenger hub for U.S. and international operations.</p><p>Centre for Ice and Climate has had a lease for warehouse 442 since 1993. In this warehouse and in 8 20 foot containers, the centre stores expediton equipment, snow mobiles, cars, trucks, forklifts and cargo handling equipment. During a typical season, cargo for 12-14 LC-130 planes will be stoved and weighed (250 ton) and personal equipment for 50-100 people will be issued at this warehouse.</p><p>The field operations office will be in building 662 (KISS, Kangerlussuaq International Science Support) and all members of the expedition will stay at KISS while in transit.</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/81d86ad5-f973-4889-b92e-d1e081d12d89",
+   "@type": "Type",
+   "name": "Depot",
+   "description": "",
+   "marker": 4,
+   "children": [],
+   "parent": "/api/taxonomy/types/01b6c88b-ab29-4091-b78f-6daacdad4af9",
+   "id": "81d86ad5-f973-4889-b92e-d1e081d12d89",
+   "legacyTid": 90,
+   "legacyParentTid": 23
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Building 442",
+ "areaCode": "DK-3910",
+ "city": "Kangerlussuaq",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 67.008685295938,
+  "longitude": -50.69456577301
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/75b75ad5-00c6-493d-ad20-58a0f395ed9f",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "7019fc82-0596-45da-904a-3567df8fe0db",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

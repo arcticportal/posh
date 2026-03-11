@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/afb5600e-dad7-4e35-ba2c-d076856ddf71",
+ "@type": "Infrastructure",
+ "name": "Whitehorse Meteorological Supersite as part of the Canadian Arctic Weather Science (CAWS) project",
+ "contactName": "Zen Mariani, Ph.D.",
+ "contactPhone": "+001 416-739-5801  ",
+ "contactEmail": "zen.mariani@canada.ca ",
+ "organizationLink": {
+  "title": "ECCCC Science and Technology branch",
+  "url": "http://ecpass.ca/"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Ground-based remote sensing meteorological instruments for enhanced observations of the Arctic atmosphere.</p><p>The Canadian Arctic Weather Science Project (CAWS) is a science-based project aimed at testing new technologies, advancing science for the numerical weather forecast, enhancing forecast products for the north, and providing recommendations on a meteorological observing system for the Canadian Arctic. CAWS sites provide:<br> Near-real time data (no operational commitment) made available to the public and researchers via ecpass.ca<br> Enhanced evaluation of Arctic forecasts<br> Integrate satellite data: GPM (precipitation) cal/val underway, EarthCARE (radiation) and ADM-Aeolus (wind) upcoming<br> Working with local communities: provide relevant and reliable information<br> Working internationally: observations contribute to WMO YOPP project<br> Working with academia: accelerate results and enhance highly-qualified personnel on areas of interest for ECCC</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "@type": "Type",
+   "name": "Weather station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "52f6ca86-e45f-4f2b-8f45-b3ff3ce834f4",
+   "legacyTid": 32,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": "/api/images/9b7fbd66-da18-4a1f-80df-c11e16fe439b",
+ "coordinates": {
+  "name": null,
+  "latitude": 60.71,
+  "longitude": -135.07
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/563d8c05-e187-48bd-b047-30270082b87f",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "afb5600e-dad7-4e35-ba2c-d076856ddf71",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

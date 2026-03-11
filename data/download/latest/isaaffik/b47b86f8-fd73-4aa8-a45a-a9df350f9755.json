@@ -1,0 +1,106 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/b47b86f8-fd73-4aa8-a45a-a9df350f9755",
+ "@type": "Infrastructure",
+ "name": "Seismic Station EGRIP",
+ "contactName": "Trine Dahl-Jensen",
+ "contactPhone": "+4591333919",
+ "contactEmail": "mve_c@geus.dk",
+ "organizationLink": {
+  "title": "Geological Survey of Denmark and Greenland (GEUS)",
+  "url": "http://www.geus.dk/DK/Sider/default.aspx"
+ },
+ "externalLink": {
+  "title": null,
+  "url": null
+ },
+ "description": "<p>Seismic &nbsp;earthquake monitoring station in the <a href=\"/www.glisn.info\">GLISN network&nbsp;</a>run by the Geological Survey of Denmark and Greenland (GEUS), Denmark. Position:&nbsp;75 37.61N 35 59.49W. Elevation 2665 m</p><p>Station code: EGRIP</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "",
+ "areaCode": "",
+ "city": "",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": null,
+ "coordinates": {
+  "name": "EGRIP",
+  "latitude": 75.3761,
+  "longitude": -35.5949
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/fb506203-40af-4b9b-83ac-ca0fa8d02684",
+ "sarAsset": "/api/sars/33963d3c-7754-4918-8ceb-ac355f947514",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/38d2efcc-abbd-4cb1-b24f-3fb13af87ed5",
+  "@type": "Organisation",
+  "id": "38d2efcc-abbd-4cb1-b24f-3fb13af87ed5",
+  "title": "Geological Survey of Denmark and Greenland (GEUS)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://www.geus.dk/UK/Pages/default.aspx"
+  },
+  "address": "Øster Voldgade 10",
+  "zipcode": "1350",
+  "city": "Copenhagen K",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/04a3ed51-4433-4ded-bfda-3b03ca1456d8",
+   "/api/taxonomy/departments/0bec07a6-c01d-4247-87e0-bddd5819014b",
+   "/api/taxonomy/departments/2b4bf8c3-4a32-489f-ab3e-ee81bc944e5a",
+   "/api/taxonomy/departments/2fd864a1-a613-4faa-988d-01ae5ab8dde6",
+   "/api/taxonomy/departments/32936133-5185-416f-97b6-299760facdcd",
+   "/api/taxonomy/departments/686e6d48-b0a2-43c4-a901-54fbe340ea3a",
+   "/api/taxonomy/departments/797f6837-1e99-4102-98a7-fd4d8e191952",
+   "/api/taxonomy/departments/7c44c93d-321a-47b2-9b7e-eb6d18367e1a",
+   "/api/taxonomy/departments/9af643f2-14bb-4472-ae70-d01946c003a2",
+   "/api/taxonomy/departments/9de6ed24-38bd-4a6e-a97b-76c304fe6b91",
+   "/api/taxonomy/departments/cd2ac505-93f8-4147-a841-df5d5881e94d",
+   "/api/taxonomy/departments/d18b53b2-82fa-439a-b145-8b1cd7e7bb22",
+   "/api/taxonomy/departments/ff83ebb0-b662-4c45-8f64-2ae5bcef23e8"
+  ],
+  "legacyNid": "446"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "b47b86f8-fd73-4aa8-a45a-a9df350f9755",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/0676be25-dacf-4e84-a753-232a103cb327",
+   "@type": "Person",
+   "fullName": "Trine Dahl-Jensen",
+   "id": "0676be25-dacf-4e84-a753-232a103cb327",
+   "author": "/api/people/0676be25-dacf-4e84-a753-232a103cb327",
+   "createdAt": "2021-02-08T11:18:46+00:00",
+   "lastModified": "2025-10-27T09:47:29+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2021-05-21T10:21:03+00:00"
+}

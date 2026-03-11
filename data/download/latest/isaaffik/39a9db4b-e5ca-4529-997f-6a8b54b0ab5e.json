@@ -1,0 +1,75 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/39a9db4b-e5ca-4529-997f-6a8b54b0ab5e",
+ "@type": "Infrastructure",
+ "name": "Rif Field Station",
+ "contactName": "Rif Field Station",
+ "contactPhone": "+354 4645110 ",
+ "contactEmail": "lindi@nna.is",
+ "organizationLink": {
+  "title": "Náttúrustofa Norðausturlands",
+  "url": "http://nna.is/english/"
+ },
+ "externalLink": {
+  "title": "INTERACT web site",
+  "url": "http://www.eu-interact.org/field-sites/iceland/rif-field-station/"
+ },
+ "description": "<p><span style=\"font-size: 18px; line-height: 21.6000003814697px; background-color: rgb(233, 237, 235);\">Rif Field Station is an observerstation of the network INTERACT  International Network for Terrestrial Research and Monitoring in the Arctic  a circumarctic network of terrestrial research stations in arctic and northern alpine areas. INTERACT maintains an updated website with information about arctic research stations and their study areas. &nbsp;For more information about the research station therefore follow the external link above.</span></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "@type": "Type",
+   "name": "Research station",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "3dac89e7-0671-4551-89aa-8515c1e67c6e",
+   "legacyTid": 29,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": "Adalbraut 23",
+ "areaCode": "IS-675",
+ "city": "Raufarhofn",
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512",
+  "@type": "Country",
+  "name": "Iceland",
+  "description": "",
+  "legacyTid": 155,
+  "id": "6cc5c8f7-a1d6-4e4f-a1b4-1dcf22986512"
+ },
+ "image": "/api/images/6e950075-6ec9-427d-bae7-46eac5393faa",
+ "coordinates": {
+  "name": null,
+  "latitude": 66.45621667,
+  "longitude": -15.95168
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/14b2e18c-8b80-4373-9b97-826e640cbf07",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "39a9db4b-e5ca-4529-997f-6a8b54b0ab5e",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "@type": "Person",
+   "fullName": "Elmer Topp-Jørgensen",
+   "id": "31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "author": "/api/people/31d2087d-5c4a-4fee-baae-7d84edf05ac2",
+   "createdAt": "2021-02-08T11:19:32+00:00",
+   "lastModified": "2022-06-17T09:57:09+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": "2023-03-17T08:38:39+00:00"
+}

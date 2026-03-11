@@ -1,0 +1,67 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/b54186e4-6f68-4496-8268-191433ba090a",
+ "@type": "Infrastructure",
+ "name": "Napasoq",
+ "contactName": "Napasoq",
+ "contactPhone": null,
+ "contactEmail": null,
+ "organizationLink": {
+  "title": null,
+  "url": null
+ },
+ "externalLink": {
+  "title": "Wikipedia",
+  "url": "http://en.wikipedia.org/wiki/Napasoq"
+ },
+ "description": "<p>Napasoq (old spelling: Napassoq/Napâssoq) is an island settlement in the Qeqqata municipality, in central-western Greenland. Located on a small island on the shores of Davis Strait, it had 85 inhabitants in 2010. Source: <a href=\"http://en.wikipedia.org/wiki/Napasoq\" target=\"_blank\">Wikipedia</a></p><p>For further information (in Danish) see also the Danish Geodata Agency:&nbsp;D<a href=\"http://www.gronlandskehavnelods.dk/#HID=28\" target=\"_blank\">en grønlandske Havnelods</a></p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "@type": "Type",
+   "name": "Settlement",
+   "description": "",
+   "marker": 5,
+   "children": [],
+   "parent": "/api/taxonomy/types/bdbe32b8-92a6-48a5-a658-3a192c10c08e",
+   "id": "a8a4ec07-425b-40a6-b919-0d09d0978db4",
+   "legacyTid": 27,
+   "legacyParentTid": 20
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": null,
+ "image": null,
+ "coordinates": {
+  "name": null,
+  "latitude": 65.0471605,
+  "longitude": -52.3803012
+ },
+ "coverImage": null,
+ "region": null,
+ "sarAsset": "/api/sars/d1df2140-2882-422e-93fd-006ee75a3703",
+ "organisation": null,
+ "url": "",
+ "attachments": [],
+ "id": "b54186e4-6f68-4496-8268-191433ba090a",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "@type": "Person",
+   "fullName": "Isaaffik admin AU",
+   "id": "075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "author": "/api/people/075671fc-a1e8-411d-bd7d-4f4f574fdf5a",
+   "createdAt": "2022-11-03T08:03:57+00:00",
+   "lastModified": "2024-03-01T14:57:31+00:00"
+  }
+ ],
+ "author": null,
+ "createdAt": "2018-09-20T10:12:28+00:00",
+ "lastModified": null
+}

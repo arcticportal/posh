@@ -1,0 +1,104 @@
+{
+ "@context": "/api/contexts/Infrastructure",
+ "@id": "/api/infrastructures/183dbefc-24b7-44c9-b03c-d8aa2b241df6",
+ "@type": "Infrastructure",
+ "name": "GIOS Arctic Research Centre Mobile Observatory - Daneborg",
+ "contactName": "Søren Rysgaard",
+ "contactPhone": null,
+ "contactEmail": "rysgaard@au.dk",
+ "organizationLink": {
+  "title": "",
+  "url": "https://gios.org"
+ },
+ "externalLink": null,
+ "description": "<p>Climate change is rapidly altering the Arctic environment. Although long-term environmental observations have been made at a few locations in the Arctic, the incomplete coverage from ground stations is a main limitation to observations in these remote areas. Here we present a wind and sun powered multi-purpose mobile observatory (ARC-MO) that enables near real time measurements of air, ice, land, rivers, and marine parameters in remote off-grid areas. Two test units were constructed and placed in Northeast Greenland where they have collected data from cabled and wireless instruments deployed in the environment since late summer 2021. The two units can communicate locally via WiFi (units placed 25 km apart) and transmit near-real time data globally over satellite. Data are streamed live and accessible from (https://gios.org). The cost of one mobile observatory unit is <i>c.</i> 304.000€. These test units demonstrate the possibility for integrative and automated environmental data collection in remote coastal areas and could serve as models for a proposed global observatory system.</p><p>https://doi.org/10.1016/j.ohx.2022.e00331</p>",
+ "types": [
+  {
+   "@context": "/api/contexts/Type",
+   "@id": "/api/taxonomy/types/ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "@type": "Type",
+   "name": "Monitoring site",
+   "description": "",
+   "marker": 3,
+   "children": [],
+   "parent": "/api/taxonomy/types/77d0c0e7-d041-4084-8b96-830c0dda98a5",
+   "id": "ac17275b-19e5-40da-83db-aeed6e4a6f87",
+   "legacyTid": 30,
+   "legacyParentTid": 21
+  }
+ ],
+ "dontOverrideTypesWhenExporting": null,
+ "address": null,
+ "areaCode": null,
+ "city": null,
+ "exportedFromSIOS": null,
+ "country": {
+  "@context": "/api/contexts/Country",
+  "@id": "/api/taxonomy/countries/6160c30a-4cc3-47e2-9898-03a4be94f92e",
+  "@type": "Country",
+  "name": "Greenland",
+  "description": "",
+  "legacyTid": 154,
+  "id": "6160c30a-4cc3-47e2-9898-03a4be94f92e"
+ },
+ "image": "/api/images/d489bcd2-56df-4dda-ad5e-79c18ba5449f",
+ "coordinates": {
+  "name": "A mobile observatory powered by sun and wind for near real time measurements of atmospheric, glacial, terrestrial, limnic and coastal oceanic conditions in remote off-grid areas ",
+  "latitude": 74.313146608035,
+  "longitude": -20.226710373388
+ },
+ "coverImage": null,
+ "region": "/api/taxonomy/regions/f77191b2-8fc0-411b-9dd8-6c0ffe1671ca",
+ "sarAsset": "/api/sars/c22d8aff-9c48-4b89-be4c-bdbf47bc6f6d",
+ "organisation": {
+  "@context": "/api/contexts/Organisation",
+  "@id": "/api/taxonomy/organisations/46382315-50d6-4b80-8dc3-69b3e0242854",
+  "@type": "Organisation",
+  "id": "46382315-50d6-4b80-8dc3-69b3e0242854",
+  "title": "Aarhus University (AU)",
+  "organisationDepartment": null,
+  "url": {
+   "title": null,
+   "url": "http://arctic.au.dk/"
+  },
+  "address": "Ny Munkegade 114, bldg. 1540",
+  "zipcode": "8000",
+  "city": "Aarhus C",
+  "country": "/api/taxonomy/countries/65d1cf9f-afa6-4597-87d0-71761439f981",
+  "departments": [
+   "/api/taxonomy/departments/5f24ea48-2d5f-4cd9-a7d6-96620af33bf9",
+   "/api/taxonomy/departments/6a4637e0-b9e7-42fc-bdc8-d237146cb48c",
+   "/api/taxonomy/departments/b50afbea-cdce-4179-9e86-5d4b4353572c",
+   "/api/taxonomy/departments/df3f0a0f-4239-4e6f-a456-71b076d7653d",
+   "/api/taxonomy/departments/f0165fbc-c820-4236-9bed-89c9f3734f53",
+   "/api/taxonomy/departments/fbe492ad-c821-4b5e-859f-a4c51e84d352"
+  ],
+  "legacyNid": "439"
+ },
+ "url": "",
+ "attachments": [],
+ "id": "183dbefc-24b7-44c9-b03c-d8aa2b241df6",
+ "draft": false,
+ "owners": [
+  {
+   "@id": "/api/people/ec16937f-ff9a-4f2f-88f1-15fc5839de99",
+   "@type": "Person",
+   "fullName": "Søren Rysgaard",
+   "id": "ec16937f-ff9a-4f2f-88f1-15fc5839de99",
+   "author": "/api/people/ec16937f-ff9a-4f2f-88f1-15fc5839de99",
+   "createdAt": "2021-02-08T11:18:43+00:00",
+   "lastModified": "2026-02-01T10:25:11+00:00"
+  }
+ ],
+ "author": {
+  "@id": "/api/people/ec16937f-ff9a-4f2f-88f1-15fc5839de99",
+  "@type": "Person",
+  "fullName": "Søren Rysgaard",
+  "id": "ec16937f-ff9a-4f2f-88f1-15fc5839de99",
+  "author": "/api/people/ec16937f-ff9a-4f2f-88f1-15fc5839de99",
+  "createdAt": "2021-02-08T11:18:43+00:00",
+  "lastModified": "2026-02-01T10:25:11+00:00"
+ },
+ "createdAt": "2022-06-21T18:45:24+00:00",
+ "lastModified": "2022-06-21T19:00:40+00:00"
+}

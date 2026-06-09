@@ -3,8 +3,8 @@ import {Observable, Subscriber} from 'rxjs'
 
 function cleanObjectArrays(x: any): any {
   if (typeof x != 'object' || x == null) return x
-  var r: any = {}, k, v
-  for (k in x) {
+  var r: any = {}, v
+  for (var k in x) {
     v = x[k]
     if (!Array.isArray(v)) { r[k] = v; continue }
     r[k] = v.filter((e: any) => e != null && e !== '') }
@@ -66,5 +66,4 @@ export class JsonSeqService {
 	  this.ngZone.run(() => { observer.error(e) }) } })
       // Cleanup logic when the consumer unsubscribes
       return () => { controller.abort() } }) }
-
 }

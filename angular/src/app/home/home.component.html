@@ -1,7 +1,20 @@
-<div class="row mt-3">
-  <app-home-filter class="col-2" />
+<div class="row">
+  <p class="col-12 lead text-secondary mt-3 mb-4">
+    Research and monitoring sites such as stations, facilities, plots,
+    moorings, observatories, platforms, supersites, community-based
+    observations, and wherever repeat measurements have been
+    made—compiled from multiple observing inventories.
+  </p>
+  @if (window.innerWidth >= 992) {
+  <app-home-filter class="col-sm-4 col-md-3 sticky-sidebar" />
   <div class="col">
     <div class="row">
+	<p class="col-12 text-danger-emphasis fst-italic fw-bold">
+	  Note: POSC is a prototype&mdash;a proof of concept&mdash;for
+	  demonstration purposes only, and will be further developed to
+	  meet user needs as resources allow.  For more information,
+	  please <a routerLink="/contact">contact us</a>.
+	</p>
       <div class="col position-relative">
 	<div class="input-group">
 	  <input type="text" class="form-control" [formControl]="ctrl"
@@ -11,8 +24,67 @@
 	<i [class]="'bi-' + (ctrl.value ? 'x' : 'search')"
 	   (click)="ctrl.setValue('')"></i>
       </div>
-      <div class="col-auto pt-2">{{result ? result.count() : ''}}</div>
-      <app-home-result class="col-12 pt-3" />
+      <div class="col-auto pt-2">
+	@if (model.lst().length < api.lst().length) {
+	  {{model.lst().length | number}} of }
+	{{api.lst().length | number}} total</div>
+    </div>
+    <div class="row mt-3">
+      <ul class="nav nav-pills col-auto mx-auto mb-3">
+	<li class="nav-item">
+	  <a class="nav-link" [routerLink]="[]"
+	     [queryParams]="model.setMode('map')"
+	     [ngClass]="{'active': model.mode() == 'map'}">Map</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link" [routerLink]="[]"
+	     [queryParams]="model.setMode('list')"
+	     [ngClass]="{'active': model.mode() == 'list'}">List</a>
+	</li>
+      </ul>
+      @if (model.mode() == 'list') {
+      <app-home-result class="col-12" /> }
+      @else {
+      <app-home-globe class="col-12" /> }
+    </div>
+  </div> }
+  @else {
+  <div class="mobile-sticky-bar col-12"
+       [class.mobile-bar-hidden]="mobileBarHidden">
+    <div class="position-relative">
+      <div class="input-group">
+	<input type="text" class="form-control" [formControl]="ctrl"
+		 placeholder="Search observing site"
+		 area-label="Search" />
+	<i [class]="'bi-' + (ctrl.value ? 'x' : 'search')"
+	   (click)="ctrl.setValue('')"></i>
+      </div>
+    </div>
+    <app-home-filter class="d-block mt-2"
+		     (mobileExpandedChange)="onMobileFilterExpanded($event)" />
+  </div>
+  <div class="ms-auto col-auto mt-2">
+    @if (model.lst().length < api.lst().length) {
+      {{model.lst().length | number}} of }
+    {{api.lst().length | number}} total</div>
+  <div class="col-12">
+    <div class="row mt-3">
+      <ul class="nav nav-pills col-auto mx-auto mb-3">
+	<li class="nav-item">
+	  <a class="nav-link" [routerLink]="[]"
+	     [queryParams]="model.setMode('map')"
+	     [ngClass]="{'active': model.mode() == 'map'}">Map</a>
+	</li>
+	<li class="nav-item">
+	  <a class="nav-link" [routerLink]="[]"
+	     [queryParams]="model.setMode('list')"
+	     [ngClass]="{'active': model.mode() == 'list'}">List</a>
+	</li>
+      </ul>
     </div>
   </div>
+  @if (model.mode() == 'list') {
+  <app-home-result class="col-12" /> }
+  @else {
+  <app-home-globe class="col-12" /> } }
 </div>

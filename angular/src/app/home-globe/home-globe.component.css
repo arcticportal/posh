@@ -1,0 +1,28 @@
+#globeContainer
+{ height: 600px;
+  /*background-color: var(--bs-gray-700)*/
+}
+
+::ng-deep .globe-popup .maplibregl-popup-content
+{ padding-top: 5px;
+  padding-bottom: 5px;
+  max-height: 200px;
+  overflow-y: auto;
+  opacity: 0.9 }
+
+::ng-deep .globe-popup a
+{ text-decoration: none;
+  font-size: large }
+
+::ng-deep .globe-popup a:hover
+{ text-decoration: underline }
+
+::ng-deep .globe-popup hr
+{ margin-top: 2px;
+  margin-bottom: 3px }
+
+/*::ng-deep .globe-popup strong
+{ overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block }*/

@@ -1,1 +1,19 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+:root
+{ --posdt-green: #274e13;
+  --posdt-font:
+      Carlito, Poppins, system-ui, -apple-system, "Segoe UI", Roboto,
+      "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial,
+      sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+  --posdt-normal: 300;
+  --posdt-bold: 700 }
+
+body
+{ font-family: var(--posdt-font);
+  font-weight: var(--posdt-normal);
+  font-style: normal;
+  -webkit-font-smoothing: antialiased }

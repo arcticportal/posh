@@ -1,5 +1,63 @@
 <div class="card">
   <div class="card-body">
-    <div class="card-title">TODO: add filters</div>
+    <div class="card-title d-flex">
+      <h4 class="mb-0">Filter by</h4>
+      @if (window.innerWidth < 992) {
+      <i [class]="'mt-1 ms-2 bi-chevron-' + (show ? 'up' : 'down')"
+	 (click)="toggleMobile()"></i> }
+      @if (show || window.innerWidth >= 992) {
+	<a class="ms-auto"
+	   [queryParams]="model.clearFilters()"
+	   [routerLink]="[]"><img src="/ClearALL_Icon.png" /></a> }
+    </div>
+    @if (show || window.innerWidth >= 992) {
+    <div class="accordion accordion-flush user-select-none"
+	 id="accordion">
+      <!-- <div class="accordion-item">
+	<h5 class="accordion-header">
+	  <button class="accordion-button fs-5" type="button"
+		  data-bs-toggle="collapse"
+		  data-bs-target="#collapsecatalog"
+		  aria-controls="collapsecatalog"
+		  [ngStyle]="stylGroup('catalog')"
+		  aria-expanded="true">{{
+	    filters['catalog'].label}}</button>
+	</h5>
+	<div class="accordion-collapse collapse show"
+	     id="collapsecatalog">
+	  <ul class="accordion-body list-unstyled pt-2 ms-3 pb-0">
+	    @for (s of filterSignal('collapse')(); track s) {
+	    <li class="lh-1">
+	      <a class="text-decoration-none text-reset"
+		 [queryParams]="model.setFilter('collapse', s)"
+		 [routerLink]="[]"><i class="fs-4" [ngClass]="stylRadio('collapse', s)"></i>
+		 {{s}} ({{count('collapse', s)}})</a>
+	    </li> }
+	  </ul>
+	</div>
+      </div> -->
+      @for (k of ['catalog', 'country', 'network']; track k) {
+      <div class="accordion-item">
+	<h5 class="accordion-header">
+	  <button class="accordion-button collapsed fs-5" type="button"
+		  data-bs-toggle="collapse"
+		  [attr.data-bs-target]="'#collapse' + k"
+		  [attr.aria-controls]="'collapse' + k"
+		  [ngStyle]="stylGroup(k)"
+		  aria-expanded="false">{{filters[k].label}}</button>
+	</h5>
+	<div class="accordion-collapse collapse" [id]="'collapse' + k">
+	  <ul class="accordion-body list-unstyled pt-2 ms-3 pb-0">
+	    @for (s of filterSignal(k)(); track s) {
+	    <li class="lh-1">
+	      <a class="text-decoration-none text-reset"
+		 [queryParams]="model.setFilter(k, s)"
+		 [routerLink]="[]"><i class="fs-4" [ngClass]="stylRadio(k, s)"></i>
+		 {{s}} ({{count(k, s)}})</a>
+	    </li> }
+	  </ul>
+	</div>
+      </div> }
+    </div> }
   </div>
 </div>

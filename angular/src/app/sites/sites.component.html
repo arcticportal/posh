@@ -1,0 +1,128 @@
+<!-- <nav class="row">
+  <a class="col-auto px-2 rounded-1 fs-5 mt-3"
+     (click)="location.back()"><i class="bi-arrow-left"></i>
+    BACK</a>
+</nav> -->
+<div class="row mt-4">
+  <div class="col-8">
+    @if (d()['Site Name'] || d()['Site Description']) {
+    <div class="card">
+      <div class="card-body pt-2 pb-0">
+	@if (d()['Site Name']) {
+	<h1>{{d()['Site Name']}}</h1> }
+	@if (d()['Site Description']) {
+	<p>{{d()['Site Description']}}</p> }
+      </div>
+    </div> }
+    <dl class="row pt-3 text-break">
+      <dt class="col-sm-3 text-sm-end">Source Catalog</dt>
+      <dd class="col-sm-9">
+	<a [href]="d()['Source Catalog URL']" target="_blank"><img
+	     [src]="d()['Source Catalog Logo URL']"
+	     class="me-1" [style]="catalogStyle()" /></a></dd>
+      @if (d()['Web Links']) {
+      <dt class="col-sm-3 text-sm-end">Links</dt>
+      <dd class="col-sm-9">
+	@for (l of d()['Web Links']; track l) {
+	<div><a href="{{l}}" target="_blank">{{
+	    formatUrl(l)}}</a></div> }
+      </dd> }
+      @if (d()['Organization']) {
+      <dt class="col-sm-3 text-sm-end">Organization</dt>
+      <dd class="col-sm-9">
+	@for (o of d()['Organization']; track o) {
+	<div>{{o}}</div> }
+      </dd> }
+      @if (d()['Networks']) {
+      <dt class="col-sm-3 text-sm-end">Networks</dt>
+      <dd class="col-sm-9">{{d()['Networks'].join(', ')}}</dd> }
+      @if (d()['Funding Agency']) {
+      <dt class="col-sm-3 text-sm-end">Funding Agency</dt>
+      <dd class="col-sm-9">{{d()['Funding Agency'].join(', ')}}</dd> }
+      @if (d()['Projects']) {
+      <dt class="col-sm-3 text-sm-end">Projects</dt>
+      <dd class="col-sm-9">{{d()['Projects'].join(', ')}}</dd> }
+      @if (d()['Project IDs']) {
+      <dt class="col-sm-3 text-sm-end">Project IDs</dt>
+      <dd class="col-sm-9">{{d()['Project IDs'].join(', ')}}</dd> }
+      @if (d()['Contact Name']) {
+      <!-- <dt class="col-sm-3 text-sm-end">Contact Name
+	linked to Contact Email</dt> -->
+      <dt class="col-sm-3 text-sm-end">Contact</dt>
+      <dd class="col-sm-9">
+	@for (s of d()['Contact Name']; track s) {
+	<div>
+	  @if (d()['Contact Email']) {
+	  <a href="mailto:{{d()['Contact Email'][$index]}}">{{s}}</a> }
+	  @else { {{s}} }
+	</div> }
+      </dd> }
+      @if (d()['Site Type']) {
+      <dt class="col-sm-3 text-sm-end">Site Type</dt>
+      <dd class="col-sm-9">{{d()['Site Type'].join(', ')}}</dd> }
+      @if (d()['Coordinates']) {
+      <dt class="col-sm-3 text-sm-end">Coordinates</dt>
+      <dd class="col-sm-9">
+	Longitude: {{d()['Point'].coordinates[0]}}&deg;,
+	Latitude: {{d()['Point'].coordinates[1]}}&deg;</dd> }
+      @if (d()['Country']) {
+      <dt class="col-sm-3 text-sm-end">Country</dt>
+      <dd class="col-sm-9">{{d()['Country'].join(', ')}}</dd> }
+      @if (d()['Related Locations']) {
+      <dt class="col-sm-3 text-sm-end">Related Locations</dt>
+      <dd class="col-sm-9">{{
+	d()['Related Locations'].join(', ')}}</dd> }
+      @if (d()['Elevation']) {
+      <dt class="col-sm-3 text-sm-end">Elevation</dt>
+      <dd class="col-sm-9">{{d()['Elevation']}}</dd> }
+      @if (d()['Site IDs']) {
+      <dt class="col-sm-3 text-sm-end">Site IDs</dt>
+      <dd class="col-sm-9">{{d()['Site IDs'].join(', ')}}</dd> }
+      <!-- <dt class="col-sm-3 text-sm-end">POSDT ID
+	as a URL to this landing page</dt> -->
+      <dt class="col-sm-3 text-sm-end">POSC ID</dt>
+      <dd class="col-sm-9">
+	<a [routerLink]="['/sites', d()['POSDT ID']]">posdt.arcticportal.org/sites/{{
+	  d()['POSDT ID']}}</a>
+      </dd>
+      @if (d()['Observed Properties']) {
+      <dt class="col-sm-3 text-sm-end">Observed Properties</dt>
+      <dd class="col-sm-9">{{
+	d()['Observed Properties'].join(', ')}}</dd> }
+      @if (d()['Start Year']) {
+      <dt class="col-sm-3 text-sm-end">Start Year</dt>
+      <dd class="col-sm-9">{{d()['Start Year']}}</dd> }
+      @if (d()['Operating Status']) {
+      <dt class="col-sm-3 text-sm-end">Operating Status</dt>
+      <dd class="col-sm-9">{{d()['Operating Status']}}</dd> }
+      @if (d()['Metadata Creator']) {
+      <dt class="col-sm-3 text-sm-end">Metadata Creator</dt>
+      <dd class="col-sm-9">{{d()['Metadata Creator'].join(', ')}}</dd> }
+      @if (d()['Metadata Created']) {
+      <dt class="col-sm-3 text-sm-end">Metadata Created</dt>
+      <dd class="col-sm-9">{{
+	d()['Metadata Created'].slice(0, 10)}}</dd> }
+      @if (d()['Metadata Updated']) {
+      <dt class="col-sm-3 text-sm-end">Metadata Updated</dt>
+      <dd class="col-sm-9">{{
+	d()['Metadata Updated'].slice(0, 10)}}</dd> }
+      @if (d()['Date Metadata Harvested']) {
+      <dt class="col-sm-3 text-sm-end">Metadata Harvested</dt>
+      <dd class="col-sm-9">{{
+	d()['Date Metadata Harvested'].slice(0, 10)}}</dd> }
+    </dl>
+    @if (false) {
+    <hr class="border border-danger border-2 opacity-50" />
+    <h1>Debug Info</h1>
+    @for (k of $any(({}).constructor).keys(d()).sort(); track k) {
+    <div class="text-break"><strong>{{k}}</strong> {{d()[k]}}</div> } }
+  </div>
+  <div class="col-4 position-relative">
+    @if (d()['Coordinates']) {
+    <div id="mapContainer" #mapContainer
+	 class="rounded-1 mb-2"></div> }
+    @if (d()['Images']) {
+      @for (s of d()['Images']; track s) {
+      <img src="{{s}}" class="img-fluid rounded-1 mb-2" /> } }
+  </div>
+</div>

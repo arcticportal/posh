@@ -3,6 +3,10 @@ i
   z-index: 5;
   color: var(--bs-gray-500) }
 
+a { text-decoration: none }
+
+a:hover { text-decoration: underline }
+
 .bi-search
 { font-size: x-large;
   top: 2px;
@@ -16,3 +20,16 @@ i
 
 .bi-x:hover
 { color: var(--bs-gray-600) }
+
+aside
+{ color: var(--bs-danger-text-emphasis) }
+
+.nav-link
+{ color: var(--posdt-green) }
+
+.nav-link:hover
+{ text-decoration: none }
+
+.nav-link.active
+{ color: white;
+  background-color: var(--posdt-green) }

@@ -1,0 +1,15 @@
+/*.card-body { padding-top: 0.5em; padding-bottom: 0em }*/
+
+nav>a { color: var(--posdt-green); margin-left: 12px; cursor: pointer }
+
+nav>a:hover { text-decoration: none }
+
+h1 { color: var(--posdt-green); font-weight: var(--posdt-bold) }
+
+a { text-decoration: none }
+
+a:hover { text-decoration: underline }
+
+#mapContainer { height: 300px }
+
+strong { font-weight: var(--posdt-bold) }

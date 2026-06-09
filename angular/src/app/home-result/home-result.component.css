@@ -1,3 +1,34 @@
 .accordion-body .col-auto
 { color: var(--bs-gray);
   width: 210px }
+
+table { table-layout: fixed }
+
+td>a { text-decoration: none }
+
+td>a:hover { text-decoration: underline }
+
+.page-link:focus { background-color: white; box-shadow: none }
+
+.dropdown-menu { min-width: 6em }
+
+.active>.page-link
+{ background-color: var(--posdt-green);
+  border-color: var(--posdt-green);
+  color: white }
+
+.page-link { color: var(--posdt-green) }
+
+.btn-outline-success
+{ color: var(--posdt-green);
+  border-color: var(--posdt-green);
+  --bs-btn-color: var(--posdt-green) }
+
+.btn-outline-success:hover
+{ background-color: var(--posdt-green);
+  border-color: var(--posdt-green);
+  color: white }
+
+.btn-outline-success.show
+{ background-color: var(--posdt-green);
+  color: white }

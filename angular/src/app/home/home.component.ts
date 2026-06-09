@@ -1,17 +1,21 @@
 import {
   Component, HostBinding, inject, ViewChild } from '@angular/core';
-import {ActivatedRoute, Router} from '@angular/router'
+import {DecimalPipe, NgClass} from '@angular/common'
+import {ActivatedRoute, Router, RouterLink} from '@angular/router'
 import {FormControl, ReactiveFormsModule} from '@angular/forms'
 import {debounceTime} from 'rxjs/operators'
 
 import {ApiService} from '../api.service'
+import {ModelService} from '../model.service'
 import {HomeFilterComponent} from '../home-filter/home-filter.component'
 import {HomeResultComponent} from '../home-result/home-result.component'
+import {HomeGlobeComponent} from '../home-globe/home-globe.component'
 
 @Component({
   selector: 'app-home',
   imports: [
-    ReactiveFormsModule, HomeFilterComponent, HomeResultComponent],
+    DecimalPipe, NgClass, RouterLink, ReactiveFormsModule,
+    HomeFilterComponent, HomeResultComponent, HomeGlobeComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -20,13 +24,20 @@ export class HomeComponent {
   @ViewChild(HomeResultComponent) result!: HomeResultComponent
   private route = inject(ActivatedRoute)
   private router = inject(Router)
-  private api = inject(ApiService)
+  api = inject(ApiService)
+  model = inject(ModelService)
   window = window
   ctrl = new FormControl('')
+  mobileBarHidden = false
+  mobileFilterExpanded = false
+
+  onMobileFilterExpanded(expanded: any) {
+    this.mobileFilterExpanded = expanded
+    if (expanded) this.mobileBarHidden = false }
 
   ngOnInit(): void {
     this.ctrl.setValue(this.route.snapshot.queryParams['search'] || '')
     this.ctrl.valueChanges.pipe(debounceTime(300)).subscribe(s => {
-      this.router.navigate([], {queryParams: this.api.changedQuery(
-	this.route, 'search', s || '')}) }) }
+      this.router.navigate([], {
+	queryParams: this.model.setSearch(s)}) }) }
 }

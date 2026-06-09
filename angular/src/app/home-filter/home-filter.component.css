@@ -1,0 +1,15 @@
+h4,h5>button { color: var(--posdt-green) }
+
+img { height: 1em; cursor: pointer }
+
+.accordion-button:focus { box-shadow: none }
+
+li { text-indent: -14px }
+
+a>i { position: relative; top: 4px }
+
+.accordion-item
+{ border-bottom: 1px solid var(--posdt-green) !important;
+  border-top: none;
+  border-left: none;
+  border-right: none }

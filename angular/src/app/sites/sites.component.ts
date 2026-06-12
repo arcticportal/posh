@@ -5,6 +5,7 @@ import {
   Location, NgOptimizedImage, ViewportScroller} from '@angular/common'
 import {ActivatedRoute, RouterLink} from '@angular/router'
 import {toSignal} from '@angular/core/rxjs-interop'
+import {Title} from '@angular/platform-browser'
 
 import maplibregl from 'maplibre-gl'
 
@@ -25,6 +26,7 @@ export class SitesComponent {
   private api = inject(ApiService)
   private map?: maplibregl.Map
   private mapReady = signal(false)
+  private title = inject(Title)
   location = inject(Location)
   mapContainer = viewChild<ElementRef<HTMLDivElement>>('mapContainer')
   d = signal<Obj>({})
@@ -37,6 +39,7 @@ export class SitesComponent {
       var d = this.api.lst().find(d => d['POSDT ID'] == id)
       if (!d) return
       this.d.set(d)
+      this.title.setTitle((d['Site Name'] || d['POSDT ID']) + ' | POSC')
       if (!('Geometry' in d)) return
       var e = this.mapContainer()?.nativeElement
       if (!e) return

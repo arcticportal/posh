@@ -1,6 +1,6 @@
 import {
-  Component, effect, EventEmitter, inject,
-  Output } from '@angular/core';
+  Component, effect, EventEmitter, inject, Output,
+  signal } from '@angular/core';
 import {NgClass, NgStyle} from '@angular/common'
 import {RouterLink} from '@angular/router'
 
@@ -20,6 +20,7 @@ export class HomeFilterComponent {
   model = inject(ModelService)
   show = false
   window = window
+  viewReady = signal<boolean>(false)
 
   filters: Obj = {
     catalog: {show: false, label: 'Source Catalog'},
@@ -28,10 +29,12 @@ export class HomeFilterComponent {
 
   constructor() {
     effect(() => {
-      if (!this.api.catalog().length) return
+      if (!this.api.catalog().length || !this.viewReady()) return
       ;(new (window as any).bootstrap.Collapse(
 	document.getElementById('collapsecatalog'),
 	{toggle: false})).show() }) }
+
+  ngAfterViewInit() { this.viewReady.set(true) }
 
   filterSignal(k: string) { return (this.api as Obj)[k] }
 

@@ -155,7 +155,7 @@ export class ApiService {
 	this.jseq.stream('/interact.json-seq'),
 	this.jseq.stream('/sios.json-seq'),
 	this.jseq.stream('/deims.json-seq'),
-	this.jseq.stream('/aov.json-seq.gz')], key)),
+	this.jseq.stream('/aov.json-seq')], key)),
       bufferCount(1000), concatMap(async b => {
 	for (var d, s, box, n = b.length, i = 0; i < n; ++i) {
 	  if (!(i % 50)) await this.sch.yield()

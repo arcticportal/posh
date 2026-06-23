@@ -6,7 +6,7 @@ import {RouterLink} from '@angular/router'
 
 import {Obj} from '../types'
 import {ApiService} from '../api.service'
-import {ModelService} from '../model.service'
+import {match, ModelService} from '../model.service'
 
 @Component({
   selector: 'app-home-filter',
@@ -27,19 +27,36 @@ export class HomeFilterComponent {
     country: {show: false, label: 'Country'},
     network: {show: false, label: 'Network'}}
 
+  private searchNarrowed = new Set<string>()
+
   constructor() {
     effect(() => {
       if (!this.api.catalog().length || !this.viewReady()) return
       ;(new (window as any).bootstrap.Collapse(
 	document.getElementById('collapsecatalog'),
-	{toggle: false})).show() }) }
+	{toggle: false})).show() })
+    effect(() => {
+      var s = this.model.search()
+      if (!s) return
+      this.searchNarrowed.clear()
+      for (var d of this.api.lst()) if (match(d, s))
+	this.searchNarrowed.add(d['POSDT ID']) }) }
 
   ngAfterViewInit() { this.viewReady.set(true) }
 
   filterSignal(k: string) { return (this.api as Obj)[k] }
 
+  count2(k: string, v: string) {
+    return this.api.filters[k][v].size || 0 }
+
   count(k: string, v: string) {
-    return (this.api as Obj)[k + 'Count'][v] || 0 }
+    var s = this.api.filters[k][v], m = this.model as Obj
+    for (var t of ['catalog', 'country', 'network'])
+      if (t != k && m[t]())
+	s = s.intersection(this.api.filters[t][m[t]()])
+    t = this.model.search()
+    if (t) s = s.intersection(this.searchNarrowed)
+    return s.size }
 
   /*caret(k: string) {
     return 'bi-caret-' +

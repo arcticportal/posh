@@ -28,6 +28,7 @@ export class SitesComponent {
   private mapReady = signal(false)
   private title = inject(Title)
   location = inject(Location)
+  host = window.location.host
   mapContainer = viewChild<ElementRef<HTMLDivElement>>('mapContainer')
   d = signal<Obj>({})
 

@@ -80,10 +80,10 @@
       <dd class="col-sm-9">{{d()['Site IDs'].join(', ')}}</dd> }
       <!-- <dt class="col-sm-3 text-sm-end">POSDT ID
 	as a URL to this landing page</dt> -->
-      <dt class="col-sm-3 text-sm-end">POSC ID</dt>
+      <dt class="col-sm-3 text-sm-end">POSH ID</dt>
       <dd class="col-sm-9">
-	<a [routerLink]="['/sites', d()['POSDT ID']]">posdt.arcticportal.org/sites/{{
-	  d()['POSDT ID']}}</a>
+	<a [routerLink]="['/sites', d()['POSDT ID']]">{{
+	  host}}/sites/{{d()['POSDT ID']}}</a>
       </dd>
       @if (d()['Observed Properties']) {
       <dt class="col-sm-3 text-sm-end">Observed Properties</dt>

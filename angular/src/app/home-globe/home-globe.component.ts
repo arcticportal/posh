@@ -37,9 +37,12 @@ export class HomeGlobeComponent {
 	this.globe.remove()
 	this.globeReady.set(false)
 	this.globe = undefined })
-      if (!this.globe) this.globe = new maplibregl.Map({
-	container: e, style, center: [-40, 65], zoom: 1,
-	pitch: 0, fadeDuration: 0})
+      if (!this.globe) {
+	this.globe = new maplibregl.Map({
+	  container: e, style, center: [-40, 65], zoom: 1,
+	  pitch: 0, fadeDuration: 0})
+	this.globe.addControl(new maplibregl.NavigationControl(
+	  {showCompass: false})) }
       this.globeReady.set(true) })
     effect(() => {
       if (!this.globeReady() || !this.model.feature()) return

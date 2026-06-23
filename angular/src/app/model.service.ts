@@ -5,7 +5,7 @@ import {toSignal} from '@angular/core/rxjs-interop'
 import {Obj} from './types'
 import {ApiService, deepEqual} from './api.service'
 
-function match(d: Obj, s: string): boolean {
+export function match(d: Obj, s: string): boolean {
   var r = RegExp(s, 'i')
   function f(d: Obj): boolean {
     var v

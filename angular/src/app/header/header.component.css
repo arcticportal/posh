@@ -1,5 +1,7 @@
 .container>a>img
-{ max-height: 120px }
+{ max-height: 120px;
+  user-select: none;
+  -webkit-user-select: none }
 
 section
 { background-color: var(--posdt-green); min-height: 1em; width: 100% }

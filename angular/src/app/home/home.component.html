@@ -88,3 +88,44 @@
   @else {
   <app-home-globe class="col-12" /> } }
 </div>
+<div class="modal fade" id="splashModal" #splashModal tabindex="-1"
+     aria-labelledby="splashModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content shadow-lg">
+      <div class="modal-body text-center">
+	<p>POSH compiles over 50,000 observing sites from multiple
+	  inventories:</p>
+    <a href="https://arcticobservingviewer.org" target="_blank">
+      <img src="https://images.squarespace-cdn.com/content/v1/5273e59ae4b070db6e37803a/be85cc19-f00b-4a60-835d-12cb146be6f1/AOV_Logo_with_observation_sites.png"
+	   style="width: 24em"
+	   class="d-block mx-auto mb-2" alt="AOV" /></a>
+    <a href="https://deims.org" target="_blank">
+      <img src="https://deims.org/docs/_images/logo_title_inline_height50.png"
+	   style="width: 14em"
+	   class="d-block mx-auto mb-2" alt="DEIMS-SDR" /></a>
+    <a href="https://eu-interact.org" target="_blank">
+      <img src="https://eu-interact.org/app/uploads/2018/03/INTERACT-logo_high-resolution.png"
+           style="width: 10em"
+	   class="d-block mx-auto mb-3" alt="INTERACT" /></a>
+    <a href="https://sios-svalbard.org" target="_blank">
+      <img src="https://sios-svalbard.org/system/files/common/Logo-SIOS-ORIGINAL-rgb-simple_trimmed_small.png"
+	   style="width: 8em"
+	   class="d-block mx-auto mb-4" alt="SIOS" /></a>
+	<p class="mb-0">As such, POSH does not replace these source
+	  catalogs. <b>Instead, it relies on them and highlights the
+	    need for their continued funding and support.</b></p>
+      </div>
+      <div class="modal-footer justify-content-center flex-column">
+	<button type="button"
+		class="btn btn-success px-3 fw-semibold fs-3"
+		data-bs-dismiss="modal">Continue</button>
+	<div class="form-check">
+	  <input class="form-check-input" type="checkbox"
+		 id="dontShowCheck" [(ngModel)]="dontShowAgain" />
+	  <label class="form-check-label text-secondary small"
+		 for="dontShowCheck">Don't show this again.</label>
+	</div>
+      </div>
+    </div>
+  </div>
+</div>

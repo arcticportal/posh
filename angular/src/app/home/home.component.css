@@ -33,3 +33,8 @@ aside
 .nav-link.active
 { color: white;
   background-color: var(--posdt-green) }
+
+b { font-weight: bold }
+
+.btn-success
+{ background-color: var(--posdt-green) }

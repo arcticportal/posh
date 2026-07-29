@@ -40,7 +40,7 @@ export class SitesComponent {
       var d = this.api.lst().find(d => d['POSDT ID'] == id)
       if (!d) return
       this.d.set(d)
-      this.title.setTitle((d['Site Name'] || d['POSDT ID']) + ' | POSC')
+      this.title.setTitle((d['Site Name'] || d['POSDT ID']) + ' | POSH')
       if (!('Geometry' in d)) return
       var e = this.mapContainer()?.nativeElement
       if (!e) return

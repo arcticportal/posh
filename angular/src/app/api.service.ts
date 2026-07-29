@@ -68,6 +68,10 @@ function mergeSorted<T>(
 function key(x: Obj) {
   return `${x['Site Name'] || ''}ſ${x['POSDT ID']}`.toLowerCase() }
 
+function cmp(a: Obj, b: Obj) {
+  var s = a['POSDT ID'], t = b['POSDT ID']
+  return s < t ? -1 : s > t ? 1 : 0 }
+
 @Injectable({
   providedIn: 'root'
 })
@@ -80,6 +84,7 @@ export class ApiService {
   private self: Obj = this
   private stored = false
   lst = signal<Obj[]>([], {equal: deepEqual})
+  lstSorted = signal<string[]>([], {equal: deepEqual})
   dict: Obj = {}
   filters: Obj = {catalog: {}, country: {}, network: {}}
   catalog = signal<string[]>([], {equal: deepEqual})
@@ -111,8 +116,12 @@ export class ApiService {
 	this.lst.update(a => [...a, ...b])
 	return true })
     ).subscribe({next: _ => { }, complete: async () => {
-      for (var k of ['catalog', 'country', 'network'])
-	this.self[k].set(Object.keys(this.filters[k]).sort())
+      this.lstSorted.set(this.lst().map(d => d['POSDT ID']).sort())
+      var a, s
+      for (var k of ['catalog', 'country', 'network']) {
+	a = Object.keys(this.filters[k]).sort()
+	for (s of a) this.filters[k][s] = [...this.filters[k][s]].sort()
+	this.self[k].set(a) }
       if (!this.stored) {
 	await this.sch.yield()
 	this.store.setItem('lst', JSON.stringify(this.lst()))

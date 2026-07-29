@@ -242,7 +242,8 @@ def parseInteract(d, r):
         'POSDT ID': id,
         'Source Catalog URL': 'https://interact-gis.org/Home/Stations',
         'Source Catalog Logo URL':
-        'https://eu-interact.org/app/uploads/2024/11/logo_INPA_BLU_transparent.png',
+        #'https://eu-interact.org/app/uploads/2024/11/logo_INPA_BLU_transparent.png',
+        'https://eu-interact.org/app/uploads/2018/03/INTERACT-logo_high-resolution.png',
         # Type, Design and Scale
         'Site Type': ['Research Station']}
     r = r[id]

@@ -22,9 +22,7 @@ export class HomeGlobeComponent {
   private globe?: maplibregl.Map
   private globeReady = signal(false)
   private popup = new maplibregl.Popup(
-    {className: 'globe-popup',
-     //closeButton: true, closeOnClick: false
-    })
+    {className: 'globe-popup', closeButton: false, closeOnClick: true })
   private globeContainer = viewChild<ElementRef<HTMLDivElement>>(
     'globeContainer')
 
@@ -126,5 +124,6 @@ export class HomeGlobeComponent {
 	<div><img src="${l}" style="width: ${w}px" /></div>`
 	if (n) r += `<div><strong>Networks:</strong> ${n}</div>`
 	return r }).join('<hr />'))
-      if (!this.popup.isOpen()) this.popup.addTo(g) }) }
+      if (this.popup.isOpen()) setTimeout(() => { this.popup.addTo(g) })
+      else this.popup.addTo(g) }) }
 }

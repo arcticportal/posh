@@ -8,6 +8,14 @@ import {Obj} from '../types'
 import {ApiService} from '../api.service'
 import {match, ModelService} from '../model.service'
 
+function sortedIntersect(a: string[], b: string[]): string[] {
+  var r = [], n = a.length, m = b.length, i = 0, j = 0
+  while (i < n && j < m)
+    if (a[i] < b[j]) ++i
+    else if (a[i] > b[j]) ++j
+    else { r.push(a[i]); ++i; ++j }
+  return r }
+
 @Component({
   selector: 'app-home-filter',
   imports: [NgClass, NgStyle, RouterLink],
@@ -28,6 +36,7 @@ export class HomeFilterComponent {
     network: {show: false, label: 'Network'}}
 
   private searchNarrowed = new Set<string>()
+  private searchMatched = signal<string[]>([])
 
   constructor() {
     effect(() => {
@@ -37,10 +46,11 @@ export class HomeFilterComponent {
 	{toggle: false})).show() })
     effect(() => {
       var s = this.model.search()
-      if (!s) return
-      this.searchNarrowed.clear()
+      this.searchMatched.set(s ? this.api.lstSorted().filter(
+	k => match(this.api.dict[k], s)) : [])
+	/*this.searchNarrowed.clear()
       for (var d of this.api.lst()) if (match(d, s))
-	this.searchNarrowed.add(d['POSDT ID']) }) }
+	this.searchNarrowed.add(d['POSDT ID'])*/ }) }
 
   ngAfterViewInit() { this.viewReady.set(true) }
 
@@ -49,7 +59,7 @@ export class HomeFilterComponent {
   count2(k: string, v: string) {
     return this.api.filters[k][v].size || 0 }
 
-  count(k: string, v: string) {
+  count3(k: string, v: string) {
     var s = this.api.filters[k][v], m = this.model as Obj
     for (var t of ['catalog', 'country', 'network'])
       if (t != k && m[t]())
@@ -57,6 +67,15 @@ export class HomeFilterComponent {
     t = this.model.search()
     if (t) s = s.intersection(this.searchNarrowed)
     return s.size }
+
+  count(k: string, v: string) {
+    var a = this.api.filters[k][v], m = this.model as Obj
+    for (var t of ['catalog', 'country', 'network'])
+      if (t != k && m[t]())
+	a = sortedIntersect(a, this.api.filters[t][m[t]()])
+    if (this.searchMatched().length)
+      a = sortedIntersect(a, this.searchMatched())
+    return a.length }
 
   /*caret(k: string) {
     return 'bi-caret-' +

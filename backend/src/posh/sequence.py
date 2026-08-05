@@ -10,7 +10,7 @@ from pathlib import Path
 from uuid import UUID
 
 from settings import DATA_DIRECTORY
-from utils import latest_link, gzip_file
+from utils import latest_link
 
 
 urlPattern = re.compile(
@@ -375,7 +375,7 @@ def writeJsonSeq(name, r):
             else: f.write('\n\x1e')
             json.dump(r[k], f, indent=1, ensure_ascii=False)
         f.write('\n')
-    gzip_file(path)
+    
 
 
 ## Run #################################################################

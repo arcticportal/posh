@@ -10,7 +10,7 @@ from pathlib import Path
 from uuid import UUID
 
 from settings import DATA_DIRECTORY
-from utils import latest_link
+from utils import latest_link, gzip_file
 
 
 urlPattern = re.compile(
@@ -368,13 +368,14 @@ def writeJsonSeq(name, r):
         d = r[k]
         return f"{d.get('Site Name', '')}ſ{d['POSDT ID']}".lower()
     first, a = True, sorted(r.keys(), key=keyFunc)
-    with open(f'{DATA_DIRECTORY}/sequence/{today()}/{name}.json-seq',
-              'w', encoding='utf-8') as f:
+    path = f'{DATA_DIRECTORY}/sequence/{today()}/{name}.json-seq'
+    with open(path, 'w', encoding='utf-8') as f:
         for k in a:
             if first: first = False
             else: f.write('\n\x1e')
             json.dump(r[k], f, indent=1, ensure_ascii=False)
         f.write('\n')
+    gzip_file(path)
 
 
 ## Run #################################################################

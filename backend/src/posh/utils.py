@@ -1,5 +1,3 @@
-import gzip
-import shutil
 from datetime import date
 from pathlib import Path
 
@@ -13,9 +11,3 @@ def latest_link(subdir):
     tmp.unlink(missing_ok=True)
     tmp.symlink_to(date.today().isoformat())
     tmp.replace(link)
-
-
-def gzip_file(path):
-    'Write a gzip-compressed copy of <path> as <path>.gz.'
-    with open(path, 'rb') as f_in, gzip.open(f'{path}.gz', 'wb', compresslevel=6) as f_out:
-        shutil.copyfileobj(f_in, f_out)

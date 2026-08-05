@@ -1,7 +1,7 @@
 
 services:
   frontend:
-    image:arcticportal.azurecr.io/posh/angular:latest
+    image: arcticportal.azurecr.io/posh/angular:latest
     restart: unless-stopped
     environment:
       - ANGULAR_ENV=${ANGULAR_ENV:-dev}

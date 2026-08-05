@@ -1,0 +1,23 @@
+
+services:
+  frontend:
+    image:arcticportal.azurecr.io/posh/angular:dev
+    restart: unless-stopped
+    environment:
+      - ANGULAR_ENV=${ANGULAR_ENV:-dev}
+    volumes:
+      - posh_data:/usr/share/nginx/html/data:ro
+      
+  backend:
+    image: arcticportal.azurecr.io/posh/dataengine:dev
+    restart: unless-stopped
+    environment:
+      - POSH_DATA_DIRECTORY=${POSH_DATA_DIRECTORY:-/posh/data}
+    volumes:
+      - posh_data:/posh/data
+
+networks:
+  backend:
+
+volumes:
+  posh_data:

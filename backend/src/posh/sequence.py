@@ -10,6 +10,7 @@ from pathlib import Path
 from uuid import UUID
 
 from settings import DATA_DIRECTORY
+from utils import latest_link
 
 
 urlPattern = re.compile(
@@ -385,6 +386,7 @@ def main():
     sequenceMany('deims');          print('DEIMS done')
     sequenceOne('aov', 'features'); print('AOV done')
     # sequenceMany('oscar');          print('OSCAR done')
+    latest_link('sequence')
 
 
 if __name__ == '__main__':

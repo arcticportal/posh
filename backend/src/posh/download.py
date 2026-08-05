@@ -7,6 +7,7 @@ from pathlib import Path
 from urllib import request
 
 from settings import DATA_DIRECTORY
+from utils import latest_link
 
 
 ## Functions ###########################################################
@@ -128,6 +129,7 @@ def main():
     getDeims();    print('DEIMS done')
     getAov();      print('AOV done')
     # getOscar();    print('OSCAR done')
+    latest_link('download')
 
 
 if __name__ == '__main__':

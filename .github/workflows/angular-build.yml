@@ -49,12 +49,10 @@ jobs:
       - name: Determine Angular Environment
         id: determine_env
         run: |
-          if [ "${{ github.ref_name }}" == "main" ]; then
+          if [ "${{ github.event_name }}" == "push" ] && [ "${{ github.ref_name }}" == "main" ]; then
             echo "ANGULAR_ENV=production" >> $GITHUB_OUTPUT
-          elif [ "${{ github.ref_name }}" == "dev" ]; then
-            echo "ANGULAR_ENV=dev" >> $GITHUB_OUTPUT # Was staging, now dev
           else
-            echo "ANGULAR_ENV=local" >> $GITHUB_OUTPUT # Was development, now local
+            echo "ANGULAR_ENV=development" >> $GITHUB_OUTPUT
           fi
 
       - name: Echo Angular Environment
@@ -78,7 +76,6 @@ jobs:
             type=raw,value=${{ github.ref_name }}-{{date 'YYYY-MM-DD'}}
             type=ref,event=branch
             type=raw,value=latest,enable=${{ github.ref_name == 'main' }}
-            type=raw,value=${{ github.ref_name }}-latest,enable=${{ github.ref_name == 'main' || github.ref_name == 'dev' }}
 
       - name: Build and push Angular Docker image
         uses: docker/build-push-action@v5

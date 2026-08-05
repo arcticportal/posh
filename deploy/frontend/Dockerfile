@@ -14,7 +14,7 @@ RUN npm install
 COPY angular/. .
 
 # Build the application based on the provided environment
-# Valid values for ANGULAR_ENV: production, local, dev
+# Valid values for ANGULAR_ENV: production, development
 ARG ANGULAR_ENV=production
 RUN npm run build -- --configuration ${ANGULAR_ENV}
 

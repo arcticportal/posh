@@ -1,1 +1,68 @@
-<div class="row"><p class="col">faq works!</p></div>
+<div class="row">
+  <div class="col">
+    <h1 class="mt-4 mb-3">Frequently Asked Questions</h1>
+
+    <h2>Why use POSH?</h2>
+
+    <p>Because this tool searches across multiple inventories and dozens
+      of networks simultaneously, it helps to meet the needs of a
+      variety of users:</p>
+    <ul>
+      <li>science planners to assess status, overlap, and gaps</li>
+      <li>network and logistics managers to co-locate or optimize
+	limited resources</li>
+      <li>funding officers to avoid duplicated effort</li>
+      <li>researchers to collaborate with facilities and projects, to
+	find data, or to calibrate and validate satellite imagery</li>
+      <li>and community members to discover, engage with, and leverage
+	observational efforts and data collected nearby.</li>
+    </ul>
+    <p>You can click on the provided links to the source catalogs for
+      more complete information about each site.</p>
+
+    <h2>What are the colors and circles on the map?</h2>
+
+    <p>Each numbered circle on the map represents a cluster of many
+      observing sites.  The number of sites for each cluster (from tens
+      to thousands) is shown by size (from small to large) and color
+      (from blue to red).  Clicking on a cluster or otherwise zooming in
+      will reveal individual small purple circles, one for each site;
+      clicking on these will open a site landing page in another
+      tab.</p>
+
+    <h2>How does POSH compile site information from the source
+      catalogs?</h2>
+
+    <p>Our software frequently harvests site information from open data
+      streams hosted by the source catalogs.  Site-level metadata
+      records (typically in JSON) are ingested from their publicly
+      accessible web services and Application Program Interfaces (APIs).
+      The metadata records are locally cached in a relational database,
+      and then harmonized by mapping across differing schemas to a
+      common subset of fields before presentation with our frontend web
+      framework.</p>
+
+    <h2>Why are there duplicate entries for some sites?</h2>
+
+    <p>A fraction of the observing sites in POSH are documented in more
+      than one of the source catalogs.  These sites tend to be
+      high-profile infrastructures such as the Abisko Scientific
+      Research Station or Toolik Field Station.  However, the duplicate
+      entries are not identical; instead, the various source catalogs
+      provide complementary information.  For this reason, the duplicate
+      entries are preserved in POSH.</p>
+
+    <!-- <h2>How can we add our site inventory to POSH?</h2>
+
+    <p>xx</p> -->
+
+    <h2>What is the difference between POSH and RoPON?</h2>
+
+    <p>POSH focuses on research and monitoring <b>sites</b>, whereas a
+      companion tool – the
+      <a href="https://polarobservingregistry.org"
+	 target="_blank">Registry of Polar Observing Networks</a>
+      (RoPON) – provides information about observing <b>networks</b>.
+      They may look similar but serve different purposes.</p>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+h1,h2 { color: var(--posdt-green) }
+
+a { text-decoration: none }
+
+a:hover { text-decoration: underline }

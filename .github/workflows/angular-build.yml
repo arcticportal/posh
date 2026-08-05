@@ -18,7 +18,7 @@ on:
       - dev # Match branch name used in wagtail workflow
     paths:
       - 'angular/**'
-      # - 'deploy/frontend/**'
+      - 'deploy/frontend/**'
       # - 'deploy/docker-compose-*.yml'
       - '.github/workflows/angular-build.yml'
   pull_request:
@@ -28,7 +28,7 @@ on:
       - dev # Match branch name used in wagtail workflow
     paths:
       - 'angular/**'
-      # - 'deploy/frontend/**'
+      - 'deploy/frontend/**'
       # - 'deploy/docker-compose-*.yml'
       - '.github/workflows/angular-build.yml'
 
@@ -78,6 +78,7 @@ jobs:
             type=raw,value=${{ github.ref_name }}-{{date 'YYYY-MM-DD'}}
             type=ref,event=branch
             type=raw,value=latest,enable=${{ github.ref_name == 'main' }}
+            type=raw,value=${{ github.ref_name }}-latest,enable=${{ github.ref_name == 'main' || github.ref_name == 'dev' }}
 
       - name: Build and push Angular Docker image
         uses: docker/build-push-action@v5

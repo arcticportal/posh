@@ -1,0 +1,18 @@
+#meta information
+apiVersion: v1.0
+kind: deploy
+
+# Used to build COMPOSE_PROJECT_NAME
+# (app_name or github_repo) + ( instance_type or github_branch)
+app_name: posh
+instance_type: dev # test or staging or production e.g.
+github_repo: "posh"
+github_branch: "dev"
+
+# external facing domains configuration. Internal services must be configured using 
+# service names and ports
+service_ingres:
+  frontend:
+    hostname: posh.dev.cntb.arcticportal.org,www.posh.dev.cntb.arcticportal.org
+    ssl_host: posh.dev.cntb.arcticportal.org,www.posh.dev.cntb.arcticportal.org
+    port: 80

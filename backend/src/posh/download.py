@@ -6,6 +6,8 @@ from datetime import date
 from pathlib import Path
 from urllib import request
 
+from settings import DATA_DIRECTORY
+
 
 ## Functions ###########################################################
 def getJson(url):
@@ -30,14 +32,14 @@ def getAov():
         offset += len(a)
         if r: r['features'].extend(a)
         else: r = d
-    with open(f'download/{now()}/aov.json', 'w', encoding='utf-8') as f:
+    with open(f'{DATA_DIRECTORY}/download/{now()}/aov.json', 'w', encoding='utf-8') as f:
         json.dump(r, f, indent=1, ensure_ascii=False)
         f.write('\n')
 
 
 def getDeims():
     url = 'https://deims.org/api/sites'
-    p = f'download/{now()}/deims'
+    p = f'{DATA_DIRECTORY}/download/{now()}/deims'
     request.urlretrieve(url, f'{p}.json')
     # FIXME: if same as previous download, skip
     Path(p).mkdir(parents=True, exist_ok=True)
@@ -51,13 +53,13 @@ def getDeims():
 def getInteract():
     request.urlretrieve(
         'https://interact-gis.org/api/external/stationinformation?content-type=application/json',
-        f'download/{now()}/interact.json')
+        f'{DATA_DIRECTORY}/download/{now()}/interact.json')
 
 
 def getIsaaffik():
     url, r, page = 'https://isaaffik.org', {}, 1
     lst = url + '/api/infrastructures?itemsPerPage=50&page={}'
-    p = f'download/{now()}/isaaffik'
+    p = f'{DATA_DIRECTORY}/download/{now()}/isaaffik'
     while True:
         d = getJson(lst.format(page))
         a = d.get('member', [])
@@ -94,7 +96,7 @@ def getIsaaffik():
 
 def getOscar():
     url = 'https://oscar.wmo.int/surface/rest/api'
-    p, a = f'download/{now()}/oscar', []
+    p, a = f'{DATA_DIRECTORY}/download/{now()}/oscar', []
     for k in ('latitudeMin=50', 'latitudeMax=-50'):
         with request.urlopen(f'{url}/search/station?{k}') as f:
             a.extend(json.load(f)['stationSearchResults'])
@@ -114,15 +116,19 @@ def getOscar():
 def getSios():
     request.urlretrieve(
         'https://sios-svalbard.org/sios-ri-catalogue/rest/sios-ri-catalogue.json',
-        f'download/{now()}/sios.json')
+        f'{DATA_DIRECTORY}/download/{now()}/sios.json')
 
 
 ## Run #################################################################
-if __name__ == '__main__':
-    Path(f'download/{now()}').mkdir(parents=True, exist_ok=True)
+def main():
+    Path(f'{DATA_DIRECTORY}/download/{now()}').mkdir(parents=True, exist_ok=True)
     getInteract(); print('INTERACT done')
     getSios();     print('SIOS done')
     getIsaaffik(); print('ISAAFFIK done')
     getDeims();    print('DEIMS done')
     getAov();      print('AOV done')
     # getOscar();    print('OSCAR done')
+
+
+if __name__ == '__main__':
+    main()

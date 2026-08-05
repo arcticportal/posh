@@ -1,0 +1,9 @@
+[project]
+name = "posdt-backend"
+version = "0.1.0"
+description = "Arctic Portal POSDT Backend - Data downloading and parsing utilities"
+requires-python = ">=3.13"
+license = {text = "MIT"}
+authors = [
+    {name = "Arctic Portal", email = "info@arcticportal.org"}
+]

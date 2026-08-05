@@ -28,3 +28,14 @@ aov.json
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python
+__pycache__/
+*.pyc
+/backend/.venv/
+/backend/data/
+
+
+#secrets and env files
+*.env
+*.env.*

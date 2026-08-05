@@ -9,6 +9,8 @@ from hashlib import md5
 from pathlib import Path
 from uuid import UUID
 
+from settings import DATA_DIRECTORY
+
 
 urlPattern = re.compile(
     r'^https?://'                                  # Scheme
@@ -345,7 +347,7 @@ def parseSios(d, r):
 def sequenceMany(name):
     'Parse multiple JSON files in a directory and write as json-seq.'
     r = {}
-    for p in Path(f'download/latest/{name}').glob('*.json'):
+    for p in Path(f'{DATA_DIRECTORY}/download/latest/{name}').glob('*.json'):
         with open(p) as f: d = json.load(f)
         parse(name, d, r)
     writeJsonSeq(name, r)
@@ -354,7 +356,7 @@ def sequenceMany(name):
 def sequenceOne(name, key=None):
     'Parse a single JSON file and write as json-seq.'
     r = {}
-    with open(f'download/latest/{name}.json') as f: a = json.load(f)
+    with open(f'{DATA_DIRECTORY}/download/latest/{name}.json') as f: a = json.load(f)
     for d in (a[key] if key else a): parse(name, d, r)
     writeJsonSeq(name, r)
 
@@ -365,7 +367,7 @@ def writeJsonSeq(name, r):
         d = r[k]
         return f"{d.get('Site Name', '')}ſ{d['POSDT ID']}".lower()
     first, a = True, sorted(r.keys(), key=keyFunc)
-    with open(f'sequence/{today()}/{name}.json-seq',
+    with open(f'{DATA_DIRECTORY}/sequence/{today()}/{name}.json-seq',
               'w', encoding='utf-8') as f:
         for k in a:
             if first: first = False
@@ -375,11 +377,15 @@ def writeJsonSeq(name, r):
 
 
 ## Run #################################################################
-if __name__ == '__main__':
-    Path(f'sequence/{today()}').mkdir(parents=True, exist_ok=True)
+def main():
+    Path(f'{DATA_DIRECTORY}/sequence/{today()}').mkdir(parents=True, exist_ok=True)
     sequenceOne('interact');        print('INTERACT done')
     sequenceOne('sios');            print('SIOS done')
     # sequenceMany('isaaffik');       print('ISAFFIK done')
     sequenceMany('deims');          print('DEIMS done')
     sequenceOne('aov', 'features'); print('AOV done')
     # sequenceMany('oscar');          print('OSCAR done')
+
+
+if __name__ == '__main__':
+    main()

@@ -2,6 +2,7 @@
 # Parse JSON metadata from various sources and write as json-seq.
 
 import datetime
+import gzip
 import html
 import json
 import re
@@ -368,14 +369,13 @@ def writeJsonSeq(name, r):
         d = r[k]
         return f"{d.get('Site Name', '')}ſ{d['POSDT ID']}".lower()
     first, a = True, sorted(r.keys(), key=keyFunc)
-    path = f'{DATA_DIRECTORY}/sequence/{today()}/{name}.json-seq'
-    with open(path, 'w', encoding='utf-8') as f:
+    path = f'{DATA_DIRECTORY}/sequence/{today()}/{name}.json-seq.gz'
+    with gzip.open(path, 'wt', encoding='utf-8', compresslevel=6) as f:
         for k in a:
             if first: first = False
             else: f.write('\n\x1e')
             json.dump(r[k], f, indent=1, ensure_ascii=False)
         f.write('\n')
-    
 
 
 ## Run #################################################################

@@ -34,6 +34,7 @@ __pycache__/
 *.pyc
 /backend/.venv/
 /backend/data/
+/data/
 
 
 #secrets and env files

@@ -7,12 +7,14 @@ services:
       - ANGULAR_ENV=${ANGULAR_ENV:-dev}
     volumes:
       - posh_data:/usr/share/nginx/html/data:ro
-      
+
   backend:
     image: arcticportal.azurecr.io/posh/dataengine:dev
     restart: unless-stopped
     environment:
-      - POSH_DATA_DIRECTORY=${POSH_DATA_DIRECTORY:-/posh/data}
+      - "POSH_CRON=${POSH_CRON:?POSH_CRON is required, e.g. '0 3 * * 1'}"
+      - "POSH_RETENTION=${POSH_RETENTION:-3}"
+      - "TZ=${TZ:-UTC}"
     volumes:
       - posh_data:/posh/data
 

@@ -2,6 +2,7 @@
 # Parse JSON metadata from various sources and write as json-seq.
 
 import datetime
+import gzip
 import html
 import json
 import re
@@ -10,6 +11,7 @@ from pathlib import Path
 from uuid import UUID
 
 from settings import DATA_DIRECTORY
+from utils import latest_link
 
 
 urlPattern = re.compile(
@@ -367,8 +369,8 @@ def writeJsonSeq(name, r):
         d = r[k]
         return f"{d.get('Site Name', '')}ſ{d['POSDT ID']}".lower()
     first, a = True, sorted(r.keys(), key=keyFunc)
-    with open(f'{DATA_DIRECTORY}/sequence/{today()}/{name}.json-seq',
-              'w', encoding='utf-8') as f:
+    path = f'{DATA_DIRECTORY}/sequence/{today()}/{name}.json-seq.gz'
+    with gzip.open(path, 'wt', encoding='utf-8', compresslevel=6) as f:
         for k in a:
             if first: first = False
             else: f.write('\n\x1e')
@@ -385,6 +387,7 @@ def main():
     sequenceMany('deims');          print('DEIMS done')
     sequenceOne('aov', 'features'); print('AOV done')
     # sequenceMany('oscar');          print('OSCAR done')
+    latest_link('sequence')
 
 
 if __name__ == '__main__':

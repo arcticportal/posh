@@ -50,3 +50,17 @@ button
 button:disabled
 { background-color: #b0bec5;
   cursor: not-allowed }
+
+
+  /* Honeypot wrapper: positioned off-screen AND shrunk to 1px AND overflow
+   hidden, so a bot must inspect multiple properties to detect the trap. */
+.hp-wrapper {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden }
+
+.hp-wrapper input {
+  position: absolute;
+  left: -9999px }

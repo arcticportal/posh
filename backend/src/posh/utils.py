@@ -33,3 +33,4 @@ def prune(subdir, keep=RETENTION):
     for p in dated[keep:]:
         if p.name == target: continue
         shutil.rmtree(p, ignore_errors=True)
+    print(f'pruned {subdir}')

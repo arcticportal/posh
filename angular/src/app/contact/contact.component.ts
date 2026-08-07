@@ -29,7 +29,7 @@ export class ContactComponent {
   // Honeypot candidate field names. The backend backend api
   // HONEYPOT_FIELDS) treats ANY of these being non-empty as a bot. The backend
   // never fetches this list, so a bot can't learn the full set in one request.
-  // MUST stay in sync with that backend constant.
+  // MUST stay in sync with that backend constant. Aligned with ropon backend
   private honeypotCandidates = ['website', 'url', 'homepage', 'company', 'phone_alt', 'fax']
   // One candidate is rendered at random per mount so the trap field name isn't
   // predictable across visits.

@@ -29,9 +29,12 @@ jobs:
         id: f
         uses: dorny/paths-filter@ceb8a2b8f2d89434be7ff52d3de7ec3738c5cc9d
         with:
+          # push: base=pushed branch so dorny diffs github.event.before..head (not default_branch); PR ignores 'base'.
+          base: ${{ github.event_name == 'push' && github.ref_name || '' }}
           filters: |
             backend:
               - 'backend/**'
+              - 'deploy/backend/**'
             angular:
               - 'angular/**'
               - 'deploy/frontend/**'

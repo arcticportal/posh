@@ -1,64 +1,73 @@
 <div class="row">
   <div class="col-md-6">
-    <h1 class="mt-4 mb-3">Contact POSH</h1>
-    <h2 class="mb-3">For further information on POSH, please use the
-      form or email:</h2>
-    <p>William Manley, University of Colorado Boulder<br />
+    <h1>Contact RoPON</h1>
+    <h2>For further information on RoPON, please use the form or
+      email:</h2>
+    <p>William Manley, University of Colorado Boulder<br>
       <a href="mailto:william.manley@colorado.edu">william.manley&#64;colorado.edu</a></p>
-    <p>Halldór Jóhannsson, Director Arctic Portal.org<br />
+    <p>Halldór Jóhannsson, Director Arctic Portal.org<br>
       <a href="mailto:halldor@arcticportal.org">halldor&#64;arcticportal.org</a></p>
-    <p>Jan Rene Larsen, SAON executive secretary<br />
+    <p>Jan Rene Larsen, SAON executive secretary<br>
       <a href="mailto:jan.rene.larsen@amap.no">jan.rene.larsen&#64;amap.no</a></p>
   </div>
-  <div class="col-md-6 mt-2">
+  <div class="col-md-6">
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()"
 	  class="contact-form">
       <div class="form-group">
 	<label for="name">Name</label>
 	<input type="text" id="name" formControlName="name" />
-	@if (name?.invalid && (name?.dirty || name?.touched)) {
-	<div class="error-message">
-	  @if (name?.errors?.['required']) {
-	  <div>Name is required</div> }
-	  @if (name?.errors?.['minlength']) {
-	  <div>Name must be at least 2 characters</div> }
-	</div> }
+	<div *ngIf="name?.invalid && (name?.dirty || name?.touched)"
+	     class="error-message">
+	  <div *ngIf="name?.errors?.['required']">Name is required</div>
+	  <div *ngIf="name?.errors?.['minlength']">Name must be at least
+	    2 characters</div>
+	</div>
       </div>
       <div class="form-group">
 	<label for="email">Email</label>
 	<input type="email" id="email"
 	       formControlName="from_email_id" />
-	@if (email?.invalid && (email?.dirty || email?.touched)) {
-	<div class="error-message">
-	  @if (email?.errors?.['required']) {
-	  <div>Email is required</div> }
-	  @if (email?.errors?.['email']) {
-	  <div>Please enter a valid email</div> }
-	</div> }
+	<div *ngIf="email?.invalid && (email?.dirty || email?.touched)"
+	     class="error-message">
+	  <div *ngIf="email?.errors?.['required']">Email is
+	    required</div>
+	  <div *ngIf="email?.errors?.['email']">Please enter a valid
+	    email</div>
+	</div>
       </div>
       <div class="form-group">
 	<label for="message">Message</label>
 	<textarea id="message" formControlName="message"
 		  rows="5"></textarea>
-	@if (message?.invalid && (message?.dirty || message?.touched)) {
-	<div class="error-message">
-	  @if (message?.errors?.['required']) {
-	  <div>Message is required</div> }
-	  @if (message?.errors?.['minlength']) {
-	  <div>Message must be at least 10 characters</div> }
-	</div> }
-	<button type="submit"
-		[disabled]="contactForm.invalid || submissionState == 'submitting'">
-	  @if (submissionState == 'submitting') {
-	  <span>Sending...</span> }
-	  @else { <span>Send Message</span> }
-	</button>
-	@if (submissionState == 'success') {
-	<div class="success-message">
-	  Thank you for your message! We will get back to you soon.
-	</div> }
-	@if (submissionState == 'error') {
-	<div class="error-message">{{ errorMessage }}</div> }
+	<div *ngIf="message?.invalid && (message?.dirty || message?.touched)"
+	     class="error-message">
+	  <div *ngIf="message?.errors?.['required']">Message is
+	    required</div>
+	  <div *ngIf="message?.errors?.['minlength']">Message must be at
+	    least 10 characters</div>
+	</div>
+      </div>
+      <!-- Honeypot field: hidden from humans via CSS + a11y attrs. Name is
+           randomized per mount (honeypotField). Bots that fill every field
+           trip it; backend silently drops the submission. -->
+      <div class="hp-wrapper" aria-hidden="true">
+	<label [for]="honeypotField">Leave this empty</label>
+	<input [id]="honeypotField" type="text"
+	       [formControlName]="honeypotField" tabindex="-1"
+	       autocomplete="off" />
+      </div>
+      <button type="submit"
+	      [disabled]="contactForm.invalid || submissionState === 'submitting'">
+	<span *ngIf="submissionState !== 'submitting'">Send
+	  Message</span>
+	<span *ngIf="submissionState === 'submitting'">Sending...</span>
+      </button>
+      <div *ngIf="submissionState === 'success'"
+	   class="success-message">
+	Thank you for your message! We'll get back to you soon.
+      </div>
+      <div *ngIf="submissionState === 'error'" class="error-message">
+	{{ errorMessage }}
       </div>
     </form>
   </div>

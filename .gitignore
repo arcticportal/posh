@@ -40,3 +40,5 @@ __pycache__/
 #secrets and env files
 *.env
 *.env.*
+# Local agent instructions (not committed)
+AGENTS.md

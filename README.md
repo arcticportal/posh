@@ -29,39 +29,7 @@ A failure in any pipeline stage is non-destructive: the previous successful data
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    subgraph EXT["External catalogs"]
-        AOV["AOV<br/>Arctic Observing Viewer"]
-        DEIMS["DEIMS-SDR"]
-        INTERACT["INTERACT"]
-        SIOS["SIOS catalogue"]
-    end
-
-    subgraph BACK["Backend — data engine"]
-        CRON["supercronic<br/>POSH_CRON"]
-        DL["download.py<br/>fetch raw"]
-        SQ["sequence.py<br/>normalize → JSON-seq"]
-        PR["prune<br/>keep last N"]
-        DATA[("posh_data volume<br/>download/ & sequence/")]
-    end
-
-    subgraph FRONT["Frontend — Angular SPA + NGINX"]
-        APP["Map view · List view<br/>Search & filters"]
-        FILES["/*.json-seq.gz"]
-    end
-
-    EXT --> DL
-    CRON --> DL
-    DL --> DATA
-    DATA --> SQ
-    SQ --> DATA
-    DATA --> PR
-    DATA -. "ro mount" .-> FILES
-    FILES --> APP
-```
-
-
+![POSH architecture diagram](./docs/images/posh_technology_architecture-wide.png)
 
 ## Data sources
 
@@ -92,10 +60,10 @@ For more details on the schema, see [the data model documentation](https://polar
 ## Tech stack
 
 | | |
-|---|---|
+| --- | --- |
 | **Backend** | Python 3.13 · `urllib` · custom parsers · [supercronic](https://github.com/aptible/supercronic) (cron for containers) |
 | **Frontend** | Angular 19 · TypeScript · MapLibre GL · RxJS · Angular signals |
-| **Serving** | NGINX (frontend)  |
+| **Serving** | NGINX (frontend) |
 | **Infra** | Docker Compose · GitHub Actions (CI Gate) · Azure Container Registry |
 
 ## Getting started
@@ -122,9 +90,8 @@ Once running:
 
 | Service | URL |
 |---------|-----|
-| Frontend | http://localhost:8080 |
+| Frontend | <http://localhost:8080> |
 | Backend container | scheduled as per configuration; no public endpoint |
-
 
 To trigger an immediate run without waiting for the schedule:
 
@@ -193,7 +160,7 @@ posh/
 All runtime configuration is environment-driven, loaded by Docker Compose from `.env`.
 
 | Variable | Required | Default | Purpose |
-|----------|----------|---------|---------|
+| ---------- | ---------- | --------- | --------- |
 | `POSH_CRON` | yes | — | Schedule for `download → sequence → prune`. Standard 5-field cron, 7-field (with seconds), `@weekly`/`@daily`/`@hourly`, or `@every <duration>`. Times in `TZ`. |
 | `POSH_RETENTION` | no | `3` | Number of dated `download/` and `sequence/` folders to keep (the `latest` symlink counts as one). |
 | `TZ` | no | `UTC` | Timezone the cron schedule runs in. |

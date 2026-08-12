@@ -4,7 +4,7 @@
 
 # POSH — Polar Observing Site Hub
 
-[![CI Gate](https://img.shields.io/github/actions/workflow/status/arcticportal/posdt/ci.yml?style=flat-square&label=CI%20Gate&branch=dev)](https://github.com/arcticportal/posdt/actions/workflows/ci.yml)
+[![CI Gate](https://img.shields.io/github/actions/workflow/status/arcticportal/posh/ci.yml?style=flat-square&label=CI%20Gate&branch=dev)](https://github.com/arcticportal/posh/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.13-3776ab?style=flat-square&logo=python&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-19-dd0031?style=flat-square&logo=angular&logoColor=white)
 ![MapLibre](https://img.shields.io/badge/MapLibre_GL-5-1a6d8e?style=flat-square)
@@ -180,6 +180,13 @@ A single [`CI Gate`](./.github/workflows/ci.yml) workflow protects `main` and `d
 - `backend/**` or `deploy/backend/**` → builds the backend image
 
 A final `gate` job aggregates the results into the single required check. On merges to `main`/`dev`, the built image is pushed to `arcticportal.azurecr.io`.
+
+### Branching and promotion flow
+
+- `dev` is the default branch. All work lands via PRs from feature branches off `dev`, **squash-merged** (enforced by the *Protect dev* ruleset).
+- `main` only receives promotions from `dev`, via PR merged with a **merge commit** (enforced by the *Protect main* ruleset), so the exact commits validated on `dev` land on `main` unchanged.
+- The `main-source-check` job in the CI gate is a required check on `main` and fails any PR whose head branch is not `dev`.
+- Direct pushes, force pushes, and deletions are blocked on both branches; merged feature branches are deleted automatically. After a promotion, `dev` showing as "out of sync" with `main` is expected and cosmetic.
 
 <div align="center">
 

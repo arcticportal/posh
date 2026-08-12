@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  emailAPIUrl: 'https://polarobservingregistry.org/api/v2',
+  emailAPIUrl: 'https://dashboard.polarobservingregistry.org/api/v2',
 };

@@ -47,14 +47,21 @@
 	    least 10 characters</div>
 	</div>
       </div>
-      <!-- Honeypot field: hidden from humans via CSS + a11y attrs. Name is
-           randomized per mount (honeypotField). Bots that fill every field
-           trip it; backend silently drops the submission. -->
+       <!-- Honeypot field: hidden from humans via CSS + a11y attrs. Name is
+           randomized per mount (honeypotField) from candidates outside browser
+           autofill vocabulary. autocomplete="new-password" is respected where
+           "off" is ignored; the data-* attributes tell the major password
+           managers to skip this field (must be present in the initial DOM,
+           so they live in the template). Bots that fill every field trip it;
+           backend silently drops the submission only when it is also
+           implausibly fast. Aligned with backend honeypot validation -->
       <div class="hp-wrapper" aria-hidden="true">
 	<label [for]="honeypotField">Leave this empty</label>
 	<input [id]="honeypotField" type="text"
 	       [formControlName]="honeypotField" tabindex="-1"
-	       autocomplete="off" />
+	       autocomplete="new-password"
+	       data-1p-ignore data-lpignore="true" data-bwignore
+	       data-form-type="other" data-protonpass-ignore />
       </div>
       <button type="submit"
 	      [disabled]="contactForm.invalid || submissionState === 'submitting'">

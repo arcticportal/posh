@@ -53,7 +53,7 @@ Email: ${formData.from_email_id}
 ------------------------------------------------------------------------
 ${formData.message}
 ------------------------------------------------------------------------
-(Sent via RoPON Contact Us form)
+(Sent via POSH Contact Us form)
 `
     this.http.post(
       environment.emailAPIUrl + '/email/contact-us/',

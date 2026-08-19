@@ -64,3 +64,14 @@ button:disabled
 .hp-wrapper input {
   position: absolute;
   left: -9999px }
+
+  /* Autofill tripwire: when the browser auto-fills the honeypot it applies
+   :-webkit-autofill, which starts this no-op animation; the component listens
+   for animationstart ('onAutoFillStart') and clears the control so a real
+   user's autofill can never trip the bot check. */
+@keyframes onAutoFillStart {
+  from {}
+  to {} }
+
+.hp-wrapper input:-webkit-autofill {
+  animation-name: onAutoFillStart }

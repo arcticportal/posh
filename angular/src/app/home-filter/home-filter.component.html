@@ -2,15 +2,17 @@
   <div class="card-body">
     <div class="card-title d-flex">
       <h4 class="mb-0">Filter by</h4>
-      @if (window.innerWidth < 992) {
+      <!-- @if (window.innerWidth < 992) {
       <i [class]="'mt-1 ms-2 bi-chevron-' + (show ? 'up' : 'down')"
 	 (click)="toggleMobile()"></i> }
-      @if (show || window.innerWidth >= 992) {
+      @if (show || window.innerWidth >= 992) { -->
+      @if (true) {
 	<a class="ms-auto"
 	   [queryParams]="model.clearFilters()"
 	   [routerLink]="[]"><img src="/ClearALL_Icon.png" /></a> }
     </div>
-    @if (show || window.innerWidth >= 992) {
+    <!-- @if (show || window.innerWidth >= 992) { -->
+    @if (true) {
     <div class="accordion accordion-flush user-select-none"
 	 id="accordion">
       <!-- <div class="accordion-item">
@@ -44,7 +46,32 @@
 		  [attr.data-bs-target]="'#collapse' + k"
 		  [attr.aria-controls]="'collapse' + k"
 		  [ngStyle]="stylGroup(k)"
-		  aria-expanded="false">{{filters[k].label}}</button>
+		  aria-expanded="false">
+	    {{filters[k].label}}
+	    @if (k == 'catalog') {
+	    <button data-bs-content="
+<p>POSH is not the original source for details about observing sites. Instead, it links to authoritative source catalogs, including:</p>
+<div class='d-flex w-100 gap-2 mb-2'>
+  <img src='https://images.squarespace-cdn.com/content/v1/5273e59ae4b070db6e37803a/be85cc19-f00b-4a60-835d-12cb146be6f1/AOV_Logo_with_observation_sites.png'
+       id='aov' />
+  <img src='https://deims.org/docs/_images/logo_title_inline_height50.png'
+       id='deims' />
+</div>
+<div class='d-flex w-100 gap-4 mb-3 ps-1 pe-1'>
+  <img src='https://eu-interact.org/app/uploads/2018/03/INTERACT-logo_high-resolution.png'
+       id='interact' />
+  <img src='https://sios-svalbard.org/system/files/common/Logo-SIOS-ORIGINAL-rgb-simple_trimmed_small.png'
+       id='sios' />
+</div>
+<p class='mb-0'>Because POSH is an aggregator, it does not replace these catalogs. Instead, it relies on them and highlights the need for their continued funding and support. This approach is similar to how Expedia and other travel portals simultaneously combine results from multiple providers, and makes it easier for end users to find the information they need without searching across numerous disconnected resources.</p>"
+		    type="button"
+		    class="btn btn-secondary pt-0 pb-0 ps-1 pe-1 ms-2 me-2 rounded-circle"
+		    data-bs-toggle="popover"
+		    data-bs-trigger="focus hover"
+		    data-bs-html="true">
+	      <i class="bi bi-info-lg"></i>
+	    </button> }
+	  </button>
 	</h5>
 	<div class="accordion-collapse collapse" [id]="'collapse' + k">
 	  <ul class="accordion-body list-unstyled pt-2 ms-3 pb-0">

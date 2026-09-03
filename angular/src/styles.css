@@ -17,3 +17,18 @@ body
   font-weight: var(--posdt-normal);
   font-style: normal;
   -webkit-font-smoothing: antialiased }
+
+.popover img
+{ width: 0; min-width: 0; height: auto; flex-basis: 0 }
+
+.popover #aov
+{ flex-grow: calc(32/7); aspect-ratio: 32/7 }
+
+.popover #deims
+{ flex-grow: calc(56/13); aspect-ratio: 56/13 }
+
+.popover #interact
+{ flex-grow: calc(40/17); aspect-ratio: 40/17 }
+
+.popover #sios
+{ flex-grow: calc(32/15); aspect-ratio: 32/15 }

@@ -8,6 +8,13 @@ li { text-indent: -14px }
 
 a>i { position: relative; top: 4px }
 
+.btn-link
+{ --bs-btn-color: var(--bs-gray);
+  --bs-btn-hover-color: var(--bs-gray-dark);
+  --bs-btn-active-color: var(--bs-gray-dark);
+  position: relative;
+  top: 2px }
+
 .accordion-item
 { border-bottom: 1px solid var(--posdt-green) !important;
   border-top: none;

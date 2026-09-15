@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Chained weekly pipeline: download -> sequence -> prune.
+# Chained weekly pipeline: download -> sequence(+db version) -> prune.
 # A raise in any stage stops the chain, so 'latest' is never repointed and no
 # folder is deleted on partial failure -- the system keeps serving the last
 # good dataset.

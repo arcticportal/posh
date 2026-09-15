@@ -1,9 +1,31 @@
+import json
 import re
 import shutil
 from datetime import date
 from pathlib import Path
 
 from settings import DATA_DIRECTORY, RETENTION
+
+
+def update_db_version():
+    '''Write db_version.json into today's sequence folder, bumping the
+    version from the previous 'latest' snapshot (version 1 on first run).'''
+    version = 0
+    try:
+        with open(Path(DATA_DIRECTORY, 'sequence', 'latest',
+                       'db_version.json')) as f:
+            version = json.load(f)['version']
+    except (FileNotFoundError, NotADirectoryError, json.JSONDecodeError,
+            KeyError):
+        pass  # first run, or missing/corrupt file -> start at 1
+    data = {'version': version + 1,
+            'update_date': date.today().isoformat()}
+    path = Path(DATA_DIRECTORY, 'sequence', date.today().isoformat(),
+                'db_version.json')
+    tmp = path.with_suffix('.json.part')
+    with open(tmp, 'w') as f: json.dump(data, f, indent=2)
+    tmp.replace(path)  # atomic, like latest_link
+    print(f'db version {data["version"]} ({data["update_date"]})')
 
 
 def latest_link(subdir):

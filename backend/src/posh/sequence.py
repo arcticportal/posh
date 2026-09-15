@@ -11,7 +11,7 @@ from pathlib import Path
 from uuid import UUID
 
 from settings import DATA_DIRECTORY
-from utils import latest_link
+from utils import latest_link, update_db_version
 
 
 urlPattern = re.compile(
@@ -387,6 +387,9 @@ def main():
     sequenceMany('deims');          print('DEIMS done')
     sequenceOne('aov', 'features'); print('AOV done')
     # sequenceMany('oscar');          print('OSCAR done')
+    # Bump the version before repointing 'latest' so the new version file and
+    # the new data go live together as one snapshot.
+    update_db_version()
     latest_link('sequence')
 
 

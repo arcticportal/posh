@@ -32,3 +32,5 @@ body
 
 .popover #sios
 { flex-grow: calc(32/15); aspect-ratio: 32/15 }
+
+vite-error-overlay { display: none }

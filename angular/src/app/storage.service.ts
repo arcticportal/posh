@@ -1,19 +1,26 @@
-import { Injectable } from '@angular/core';
+import { Injectable, inject } from '@angular/core';
+import {HttpClient} from '@angular/common/http'
+import {firstValueFrom} from 'rxjs'
 
 @Injectable({
   providedIn: 'root'
 })
 export class StorageService {
+  private http = inject(HttpClient)
   private dbPromise: Promise<IDBDatabase>
 
-  constructor() { this.dbPromise = new Promise((resolve, reject) => {
-    var request = indexedDB.open('posdt', 4) // increment w/ data update
+  constructor() { this.dbPromise = this.initDb() }
+
+  private async initDb() {
+    var request = indexedDB.open('posdt', (await firstValueFrom(
+      this.http.get<{version: number}>('/db_version.json'))).version)
     request.onupgradeneeded = () => {
       var db = request.result
       if (!db.objectStoreNames.contains('posdt'))
 	db.createObjectStore('posdt', {keyPath: 'id'}) }
-    request.onsuccess = () => resolve(request.result)
-    request.onerror = () => reject(request.error) }) }
+    return new Promise<IDBDatabase>((resolve, reject) => {
+      request.onsuccess = () => resolve(request.result)
+      request.onerror = () => reject(request.error) }) }
 
   async getItem(id: string) {
     var tx = (await this.dbPromise).transaction('posdt', 'readonly')

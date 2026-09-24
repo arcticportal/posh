@@ -52,7 +52,10 @@ export class HomeFilterComponent {
       for (var d of this.api.lst()) if (match(d, s))
 	this.searchNarrowed.add(d['POSDT ID'])*/ }) }
 
-  ngAfterViewInit() { this.viewReady.set(true) }
+  ngAfterViewInit() {
+    this.viewReady.set(true)
+    new (window as any).bootstrap.Popover(document.querySelector(
+	'app-home-filter [data-bs-toggle="popover"]')) }
 
   filterSignal(k: string) { return (this.api as Obj)[k] }
 

@@ -23,4 +23,8 @@ export class HomeResultComponent {
     if (this.resizeTimeout) clearTimeout(this.resizeTimeout)
     this.resizeTimeout = setTimeout(
       (() => { this.width = window.outerWidth }).bind(this), 100) }
+
+  abbreviate(s: string) {
+    return s.startsWith('Arctic') ? 'AOV' :
+      s.startsWith('SIOS') ? 'SIOS' : s }
 }

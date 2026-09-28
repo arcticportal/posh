@@ -80,7 +80,7 @@
 	      <a class="text-decoration-none text-reset"
 		 [queryParams]="model.setFilter(k, s)"
 		 [routerLink]="[]"><i class="fs-4" [ngClass]="stylRadio(k, s)"></i>
-		 {{s}} ({{count(k, s)}})</a>
+		 {{abbreviate(s)}} ({{count(k, s)}})</a>
 	    </li> }
 	  </ul>
 	</div>

@@ -99,4 +99,10 @@ export class SitesComponent {
     return !s ? {} : {width: (
       s.includes('deims') ? 100 : s.includes('interact') ? 90 :
       s.includes('sios') ? 60 : s.includes('AOV') ? 220 : 200) + 'px'} }
+
+  isHtml() {
+    return /^\s*<p/i.test(this.d()['Site Description']) }
+
+  unescapeSymbols() {
+    return this.d()['Site Description'].replace(/&amp;/g, '&') }
 }

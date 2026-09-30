@@ -11,7 +11,9 @@
 	@if (d()['Site Name']) {
 	<h1>{{d()['Site Name']}}</h1> }
 	@if (d()['Site Description']) {
-	<p>{{d()['Site Description']}}</p> }
+	  @if (isHtml()) {
+	  <div [innerHTML]="unescapeSymbols()"></div> }
+	  @else { <p>{{d()['Site Description']}}</p> } }
       </div>
     </div> }
     <dl class="row pt-3 text-break">

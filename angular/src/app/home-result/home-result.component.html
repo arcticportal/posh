@@ -3,6 +3,7 @@
     <tr>
       <th scope="col">Site Name</th>
       <th scope="col">Type</th>
+      <th scope="col">Source Catalog</th>
     </tr>
   </thead>
   <tbody>
@@ -13,6 +14,7 @@
 	  {{d['Site Name'] || d['POSDT ID']}}</a>
       </td>
       <td>{{(d['Site Type'] || []).join(', ')}}</td>
+      <td>{{abbreviate(d['Source Catalog'])}}</td>
     </tr> }
   </tbody>
 </table>

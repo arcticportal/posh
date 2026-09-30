@@ -94,4 +94,8 @@ export class HomeFilterComponent {
 
   stylRadio(k: string, v: string) {
     return 'bi-record' + (this.model.getFilter(k) == v ? '2' : '') }
+
+  abbreviate(s: string) {
+    return s.startsWith('Arctic') ? 'AOV' :
+      s.startsWith('SIOS') ? 'SIOS' : s }
 }

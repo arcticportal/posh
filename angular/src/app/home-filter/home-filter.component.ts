@@ -97,5 +97,6 @@ export class HomeFilterComponent {
 
   abbreviate(s: string) {
     return s.startsWith('Arctic') ? 'AOV' :
-      s.startsWith('SIOS') ? 'SIOS' : s }
+      s.startsWith('SIOS') ? 'SIOS' :
+      s.startsWith('DEIMS') ? 'DEIMS' : s }
 }

@@ -105,4 +105,8 @@ export class SitesComponent {
 
   unescapeSymbols() {
     return this.d()['Site Description'].replace(/&amp;/g, '&') }
+
+  getLogo() {
+    var s = this.d()['Source Catalog Logo URL']
+    return s ? s.slice(s.lastIndexOf('/')) : '' }
 }

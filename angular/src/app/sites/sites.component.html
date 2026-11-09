@@ -20,7 +20,7 @@
       <dt class="col-sm-3 text-sm-end">Source Catalog</dt>
       <dd class="col-sm-9">
 	<a [href]="d()['Source Catalog URL']" target="_blank"><img
-	     [src]="d()['Source Catalog Logo URL']"
+	     [src]="getLogo()"
 	     class="me-1" [style]="catalogStyle()" /></a></dd>
       @if (d()['Web Links']) {
       <dt class="col-sm-3 text-sm-end">Links</dt>

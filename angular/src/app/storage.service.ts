@@ -16,8 +16,11 @@ export class StorageService {
       this.http.get<{version: number}>('/db_version.json'))).version)
     request.onupgradeneeded = () => {
       var db = request.result
-      if (!db.objectStoreNames.contains('posdt'))
-	db.createObjectStore('posdt', {keyPath: 'id'}) }
+      //if (!db.objectStoreNames.contains('posdt'))
+      //  db.createObjectStore('posdt', {keyPath: 'id'}) }
+      if (db.objectStoreNames.contains('posdt'))
+	db.deleteObjectStore('posdt')
+      db.createObjectStore('posdt', {keyPath: 'id'}) }
     return new Promise<IDBDatabase>((resolve, reject) => {
       request.onsuccess = () => resolve(request.result)
       request.onerror = () => reject(request.error) }) }
